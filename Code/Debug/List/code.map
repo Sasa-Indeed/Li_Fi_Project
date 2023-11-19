@@ -1,0 +1,203 @@
+###############################################################################
+#
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  19/Nov/2023  23:40:53
+# Copyright 2007-2021 IAR Systems AB.
+#
+#    Output file  =
+#        D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Exe\code.out
+#    Map file     =
+#        D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\List\code.map
+#    Command line =
+#        -f "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Exe\code.out.rsp" ("D:\ASU\4-Senior1\Fall
+#        23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Obj\MCAL\GPIO\gpio.o"
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Obj\main.o" --no_out_extension -o
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Exe\code.out" --redirect
+#        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\List\code.map" --config
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\IAR_Systems\arm\config\linker\TexasInstruments\TM4C123GH6.icf"
+#        --semihosting --entry __iar_program_start --vfe --text_out locale)
+#
+###############################################################################
+
+*******************************************************************************
+*** RUNTIME MODEL ATTRIBUTES
+***
+
+CppFlavor       = *
+__SystemLibrary = DLib
+__dlib_version  = 6
+
+
+*******************************************************************************
+*** HEAP SELECTION
+***
+
+The basic heap was selected because no calls to memory allocation
+functions were found in the application outside of system library
+functions, and there are calls to deallocation functions in the
+application.
+
+
+*******************************************************************************
+*** PLACEMENT SUMMARY
+***
+
+"A0":  place at address 0x0 { ro section .intvec };
+"P1":  place in [from 0x0 to 0x3'ffff] { ro };
+define block CSTACK with size = 4K, alignment = 8 { };
+define block HEAP with size = 8K, alignment = 8 { };
+"P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
+          rw, block CSTACK, block HEAP };
+
+No sections matched the following patterns:
+
+  rw  in "P2"
+
+
+  Section   Kind         Address    Size  Object
+  -------   ----         -------    ----  ------
+"A0":                               0x40
+  .intvec   ro code          0x0    0x40  vector_table_M.o [5]
+                          - 0x40    0x40
+
+"P1":                              0x380
+  .text     ro code         0x40   0x1f4  main.o [1]
+  .text     ro code        0x234   0x104  gpio.o [2]
+  .text     ro code        0x338    0x22  fpinit_M.o [4]
+  .text     ro code        0x35a     0x2  vectortrap_M.o [5]
+  .text     ro code        0x35c    0x1e  cmain.o [5]
+  .text     ro code        0x37a     0x4  low_level_init.o [3]
+  .text     ro code        0x37e     0x4  exit.o [3]
+  .text     ro code        0x384     0xa  cexit.o [5]
+  .text     ro code        0x390    0x14  exit.o [6]
+  .text     ro code        0x3a4    0x1c  cstartup_M.o [5]
+                         - 0x3c0   0x380
+
+"P2":                             0x1000
+  CSTACK             0x2000'0000  0x1000  <Block>
+    CSTACK  uninit   0x2000'0000  0x1000  <Block tail>
+                   - 0x2000'1000  0x1000
+
+Unused ranges:
+
+         From           To      Size
+         ----           --      ----
+        0x3c0     0x3'ffff  0x3'fc40
+  0x2000'1000  0x2000'7fff    0x7000
+
+
+
+*******************************************************************************
+*** MODULE SUMMARY
+***
+
+    Module            ro code  rw data
+    ------            -------  -------
+command line/config:
+    ----------------------------------
+    Total:
+
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj: [1]
+    main.o                500
+    ----------------------------------
+    Total:                500
+
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO: [2]
+    gpio.o                260
+    ----------------------------------
+    Total:                260
+
+dl7M_tln.a: [3]
+    exit.o                  4
+    low_level_init.o        4
+    ----------------------------------
+    Total:                  8
+
+m7M_tls.a: [4]
+    fpinit_M.o             34
+    ----------------------------------
+    Total:                 34
+
+rt7M_tl.a: [5]
+    cexit.o                10
+    cmain.o                30
+    cstartup_M.o           28
+    vector_table_M.o       64
+    vectortrap_M.o          2
+    ----------------------------------
+    Total:                134
+
+shb_l.a: [6]
+    exit.o                 20
+    ----------------------------------
+    Total:                 20
+
+    Gaps                    4
+    Linker created               4'096
+--------------------------------------
+    Grand Total:          960    4'096
+
+
+*******************************************************************************
+*** ENTRY LIST
+***
+
+Entry                     Address  Size  Type      Object
+-----                     -------  ----  ----      ------
+?main                       0x35d        Code  Gb  cmain.o [5]
+BusFault_Handler            0x35b        Code  Wk  vectortrap_M.o [5]
+CSTACK$$Base          0x2000'0000         --   Gb  - Linker created -
+CSTACK$$Limit         0x2000'1000         --   Gb  - Linker created -
+DebugMon_Handler            0x35b        Code  Wk  vectortrap_M.o [5]
+HardFault_Handler           0x35b        Code  Wk  vectortrap_M.o [5]
+MCAL_GPIO_Init              0x235  0x22  Code  Gb  gpio.o [2]
+MCAL_GPIO_Pin_Init          0x265  0xa6  Code  Gb  gpio.o [2]
+MCAL_GPIO_ReadPin           0x327  0x12  Code  Gb  gpio.o [2]
+MCAL_GPIO_WritePin          0x30b  0x1c  Code  Gb  gpio.o [2]
+MemManage_Handler           0x35b        Code  Wk  vectortrap_M.o [5]
+NMI_Handler                 0x35b        Code  Wk  vectortrap_M.o [5]
+PendSV_Handler              0x35b        Code  Wk  vectortrap_M.o [5]
+Region$$Table$$Base           0x0         --   Gb  - Linker created -
+Region$$Table$$Limit          0x0         --   Gb  - Linker created -
+SVC_Handler                 0x35b        Code  Wk  vectortrap_M.o [5]
+SysTick_Handler             0x35b        Code  Wk  vectortrap_M.o [5]
+UsageFault_Handler          0x35b        Code  Wk  vectortrap_M.o [5]
+__cmain                     0x35d        Code  Gb  cmain.o [5]
+__exit                      0x391  0x14  Code  Gb  exit.o [6]
+__iar_init_vfp              0x339        Code  Gb  fpinit_M.o [4]
+__iar_program_start         0x3a5        Code  Gb  cstartup_M.o [5]
+__low_level_init            0x37b   0x4  Code  Gb  low_level_init.o [3]
+__vector_table                0x0        Data  Gb  vector_table_M.o [5]
+_call_main                  0x369        Code  Gb  cmain.o [5]
+_exit                       0x385        Code  Gb  cexit.o [5]
+exit                        0x37f   0x4  Code  Gb  exit.o [3]
+init                         0xe7  0x70  Code  Gb  main.o [1]
+main                         0x41  0xa6  Code  Gb  main.o [1]
+read                        0x1c5  0x6a  Code  Gb  main.o [1]
+turnOffAll                  0x1a3  0x22  Code  Gb  main.o [1]
+turnOnBule                  0x187   0xe  Code  Gb  main.o [1]
+turnOnGreen                 0x195   0xe  Code  Gb  main.o [1]
+turnOnRed                   0x179   0xe  Code  Gb  main.o [1]
+turnOnWhite                 0x157  0x22  Code  Gb  main.o [1]
+
+
+[1] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj
+[2] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO
+[3] = dl7M_tln.a
+[4] = m7M_tls.a
+[5] = rt7M_tl.a
+[6] = shb_l.a
+
+    960 bytes of readonly  code memory
+  4'096 bytes of readwrite data memory
+
+Errors: none
+Warnings: none

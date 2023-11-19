@@ -1,0 +1,13 @@
+# ninja log v5
+0	292	7221324049999055	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/MCAL/GPIO/gpio.o	3f9c0826c7b7837e
+10	333	7221324050311548	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/main.o	d4d42a4819a3d181
+341	414	7221324051253049	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Exe/code.out	28fd0dad3671acea
+1	112	7221325033928900	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/main.o	d4d42a4819a3d181
+118	181	7221325034714127	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Exe/code.out	28fd0dad3671acea
+0	172	7221326020242136	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/MCAL/GPIO/gpio.o	6ec120ba036f9b8c
+10	226	7221326020710928	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/main.o	226d773f4c28315e
+232	284	7221326021339810	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Exe/code.out	6d19b0988054ea67
+3	131	7221326523562670	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/main.o	226d773f4c28315e
+138	190	7221326524191662	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Exe/code.out	6d19b0988054ea67
+2	209	7221332532960944	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Obj/main.o	226d773f4c28315e
+213	257	7221332533589902	D:/ASU/4-Senior1/Fall 23/CSE211 Introduction to Embedded Systems/Project/Code/Debug/Exe/code.out	6d19b0988054ea67
