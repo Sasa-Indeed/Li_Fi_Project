@@ -1,6 +1,7 @@
 #define DELAY_VALUE 4000000
 
 #include "MCAL/GPIO/gpio.h"
+#include "MCAL/SYSTICK/sysTick.h"
 
 void turnOnWhite(void);
 void turnOnRed(void);
@@ -17,63 +18,14 @@ int main(){
   init(); 
   turnOffAll();
   
-  
- uint8 swt1 = 0, swt2 = 0; 
-  
-  turnOnWhite();
-  uint8 counter = 0; 
-
+  MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
   while(1){
-  read(&swt2, &swt1);
-  
-  if((swt1 && swt2)){
-    counter = 0;
-  }else if(swt2 == HIGH){
-    counter = (counter == 3) ? 0 : counter + 1;
-  }else if(swt1 == HIGH){
-    counter = (counter == 0) ? 3 : counter - 1;
-  }else{
-    continue;
-  }
-  
-  switch(counter){
-  case 0 :
-    turnOffAll();
-    turnOnWhite();
-    break;
-  
-  case 1 :
-    turnOffAll();
-    turnOnRed();
-    break;
-    
-  case 2 :
-    turnOffAll();
-    turnOnGreen();
-    break;
-    
-  case 3 :
-    turnOffAll();
-    turnOnBule();
-    break;
+    MCAL_GPIO_WritePin(GPIOF, PIN_1, HIGH);
+    MCAL_SYSTICK_delayMs(500);
+    MCAL_GPIO_WritePin(GPIOF, PIN_1, LOW);
+    MCAL_SYSTICK_delayMs(500);
   }
 
-}
-  
-  /*while(1){
-      MCAL_GPIO_WritePin(GPIOF, PIN_1, HIGH);
-      Delay();
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-      Delay();
-      MCAL_GPIO_WritePin(GPIOF, PIN_3, HIGH);
-      Delay();
-      MCAL_GPIO_WritePin(GPIOF, PIN_1, LOW);
-      Delay();
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
-      Delay();
-      MCAL_GPIO_WritePin(GPIOF, PIN_3, LOW);
-      Delay();
-  }*/
   
   return 0;
 }

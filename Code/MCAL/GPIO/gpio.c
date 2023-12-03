@@ -1,101 +1,100 @@
 #include "gpio.h"
 
-void MCAL_GPIO_Init(gpio_typedef * PORTx, uint8 portNumber){
+void MCAL_GPIO_Init(vuint32_ptr PORTx, uint8 portNumber){
 
   //1. Initializing clock
   SYSCTL_RCGCGPIO_R |= portNumber;
   
   //2. Busy wait until port is ready
   while((SYSCTL_PRGPIO_R & portNumber) == 0);
-  
-  //3. Unlocking port 
-  PORTx->GPIOLOCK  = 0x4C4F434B;
 }
 
-void MCAL_GPIO_Pin_Init(gpio_typedef * PORTx, pin_config_t * config){
-
+void MCAL_GPIO_Pin_Init(vuint32_ptr PORTx, pin_config_t * config){
   
-  //2. Commiting changes
-  PORTx->GPIOCR |= config->pinNumber;
+   //1. Unlocking port 
+  *((uint32_ptr)((uint8_ptr)PORTx + GPIOLOCK_BASE))  = 0x4C4F434B;
   
-  //3. Configuring direction
+  //2. Commiting changes 
+  *((uint32_ptr)((uint8_ptr)PORTx + GPIOCR_BASE)) |= config->pinNumber;
+  
+  //3. Configuring direction 
   if(config->direction == MCAL_GPIO_DIRECTION_INPUT){
-    PORTx->GPIODIR &= ~config->pinNumber;   //Configuring pin as output
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) &= ~config->pinNumber;   //Configuring pin as input
   }else {
-    PORTx->GPIODIR |= config->pinNumber;    //Configuring pin as input
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) |= config->pinNumber;    //Configuring pin as output
   }
   
-  //4. Configuring output options
+  //4. Configuring output options 
   switch(config->outputMode){
   case MCAL_GPIO_OUTPUT_MODE_OPEN_DRAIN :
-    PORTx->GPIOODR |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIOODR_BASE)) |= config->pinNumber;
     break;
    
   case MCAL_GPIO_OUTPUT_MODE_PULL_UP :
-    PORTx->GPIOPUR |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIOPUR_BASE)) |= config->pinNumber;
     break;
   
   case MCAL_GPIO_OUTPUT_MODE_PULL_DOWN :
-    PORTx->GPIOPDR |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIOPDR_BASE)) |= config->pinNumber;
     break;
     
   default:
     break;
   }
   
-  //5. Configuring output speed
+  //5. Configuring output speed 
   switch(config->outputSpeed){
   case MCAL_GPIO_OUTPUT_SPEED_2mA_DRIVE :
-    PORTx->GPIODR2R |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR2R_BASE)) |= config->pinNumber;
     break;
    
   case MCAL_GPIO_OUTPUT_SPEED_4mA_DRIVE :
-    PORTx->GPIODR4R |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR4R_BASE)) |= config->pinNumber;
     break;
   
   case MCAL_GPIO_OUTPUT_SPEED_8mA_DRIVE :
-    PORTx->GPIODR8R |= config->pinNumber;
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR8R_BASE)) |= config->pinNumber;
     break;
     
   default:
     break;
   }
   
-  //6. Enabling pins 
-  PORTx->GPIODEN |= config->pinNumber;
+  //6. Enabling pins  
+  *((uint32_ptr)((uint8_ptr)PORTx + GPIODEN_BASE)) |= config->pinNumber;
 }
 
-void MCAL_GPIO_WritePin(gpio_typedef * PORTx, uint8 PINx, uint8 value){
+void MCAL_GPIO_WritePin(vuint32_ptr PORTx, uint8 PINx, uint8 value){
   if(value == HIGH){
-    PORTx->GPIODATA |= PINx; //Writing logical one
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)) |= PINx; //Writing logical one 
   }else{
-    PORTx->GPIODATA &= ~PINx; //Writing logical zero
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)) &= ~PINx; //Writing logical zero
   }
 }
 
 
 
-void MCAL_GPIO_WritePort(gpio_typedef * PORTx, uint8 value){
-  PORTx->GPIODATA = value; //Writing on the whole port
+void MCAL_GPIO_WritePort(vuint32_ptr PORTx, uint8 value){
+  *((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)) = value; //Writing on the whole port
 }
 
 
 
 
-void MCAL_GPIO_TogglePin(gpio_typedef * PORTx, uint8 PINx){
-   PORTx->GPIODATA ^= PINx; //Toggling a pin
+void MCAL_GPIO_TogglePin(vuint32_ptr PORTx, uint8 PINx){
+   *((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)) ^= PINx; //Toggling a pin
 }
 
 
 
-void MCAL_GPIO_ReadPin(gpio_typedef * PORTx, uint8 PINx, uint8 *value){
-  *value = ((PORTx->GPIODATA & PINx) != LOW) ? HIGH : LOW; //Reading a pin 
+void MCAL_GPIO_ReadPin(vuint32_ptr PORTx, uint8 PINx, uint8 *value){
+  *value = ((*((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)) & PINx) != LOW) ? HIGH : LOW; //Reading a pin 
 }
 
 
 
 
-void MCAL_GPIO_ReadPort(gpio_typedef * PORTx, uint8 *value){
-  *value = PORTx->GPIODATA; //Reading the whole port
+void MCAL_GPIO_ReadPort(vuint32_ptr PORTx, uint8 *value){
+  *value = *((uint32_ptr)((uint8_ptr)PORTx + GPIODATA_BASE)); //Reading the whole port
 }
 

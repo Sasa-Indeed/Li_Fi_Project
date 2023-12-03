@@ -13,16 +13,42 @@
 // GPIO registers (APB)
 //
 //*****************************************************************************
-#define GPIO_Port_A_APB_BASE                           0x400043FCUL
-#define GPIO_Port_B_APB_BASE                           0x400053FCUL
-#define GPIO_Port_C_APB_BASE                           0x400063FCUL
-#define GPIO_Port_D_APB_BASE                           0x400073FCUL
-#define GPIO_Port_E_APB_BASE                           0x400243FCUL
-#define GPIO_Port_F_APB_BASE                           0x400253FCUL
+#define GPIO_Port_A_APB_BASE                           ((volatile unsigned long *)0x40004000)
+#define GPIO_Port_B_APB_BASE                           ((volatile unsigned long *)0x40005000)
+#define GPIO_Port_C_APB_BASE                           ((volatile unsigned long *)0x40006000)
+#define GPIO_Port_D_APB_BASE                           ((volatile unsigned long *)0x40007000)
+#define GPIO_Port_E_APB_BASE                           ((volatile unsigned long *)0x40024000)
+#define GPIO_Port_F_APB_BASE                           ((volatile unsigned long *)0x40025000)
 
 //-*-*-*-*-*-*-*-*-*-*-*-*-*-
 //Peripheral register: GPIO
 //-*-*-*-*-*-*-*-*-*-*-*-*-*-
+#define GPIODATA_BASE                                  (0x3FC)         //GPIO Data
+#define GPIODIR_BASE                                   (0x400)         //GPIO Direction
+#define GPIOIS_BASE                                    (0x404)         //GPIO Interrupt Sense
+#define GPIOIBE_BASE                                   (0x408)         //GPIO Interrupt Both Edges
+#define GPIOIEV_BASE                                   (0x40C)         //GPIO Interrupt Event
+#define GPIOIM_BASE                                    (0x410)         //GPIO Interrupt Mask
+#define GPIORIS_BASE                                   (0x414)         //GPIO Raw Interrupt Status
+#define GPIOMIS_BASE                                   (0x418)         //GPIO Masked Interrupt Status
+#define GPIOICR_BASE                                   (0x41C)         //GPIO Interrupt Clear
+#define GPIOAFSEL_BASE                                 (0x420)         //GPIO Alternate Function Select
+#define GPIODR2R_BASE                                  (0x500)         //GPIO 2-mA Drive Select
+#define GPIODR4R_BASE                                  (0x504)         //GPIO 4-mA Drive Select
+#define GPIODR8R_BASE                                  (0x508)         //GPIO 8-mA Drive Select
+#define GPIOODR_BASE                                   (0x50C)         //GPIO Open Drain Select
+#define GPIOPUR_BASE                                   (0x510)          //GPIO Pull-Up Select
+#define GPIOPDR_BASE                                   (0x514)         //GPIO Pull-Down Select
+#define GPIOSLR_BASE                                   (0x518)         //GPIO Slew Rate Control Select
+#define GPIODEN_BASE                                   (0x51C)         //GPIO Digital Enable
+#define GPIOLOCK_BASE                                  (0x520)         //GPIO Lock
+#define GPIOCR_BASE                                    (0x524)         //GPIO Commit
+#define GPIOAMSEL_BASE                                 (0x528)         //GPIO Analog Mode Select
+#define GPIOPCTL_BASE                                  (0x52C)         //GPIO Port Control
+#define GPIOADCCTL_BASE                                (0x530)         //GPIO ADC Control
+#define GPIODMACTL_BASE                                (0x534)         //GPIO DMA Control
+
+
 typedef struct{
   vuint32 GPIODATA;           //GPIO Data
   vuint32 GPIODIR;            //GPIO Direction
@@ -34,34 +60,6 @@ typedef struct{
   vuint32 GPIOMIS;            //GPIO Masked Interrupt Status
   vuint32 GPIOICR;            //GPIO Interrupt Clear
   vuint32 GPIOAFSEL;          //GPIO Alternate Function Select
-  vuint32 reserved;
-  vint64 reserved1;
-  vint64 reserved2;
-  vint64 reserved3;
-  vint64 reserved4;
-  vint64 reserved5;
-  vint64 reserved6;
-  vint64 reserved7;
-  vint64 reserved8;
-  vint64 reserved9;
-  vint64 reserved10;
-  vint64 reserved11;
-  vint64 reserved12;
-  vint64 reserved13;
-  vint64 reserved14;
-  vint64 reserved15;
-  vint64 reserved16;
-  vint64 reserved17;
-  vint64 reserved18;
-  vint64 reserved19;
-  vint64 reserved20;
-  vint64 reserved21;
-  vint64 reserved22;
-  vint64 reserved23;
-  vint64 reserved24;
-  vint64 reserved25;
-  vint64 reserved26;
-  vint32 reserved27;
   vuint32 GPIODR2R;           //GPIO 2-mA Drive Select
   vuint32 GPIODR4R;           //GPIO 4-mA Drive Select
   vuint32 GPIODR8R;           //GPIO 8-mA Drive Select
@@ -82,12 +80,18 @@ typedef struct{
 //-*-*-*-*-*-*-*-*-*-*-*-
 //Peripheral Instants:
 //-*-*-*-*-*-*-*-*-*-*-*-
-#define GPIOA 		((gpio_typedef *) GPIO_Port_A_APB_BASE)
-#define GPIOB 		((gpio_typedef *) GPIO_Port_B_APB_BASE)
-#define GPIOC		((gpio_typedef *) GPIO_Port_C_APB_BASE)
-#define GPIOD		((gpio_typedef *) GPIO_Port_D_APB_BASE)
-#define GPIOE		((gpio_typedef *) GPIO_Port_E_APB_BASE)
-#define GPIOF		((gpio_typedef *) GPIO_Port_F_APB_BASE)
+//#define GPIOA 		((gpio_typedef *) GPIO_Port_A_APB_BASE)
+//#define GPIOB 		((gpio_typedef *) GPIO_Port_B_APB_BASE)
+//#define GPIOC		((gpio_typedef *) GPIO_Port_C_APB_BASE)
+//#define GPIOD		((gpio_typedef *) GPIO_Port_D_APB_BASE)
+//#define GPIOE		((gpio_typedef *) GPIO_Port_E_APB_BASE)
+//#define GPIOF		((gpio_typedef *) GPIO_Port_F_APB_BASE)
+#define GPIOA 		GPIO_Port_A_APB_BASE
+#define GPIOB 		GPIO_Port_B_APB_BASE
+#define GPIOC		GPIO_Port_C_APB_BASE
+#define GPIOD		GPIO_Port_D_APB_BASE
+#define GPIOE		GPIO_Port_E_APB_BASE
+#define GPIOF		GPIO_Port_F_APB_BASE
 
 //*****************************************************************************
 //
@@ -231,6 +235,18 @@ typedef struct{
 #define SYSCTL_PRQEI_R          (*((volatile unsigned long *)0x400FEA44))
 #define SYSCTL_PREEPROM_R       (*((volatile unsigned long *)0x400FEA58))
 #define SYSCTL_PRWTIMER_R       (*((volatile unsigned long *)0x400FEA5C))
+
+
+//*****************************************************************************
+//
+// System Timer registers (SysTick)
+//
+//*****************************************************************************
+#define SYSTICK_STCTRL_R       (*((volatile unsigned long *)0xE000E010))
+#define SYSTICK_STRELOAD_R     (*((volatile unsigned long *)0xE000E014))
+#define SYSTICK_STCURRENT_R    (*((volatile unsigned long *)0xE000E018))
+
+
 
 
 

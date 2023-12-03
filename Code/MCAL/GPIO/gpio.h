@@ -89,7 +89,7 @@ typedef struct{
 * Note!!!     : In parameter 1 and 2 must be from @ref GPIO, 
 @ref portNumber Respectively
 ******************************************************************************/
-void MCAL_GPIO_Init(gpio_typedef * PORTx, uint8 portNumber);
+void MCAL_GPIO_Init(vuint32_ptr PORTx, uint8 portNumber);
 
 
 /****************************************************************************
@@ -105,7 +105,7 @@ void MCAL_GPIO_Init(gpio_typedef * PORTx, uint8 portNumber);
 *
 * Note          : In parameter 1 must be from @ref GPIO
 ******************************************************************************/
-void MCAL_GPIO_Pin_Init(gpio_typedef * PORTx, pin_config_t * config);
+void MCAL_GPIO_Pin_Init(vuint32_ptr PORTx, pin_config_t * config);
 
 
 /****************************************************************************
@@ -124,7 +124,7 @@ void MCAL_GPIO_Pin_Init(gpio_typedef * PORTx, pin_config_t * config);
 * Note!!!      : In parameter 1,2,3 must be from @ref GPIO, @ref pinNumber, 
 * @ref value Respectively 
 ******************************************************************************/
-void MCAL_GPIO_WritePin(gpio_typedef * PORTx, uint8 PINx, uint8 value);
+void MCAL_GPIO_WritePin(vuint32_ptr PORTx, uint8 PINx, uint8 value);
 
 
 
@@ -142,7 +142,7 @@ void MCAL_GPIO_WritePin(gpio_typedef * PORTx, uint8 PINx, uint8 value);
 * Note!!!      : In parameter 1,2 must be from @ref GPIO, @ref value
 * Respectively 
 ******************************************************************************/
-void MCAL_GPIO_WritePort(gpio_typedef * PORTx, uint8 value);
+void MCAL_GPIO_WritePort(vuint32_ptr PORTx, uint8 value);
 
 
 
@@ -160,7 +160,7 @@ void MCAL_GPIO_WritePort(gpio_typedef * PORTx, uint8 value);
 * Note!!!      : In parameter 1,2 must be from @ref GPIO, @ref pinNumber
 * Respectively 
 ******************************************************************************/
-void MCAL_GPIO_TogglePin(gpio_typedef * PORTx, uint8 PINx);
+void MCAL_GPIO_TogglePin(vuint32_ptr PORTx, uint8 PINx);
 
 
 
@@ -180,7 +180,7 @@ void MCAL_GPIO_TogglePin(gpio_typedef * PORTx, uint8 PINx);
 * Note!!!      : In parameter 1,2,3 must be from @ref GPIO, @ref pinNumber, 
 * @ref value Respectively 
 ******************************************************************************/
-void MCAL_GPIO_ReadPin(gpio_typedef * PORTx, uint8 PINx, uint8 *value);
+void MCAL_GPIO_ReadPin(vuint32_ptr PORTx, uint8 PINx, uint8 *value);
 
 
 
@@ -197,6 +197,6 @@ void MCAL_GPIO_ReadPin(gpio_typedef * PORTx, uint8 PINx, uint8 *value);
 *
 * Note!!!      :  Parameter 1 must be from @ref GPIO
 ******************************************************************************/
-void MCAL_GPIO_ReadPort(gpio_typedef * PORTx, uint8 *value);
+void MCAL_GPIO_ReadPort(vuint32_ptr PORTx, uint8 *value);
 
 #endif /* _GPIO_H_ */

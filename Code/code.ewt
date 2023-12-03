@@ -2867,6 +2867,15 @@
                 <name>$PROJ_DIR$\MCAL\GPIO\gpio.h</name>
             </file>
         </group>
+        <group>
+            <name>SYSTICK</name>
+            <file>
+                <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.h</name>
+            </file>
+        </group>
     </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>

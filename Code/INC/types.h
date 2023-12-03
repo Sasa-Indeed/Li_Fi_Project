@@ -28,7 +28,7 @@ typedef volatile float32		        vfloat32;
 typedef volatile float64		        vfloat64;
 
 
-//Pointers
+//Pointers 
 typedef  int8*  	    	                int8_ptr;
 typedef  uint8* 		                uint8_ptr;
 typedef  int16* 		                int16_ptr;
@@ -40,6 +40,16 @@ typedef  uint64*		                uint64_ptr;
 typedef  float32*     		                float32_ptr;
 typedef  float64*	    	                float64_ptr;
 
-
+//Volatiles Pointers
+typedef  vint8*  	    	                vint8_ptr;
+typedef  vuint8* 		                vuint8_ptr;
+typedef  vint16* 		                vint16_ptr;
+typedef  vuint16*		                vuint16_ptr;
+typedef  vint32* 		                vint32_ptr;
+typedef  vuint32*		                vuint32_ptr;
+typedef  vint64* 		                vint64_ptr;
+typedef  vuint64*		                vuint64_ptr;
+typedef  vfloat32*     		                vfloat32_ptr;
+typedef  vfloat64*	    	                vfloat64_ptr;
 
 #endif
