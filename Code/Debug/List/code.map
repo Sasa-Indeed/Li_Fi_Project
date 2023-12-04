@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  03/Dec/2023  20:25:00
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  04/Dec/2023  13:59:19
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -17,9 +17,13 @@
 #        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
 #        Systems\Project\Code\Debug\Obj\main.o" "D:\ASU\4-Senior1\Fall
 #        23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Obj\INC\startup_ewarm.o"
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
 #        Systems\Project\Code\Debug\Obj\MCAL\SYSTICK\sysTick.o"
-#        --no_out_extension -o "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to
-#        Embedded Systems\Project\Code\Debug\Exe\code.out" --redirect
+#        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Obj\MCAL\TIMER\timer.o" --no_out_extension
+#        -o "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
+#        Systems\Project\Code\Debug\Exe\code.out" --redirect
 #        _Printf=_PrintfFullNoMb --redirect _Scanf=_ScanfFullNoMb --map
 #        "D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded
 #        Systems\Project\Code\Debug\List\code.map" --config
@@ -58,47 +62,50 @@ define block CSTACK with size = 4K, alignment = 8 { };
 define block HEAP with size = 8K, alignment = 8 { };
 "P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
           rw, block CSTACK, block HEAP };
+do not initialize { rw section .noinit };
+initialize by copy { rw };
 
-  Section          Kind         Address    Size  Object
-  -------          ----         -------    ----  ------
-"A0":                                      0x40
-  .intvec          ro code          0x0    0x40  vector_table_M.o [6]
-                                 - 0x40    0x40
+  Section            Kind         Address   Size  Object
+  -------            ----         -------   ----  ------
+"A0":                                      0x26c
+  .intvec            const            0x0  0x26c  startup_ewarm.o [2]
+                                  - 0x26c  0x26c
 
-"P1":                                     0x358
-  .text            ro code         0x40   0x100  gpio.o [2]
-  .text            ro code        0x140    0xd0  main.o [1]
-  .text            ro code        0x210    0x8c  sysTick.o [3]
-  .text            ro code        0x29c    0x38  zero_init3.o [6]
-  .text            ro code        0x2d4    0x28  data_init.o [6]
-  .text            ro code        0x2fc    0x22  fpinit_M.o [5]
-  .iar.init_table  const          0x320    0x10  - Linker created -
-  .text            ro code        0x330     0x2  vectortrap_M.o [6]
-  .text            ro code        0x334    0x1e  cmain.o [6]
-  .text            ro code        0x352     0x4  low_level_init.o [4]
-  .text            ro code        0x356     0x4  exit.o [4]
-  .text            ro code        0x35c     0xa  cexit.o [6]
-  .text            ro code        0x368    0x14  exit.o [7]
-  .text            ro code        0x37c    0x1c  cstartup_M.o [6]
-  .rodata          const          0x398     0x0  zero_init3.o [6]
-                                - 0x398   0x358
+"P1":                                      0x378
+  .text              ro code        0x26c  0x10e  gpio.o [3]
+  .text              ro code        0x37a   0x2a  copy_init3.o [8]
+  .text              ro code        0x3a4   0xe0  main.o [1]
+  .text              ro code        0x484   0x84  sysTick.o [4]
+  .text              ro code        0x508   0x28  data_init.o [8]
+  .text              ro code        0x530   0x22  fpinit_M.o [7]
+  .iar.init_table    const          0x554   0x14  - Linker created -
+  .text              ro code        0x568   0x1e  cmain.o [8]
+  .text              ro code        0x586    0x4  low_level_init.o [6]
+  .text              ro code        0x58a    0x4  exit.o [6]
+  .text              ro code        0x590    0xa  cexit.o [8]
+  .text              ro code        0x59c   0x14  exit.o [9]
+  .text              ro code        0x5b0   0x1c  cstartup_M.o [8]
+  .text              ro code        0x5cc    0xe  startup_ewarm.o [2]
+  Initializer bytes  const          0x5dc    0x8  <for P2-1>
+  .rodata            const          0x5e4    0x0  copy_init3.o [8]
+                                  - 0x5e4  0x378
 
-"P2", part 1 of 2:                          0x4
-  .bss             zero     0x2000'0000     0x4  sysTick.o [3]
-                          - 0x2000'0004     0x4
+"P2", part 1 of 2:                           0x8
+  P2-1                        0x2000'0000    0x5  <Init block>
+    .bss             inited   0x2000'0000    0x4  sysTick.o [4]
+    .data            inited   0x2000'0004    0x1  main.o [1]
+                            - 0x2000'0005    0x5
 
-"P2", part 2 of 2:                       0x1000
-  CSTACK                    0x2000'0008  0x1000  <Block>
-    CSTACK         uninit   0x2000'0008  0x1000  <Block tail>
-                          - 0x2000'1008  0x1000
+"P2", part 2 of 2:                         0x400
+  .noinit            uninit   0x2000'0008  0x400  startup_ewarm.o [2]
+                            - 0x2000'0408  0x400
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0x398     0x3'ffff  0x3'fc68
-  0x2000'0004  0x2000'0007       0x4
-  0x2000'1008  0x2000'7fff    0x6ff8
+        0x5e4     0x3'ffff  0x3'fa1c
+  0x2000'0408  0x2000'7fff    0x7bf8
 
 
 *******************************************************************************
@@ -107,9 +114,11 @@ Unused ranges:
 
           Address      Size
           -------      ----
-Zero (__iar_zero_init3)
-    1 destination range, total size 0x4:
-          0x2000'0000   0x4
+Copy (__iar_copy_init3)
+    1 source range, total size 0x8 (160% of destination):
+                0x5dc   0x8
+    1 destination range, total size 0x5:
+          0x2000'0000   0x5
 
 
 
@@ -124,113 +133,119 @@ command line/config:
     Total:
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj: [1]
-    main.o                208
+    main.o                224        1        1
     -------------------------------------------
-    Total:                208
+    Total:                224        1        1
 
-D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO: [2]
-    gpio.o                256
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\INC: [2]
+    startup_ewarm.o        14      620    1'024
     -------------------------------------------
-    Total:                256
+    Total:                 14      620    1'024
 
-D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\SYSTICK: [3]
-    sysTick.o             140                 4
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO: [3]
+    gpio.o                270
     -------------------------------------------
-    Total:                140                 4
+    Total:                270
 
-dl7M_tln.a: [4]
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\SYSTICK: [4]
+    sysTick.o             132        4        4
+    -------------------------------------------
+    Total:                132        4        4
+
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\TIMER: [5]
+    -------------------------------------------
+    Total:
+
+dl7M_tln.a: [6]
     exit.o                  4
     low_level_init.o        4
     -------------------------------------------
     Total:                  8
 
-m7M_tls.a: [5]
+m7M_tls.a: [7]
     fpinit_M.o             34
     -------------------------------------------
     Total:                 34
 
-rt7M_tl.a: [6]
+rt7M_tl.a: [8]
     cexit.o                10
     cmain.o                30
+    copy_init3.o           42
     cstartup_M.o           28
     data_init.o            40
-    vector_table_M.o       64
-    vectortrap_M.o          2
-    zero_init3.o           56
     -------------------------------------------
-    Total:                230
+    Total:                150
 
-shb_l.a: [7]
+shb_l.a: [9]
     exit.o                 20
     -------------------------------------------
     Total:                 20
 
-    Gaps                    6        2
-    Linker created                  16    4'096
+    Gaps                    4        2
+    Linker created                  25
 -----------------------------------------------
-    Grand Total:          902       18    4'100
+    Grand Total:          856      652    1'029
 
 
 *******************************************************************************
 *** ENTRY LIST
 ***
 
-Entry                       Address  Size  Type      Object
------                       -------  ----  ----      ------
-.iar.init_table$$Base         0x320         --   Gb  - Linker created -
-.iar.init_table$$Limit        0x330         --   Gb  - Linker created -
-?main                         0x335        Code  Gb  cmain.o [6]
-BusFault_Handler              0x331        Code  Wk  vectortrap_M.o [6]
-CSTACK$$Base            0x2000'0008         --   Gb  - Linker created -
-CSTACK$$Limit           0x2000'1008         --   Gb  - Linker created -
-DebugMon_Handler              0x331        Code  Wk  vectortrap_M.o [6]
-HardFault_Handler             0x331        Code  Wk  vectortrap_M.o [6]
-MCAL_GPIO_Init                 0x41  0x1c  Code  Gb  gpio.o [2]
-MCAL_GPIO_Pin_Init             0x5d  0xb4  Code  Gb  gpio.o [2]
-MCAL_GPIO_WritePin            0x11d  0x24  Code  Gb  gpio.o [2]
-MCAL_SYSTICK_delayMs          0x24d  0x36  Code  Gb  sysTick.o [3]
-MCAL_SysTickDisable           0x211   0xe  Code  Gb  sysTick.o [3]
-MCAL_SysTickEnable            0x21f   0xe  Code  Gb  sysTick.o [3]
-MCAL_SysTickPeriodSet         0x22d   0xa  Code  Gb  sysTick.o [3]
-MCAL_SysTickValueGet          0x237   0xa  Code  Gb  sysTick.o [3]
-MCAL_SysTick_Is_Time_out
-                              0x241   0xc  Code  Gb  sysTick.o [3]
-MemManage_Handler             0x331        Code  Wk  vectortrap_M.o [6]
-NMI_Handler                   0x331        Code  Wk  vectortrap_M.o [6]
-PendSV_Handler                0x331        Code  Wk  vectortrap_M.o [6]
-Region$$Table$$Base           0x320         --   Gb  - Linker created -
-Region$$Table$$Limit          0x330         --   Gb  - Linker created -
-SVC_Handler                   0x331        Code  Wk  vectortrap_M.o [6]
-SysTick_Handler               0x283   0xa  Code  Gb  sysTick.o [3]
-UsageFault_Handler            0x331        Code  Wk  vectortrap_M.o [6]
-__cmain                       0x335        Code  Gb  cmain.o [6]
-__exit                        0x369  0x14  Code  Gb  exit.o [7]
-__iar_data_init3              0x2d5  0x28  Code  Gb  data_init.o [6]
-__iar_init_vfp                0x2fd        Code  Gb  fpinit_M.o [5]
-__iar_program_start           0x37d        Code  Gb  cstartup_M.o [6]
-__iar_zero_init3              0x29d  0x38  Code  Gb  zero_init3.o [6]
-__low_level_init              0x353   0x4  Code  Gb  low_level_init.o [4]
-__vector_table                  0x0        Data  Gb  vector_table_M.o [6]
-_call_main                    0x341        Code  Gb  cmain.o [6]
-_exit                         0x35d        Code  Gb  cexit.o [6]
-exit                          0x357   0x4  Code  Gb  exit.o [4]
-init                          0x17b  0x70  Code  Gb  main.o [1]
-interruptFunc           0x2000'0000   0x4  Data  Gb  sysTick.o [3]
-main                          0x141  0x3a  Code  Gb  main.o [1]
-turnOffAll                    0x1eb  0x22  Code  Gb  main.o [1]
+Entry                       Address   Size  Type      Object
+-----                       -------   ----  ----      ------
+.iar.init_table$$Base         0x554          --   Gb  - Linker created -
+.iar.init_table$$Limit        0x568          --   Gb  - Linker created -
+?main                         0x569         Code  Gb  cmain.o [8]
+FaultISR                      0x5d7    0x2  Code  Lc  startup_ewarm.o [2]
+IntDefaultHandler             0x5d9    0x2  Code  Lc  startup_ewarm.o [2]
+MCAL_GPIO_Init                0x26d   0x1c  Code  Gb  gpio.o [3]
+MCAL_GPIO_Pin_Init            0x289   0xb4  Code  Gb  gpio.o [3]
+MCAL_GPIO_TogglePin           0x36d    0xe  Code  Gb  gpio.o [3]
+MCAL_GPIO_WritePin            0x349   0x24  Code  Gb  gpio.o [3]
+MCAL_SYSTICK_Disable          0x485    0xe  Code  Gb  sysTick.o [4]
+MCAL_SYSTICK_Enable           0x493   0x1a  Code  Gb  sysTick.o [4]
+MCAL_SYSTICK_EnableInterrupt
+                              0x4ad   0x12  Code  Gb  sysTick.o [4]
+MCAL_SYSTICK_PeriodSet        0x4bf    0xa  Code  Gb  sysTick.o [4]
+MCAL_SYSTICK_delayMs          0x4c9   0x24  Code  Gb  sysTick.o [4]
+NmiSR                         0x5d5    0x2  Code  Lc  startup_ewarm.o [2]
+Region$$Table$$Base           0x554          --   Gb  - Linker created -
+Region$$Table$$Limit          0x568          --   Gb  - Linker created -
+ResetISR                      0x5cd    0x8  Code  Gb  startup_ewarm.o [2]
+SysTick_Handler               0x4ed    0xa  Code  Gb  sysTick.o [4]
+__cmain                       0x569         Code  Gb  cmain.o [8]
+__exit                        0x59d   0x14  Code  Gb  exit.o [9]
+__iar_copy_init3              0x37b   0x2a  Code  Gb  copy_init3.o [8]
+__iar_data_init3              0x509   0x28  Code  Gb  data_init.o [8]
+__iar_init_vfp                0x531         Code  Gb  fpinit_M.o [7]
+__iar_program_start           0x5b1         Code  Gb  cstartup_M.o [8]
+__low_level_init              0x587    0x4  Code  Gb  low_level_init.o [6]
+__vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [2]
+_call_main                    0x575         Code  Gb  cmain.o [8]
+_exit                         0x591         Code  Gb  cexit.o [8]
+calbackFunction         0x2000'0000    0x4  Data  Gb  sysTick.o [4]
+exit                          0x58b    0x4  Code  Gb  exit.o [6]
+init                          0x3e5   0x70  Code  Gb  main.o [1]
+main                          0x3cb   0x1a  Code  Gb  main.o [1]
+pui32Stack              0x2000'0008  0x400  Data  Lc  startup_ewarm.o [2]
+toggle                        0x3a5   0x26  Code  Gb  main.o [1]
+toggle::count           0x2000'0004    0x1  Data  Lc  main.o [1]
+turnOffAll                    0x455   0x22  Code  Gb  main.o [1]
 
 
 [1] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj
-[2] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO
-[3] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\SYSTICK
-[4] = dl7M_tln.a
-[5] = m7M_tls.a
-[6] = rt7M_tl.a
-[7] = shb_l.a
+[2] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\INC
+[3] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO
+[4] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\SYSTICK
+[5] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\TIMER
+[6] = dl7M_tln.a
+[7] = m7M_tls.a
+[8] = rt7M_tl.a
+[9] = shb_l.a
 
-    902 bytes of readonly  code memory
-     18 bytes of readonly  data memory
-  4'100 bytes of readwrite data memory
+    856 bytes of readonly  code memory
+    652 bytes of readonly  data memory
+  1'029 bytes of readwrite data memory
 
 Errors: none
 Warnings: none

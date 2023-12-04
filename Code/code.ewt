@@ -2850,6 +2850,9 @@
             <name>$PROJ_DIR$\INC\cortexM4.h</name>
         </file>
         <file>
+            <name>$PROJ_DIR$\INC\startup_ewarm.c</name>
+        </file>
+        <file>
             <name>$PROJ_DIR$\INC\tm4c123gh6pm.h</name>
         </file>
         <file>
@@ -2874,6 +2877,15 @@
             </file>
             <file>
                 <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.h</name>
+            </file>
+        </group>
+        <group>
+            <name>TIMER</name>
+            <file>
+                <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\MCAL\TIMER\timer.h</name>
             </file>
         </group>
     </group>

@@ -11,7 +11,7 @@
 //Macros Configuration References
 //--------------------------------
 #define SYSTEM_CLK              16000000U
-
+#define SYSTEM_CLK_4            16000U
 
 
 
@@ -19,34 +19,115 @@
 //			APIs supported by "MCAL sysTick Driver"
 //------------------------------------------------------------------------------------------
 /****************************************************************************
-* Function Name: MCAL_GPIO_Init
+* Function Name: MCAL_SYSTICK_Disable
 *
-* Description  : This function initialize the clock of the GPIO
+* Description  : This function disables the system timer
 *
-* PARAMETER 1 : The port which you want to initialize
-*
-* PARAMETER 2 : The port mask you want to initialize
+* PARAMETERS : None
 * 
 * Return Value : None
 *
-* Note!!!     : In parameter 1 and 2 must be from @ref GPIO, 
-@ref portNumber Respectively
+* Note!!!     : None
 ******************************************************************************/
+void MCAL_SYSTICK_Disable(void);
 
-void MCAL_SysTickDisable(void);
 
-void MCAL_SysTickEnable(void);
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_Enable
+*
+* Description  : This function enables the system timer
+*
+* PARAMETERS : None
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
+void MCAL_SYSTICK_Enable(void);
 
-void MCAL_SysTickEnableInterrupt(void (*func)(void));
 
-uint32 MCAL_SysTickPeriodGet(void);
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_EnableInterrupt
+*
+* Description  : This function enables the the interrupt 
+*
+* PARAMETER1 : The callback function
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
+void MCAL_SYSTICK_EnableInterrupt(void (*func)(void));
 
-void MCAL_SysTickPeriodSet(uint32 period);
 
-uint32 MCAL_SysTickValueGet(void);
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_PeriodGet
+*
+* Description  : This function returns the reload value 
+*
+* PARAMETERS : None
+* 
+* Return Value : Reload value from STRELOAD register
+*
+* Note!!!     : None
+******************************************************************************/
+uint32 MCAL_SYSTICK_PeriodGet(void);
 
-boolean MCAL_SysTick_Is_Time_out(void);
 
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_PeriodSet
+*
+* Description  : This function sets the reload value
+*
+* PARAMETERS : The reload value
+* 
+* Return Value : None
+*
+* Note!!!     : If the value is greater than 0xFFFFFF it will be set 
+* to 0xFFFFFF
+******************************************************************************/
+void MCAL_SYSTICK_PeriodSet(uint32 period);
+
+
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_ValueGet
+*
+* Description  : This function returns the current value 
+*
+* PARAMETERS : None
+* 
+* Return Value : Current value from STCURRENT register
+*
+* Note!!!     : None
+******************************************************************************/
+uint32 MCAL_SYSTICK_ValueGet(void);
+
+
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_Is_Time_out
+*
+* Description  : This function returns whether the timer reached to Zero or not
+*
+* PARAMETERS : None
+* 
+* Return Value : Returns 0 if count flag is zero returns 1 if count flag is 1
+*
+* Note!!!     : None
+******************************************************************************/
+boolean MCAL_SYSTICK_Is_Time_out(void);
+
+
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_delayMs
+*
+* Description  : This function Makes a delay in mS
+*
+* PARAMETER1 : The delay required in ms (miliseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : It has a max delay of 1.04857S
+******************************************************************************/
 void MCAL_SYSTICK_delayMs(uint16 delay);
 
 

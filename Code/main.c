@@ -12,23 +12,33 @@ void init(void);
 void read(uint8_ptr out1, uint8_ptr out2);
 void Delay(void);
 
+void toggle(void){
+  static uint8 count = 5;
+  if(count == 0){
+    MCAL_GPIO_TogglePin(GPIOF, PIN_3);
+    count = 5;
+  }else{
+    count--;
+  }
+}
 
 int main(){
   
   init(); 
   turnOffAll();
+
   
-  MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+  MCAL_SYSTICK_delayMs(1000);
+  MCAL_SYSTICK_EnableInterrupt(toggle);
+  
   while(1){
-    MCAL_GPIO_WritePin(GPIOF, PIN_1, HIGH);
-    MCAL_SYSTICK_delayMs(500);
-    MCAL_GPIO_WritePin(GPIOF, PIN_1, LOW);
-    MCAL_SYSTICK_delayMs(500);
+    
   }
 
   
   return 0;
 }
+
 
 void init(void){
   pin_config_t config;
