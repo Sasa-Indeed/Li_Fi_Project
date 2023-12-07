@@ -49,34 +49,6 @@
 #define GPIODMACTL_BASE                                (0x534)         //GPIO DMA Control
 
 
-typedef struct{
-  vuint32 GPIODATA;           //GPIO Data
-  vuint32 GPIODIR;            //GPIO Direction
-  vuint32 GPIOIS;             //GPIO Interrupt Sense
-  vuint32 GPIOIBE;            //GPIO Interrupt Both Edges
-  vuint32 GPIOIEV;            //GPIO Interrupt Event
-  vuint32 GPIOIM;             //GPIO Interrupt Mask
-  vuint32 GPIORIS;            //GPIO Raw Interrupt Status
-  vuint32 GPIOMIS;            //GPIO Masked Interrupt Status
-  vuint32 GPIOICR;            //GPIO Interrupt Clear
-  vuint32 GPIOAFSEL;          //GPIO Alternate Function Select
-  vuint32 GPIODR2R;           //GPIO 2-mA Drive Select
-  vuint32 GPIODR4R;           //GPIO 4-mA Drive Select
-  vuint32 GPIODR8R;           //GPIO 8-mA Drive Select
-  vuint32 GPIOODR;            //GPIO Open Drain Select
-  vuint32 GPIOPUR;            //GPIO Pull-Up Select
-  vuint32 GPIOPDR;            //GPIO Pull-Down Select
-  vuint32 GPIOSLR;            //GPIO Slew Rate Control Select
-  vuint32 GPIODEN;            //GPIO Digital Enable
-  vuint32 GPIOLOCK;           //GPIO Lock
-  vuint32 GPIOCR;             //GPIO Commit
-  vuint32 GPIOAMSEL;          //GPIO Analog Mode Select
-  vuint32 GPIOPCTL;           //GPIO Port Control
-  vuint32 GPIOADCCTL;         //GPIO ADC Control
-  vuint32 GPIODMACTL;         //GPIO DMA Control
-}gpio_typedef;
-
-
 //-*-*-*-*-*-*-*-*-*-*-*-
 //Peripheral Instants:
 //-*-*-*-*-*-*-*-*-*-*-*-
@@ -246,6 +218,72 @@ typedef struct{
 #define SYSTICK_STRELOAD_R     (*((volatile unsigned long *)0xE000E014))
 #define SYSTICK_STCURRENT_R    (*((volatile unsigned long *)0xE000E018))
 
+
+//*****************************************************************************
+//
+// Timers registers (TIMER)
+//
+//*****************************************************************************
+typedef struct{
+  vuint32 GPTMCFG;                      // GPTM Configuration
+  vuint32 GPTMTAMR;                     // GPTM Timer A Mode
+  vuint32 GPTMTBMR;                     // GPTM Timer B Mode
+  vuint32 GPTMCTL;                      // GPTM Control
+  vuint32 GPTMSYNC;                     // GPTM Synchronize
+  vuint32 reserved;                     // Reserved
+  vuint32 GPTMIMR;                      // GPTM Interrupt Mask
+  vuint32 GPTMRIS;                      // GPTM Raw Interrupt Status
+  vuint32 GPTMMIS;                      // GPTM Masked Interrupt Status
+  vuint32 GPTMICR;                      // GPTM Interrupt Clear
+  vuint32 GPTMTAILR;                    // GPTM Timer A Interval Load
+  vuint32 GPTMTBILR;                    // GPTM Timer B Interval Load
+  vuint32 GPTMTAMATCHR;                 // GPTM Timer A Match
+  vuint32 GPTMTBMATCHR;                 // GPTM Timer B Match
+  vuint32 GPTMTAPR;                     // GPTM Timer A Prescale
+  vuint32 GPTMTBPR;                     // GPTM Timer B Prescale
+  vuint32 GPTMTAPMR;                    // GPTM TimerA Prescale Match
+  vuint32 GPTMTBPMR;                    // GPTM TimerB Prescale Match
+  vuint32 GPTMTAR;                      // GPTM Timer A
+  vuint32 GPTMTBR;                      // GPTM Timer B
+  vuint32 GPTMTAV;                      // GPTM Timer A Value
+  vuint32 GPTMTBV;                      // GPTM Timer B Value
+  vuint32 GPTMRTCPD;                    // GPTM RTC Predivide
+  vuint32 GPTMTAPS;                     // GPTM Timer A Prescale Snapshot
+  vuint32 GPTMTBPS;                     // GPTM Timer B Prescale Snapshot
+  vuint32 GPTMTAPV;                     // GPTM Timer A Prescale Value
+  vuint32 GPTMTBPV;                     // GPTM Timer B Prescale Value
+}timer_typedef;
+
+
+#define TIMER0_BASE                                     0x40030000UL
+#define TIMER1_BASE                                     0x40031000UL
+#define TIMER2_BASE                                     0x40032000UL
+#define TIMER3_BASE                                     0x40033000UL
+#define TIMER4_BASE                                     0x40034000UL
+#define TIMER5_BASE                                     0x40035000UL
+#define WTIMER0_BASE                                    0x40036000UL
+#define WTIMER1_BASE                                    0x40037000UL
+#define WTIMER2_BASE                                    0x4004C000UL
+#define WTIMER3_BASE                                    0x4004D000UL
+#define WTIMER4_BASE                                    0x4004E000UL
+#define WTIMER5_BASE                                    0x4004F000UL
+
+
+//-*-*-*-*-*-*-*-*-*-*-*-
+//Peripheral Instants:
+//-*-*-*-*-*-*-*-*-*-*-*-
+#define TIMER0                                          ((timer_typedef *) TIMER0_BASE)
+#define TIMER1                                          ((timer_typedef *) TIMER1_BASE)
+#define TIMER2                                          ((timer_typedef *) TIMER2_BASE)
+#define TIMER3                                          ((timer_typedef *) TIMER3_BASE)
+#define TIMER4                                          ((timer_typedef *) TIMER4_BASE)
+#define TIMER5                                          ((timer_typedef *) TIMER5_BASE)
+#define WTIMER0                                         ((timer_typedef *) WTIMER0_BASE)
+#define WTIMER1                                         ((timer_typedef *) WTIMER1_BASE)
+#define WTIMER2                                         ((timer_typedef *) WTIMER2_BASE)
+#define WTIMER3                                         ((timer_typedef *) WTIMER3_BASE)
+#define WTIMER4                                         ((timer_typedef *) WTIMER4_BASE)
+#define WTIMER5                                         ((timer_typedef *) WTIMER5_BASE)
 
 
 

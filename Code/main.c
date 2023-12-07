@@ -2,6 +2,7 @@
 
 #include "MCAL/GPIO/gpio.h"
 #include "MCAL/SYSTICK/sysTick.h"
+#include "MCAL/TIMER/timer.h"
 
 void turnOnWhite(void);
 void turnOnRed(void);
@@ -27,12 +28,20 @@ int main(){
   init(); 
   turnOffAll();
 
+  timer_config config;
+  //MCAL_SYSTICK_delayMs(1000);
+  //MCAL_SYSTICK_EnableInterrupt(toggle);
   
-  MCAL_SYSTICK_delayMs(1000);
-  MCAL_SYSTICK_EnableInterrupt(toggle);
-  
+  config.timerWidth = TIMER_WIDTH_16_32;
+  config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
+  config.mode = TIMER_MODE_PERIODIC;
+  config.countDirection = TINER_COUNT_DIRECTION_DOWN;
+  config.timerAlpha = TIMER_ALPHA_A;
+  MCAL_TIMER_Init(TIMER0, &config);
   while(1){
-    
+    MCAL_TIMER_DelayMs_P(TIMER0, 500, TIMER_ALPHA_A);
+    MCAL_GPIO_TogglePin(GPIOF, PIN_1);
+    MCAL_TIMER_DelayMs_P(TIMER0, 500, TIMER_ALPHA_A);
   }
 
   

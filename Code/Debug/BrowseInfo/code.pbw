@@ -4067,379 +4067,13 @@
     "scope": null
   },
   {
-    "ID": "c:@SA@gpio_typedef",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "52",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-    },
-    "members": [
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODATA",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODATA",
-        "location": {
-          "column": "11",
-          "line": "53",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODATA",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODIR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODIR",
-        "location": {
-          "column": "11",
-          "line": "54",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODIR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOIS",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOIS",
-        "location": {
-          "column": "11",
-          "line": "55",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOIS",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOIBE",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOIBE",
-        "location": {
-          "column": "11",
-          "line": "56",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOIBE",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOIEV",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOIEV",
-        "location": {
-          "column": "11",
-          "line": "57",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOIEV",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOIM",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOIM",
-        "location": {
-          "column": "11",
-          "line": "58",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOIM",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIORIS",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIORIS",
-        "location": {
-          "column": "11",
-          "line": "59",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIORIS",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOMIS",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOMIS",
-        "location": {
-          "column": "11",
-          "line": "60",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOMIS",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOICR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOICR",
-        "location": {
-          "column": "11",
-          "line": "61",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOICR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOAFSEL",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOAFSEL",
-        "location": {
-          "column": "11",
-          "line": "62",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOAFSEL",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODR2R",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODR2R",
-        "location": {
-          "column": "11",
-          "line": "63",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODR2R",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODR4R",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODR4R",
-        "location": {
-          "column": "11",
-          "line": "64",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODR4R",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODR8R",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODR8R",
-        "location": {
-          "column": "11",
-          "line": "65",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODR8R",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOODR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOODR",
-        "location": {
-          "column": "11",
-          "line": "66",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOODR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOPUR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOPUR",
-        "location": {
-          "column": "11",
-          "line": "67",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOPUR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOPDR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOPDR",
-        "location": {
-          "column": "11",
-          "line": "68",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOPDR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOSLR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOSLR",
-        "location": {
-          "column": "11",
-          "line": "69",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOSLR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODEN",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODEN",
-        "location": {
-          "column": "11",
-          "line": "70",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODEN",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOLOCK",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOLOCK",
-        "location": {
-          "column": "11",
-          "line": "71",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOLOCK",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOCR",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOCR",
-        "location": {
-          "column": "11",
-          "line": "72",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOCR",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOAMSEL",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOAMSEL",
-        "location": {
-          "column": "11",
-          "line": "73",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOAMSEL",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOPCTL",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOPCTL",
-        "location": {
-          "column": "11",
-          "line": "74",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOPCTL",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIOADCCTL",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIOADCCTL",
-        "location": {
-          "column": "11",
-          "line": "75",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIOADCCTL",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@SA@gpio_typedef@FI@GPIODMACTL",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "GPIODMACTL",
-        "location": {
-          "column": "11",
-          "line": "76",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "GPIODMACTL",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      },
-      {
-        "ID": "c:@T@gpio_typedef",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "struct gpio_typedef",
-        "location": {
-          "column": "2",
-          "line": "77",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
-        },
-        "name": "gpio_typedef",
-        "origin": "system_include",
-        "scope": "_anonymous_cortexM4_h_52_9"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:cortexM4.h@5073@macro@GPIOA",
+    "ID": "c:cortexM4.h@3742@macro@GPIOA",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOA",
     "location": {
       "column": "9",
-      "line": "89",
+      "line": "61",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOA",
@@ -4447,13 +4081,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5111@macro@GPIOB",
+    "ID": "c:cortexM4.h@3780@macro@GPIOB",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOB",
     "location": {
       "column": "9",
-      "line": "90",
+      "line": "62",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOB",
@@ -4461,13 +4095,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5149@macro@GPIOC",
+    "ID": "c:cortexM4.h@3818@macro@GPIOC",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOC",
     "location": {
       "column": "9",
-      "line": "91",
+      "line": "63",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOC",
@@ -4475,13 +4109,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5186@macro@GPIOD",
+    "ID": "c:cortexM4.h@3855@macro@GPIOD",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOD",
     "location": {
       "column": "9",
-      "line": "92",
+      "line": "64",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOD",
@@ -4489,13 +4123,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5223@macro@GPIOE",
+    "ID": "c:cortexM4.h@3892@macro@GPIOE",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOE",
     "location": {
       "column": "9",
-      "line": "93",
+      "line": "65",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOE",
@@ -4503,13 +4137,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5260@macro@GPIOF",
+    "ID": "c:cortexM4.h@3929@macro@GPIOF",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "GPIOF",
     "location": {
       "column": "9",
-      "line": "94",
+      "line": "66",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "GPIOF",
@@ -4517,13 +4151,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5507@macro@SYSCTL_DID0_R",
+    "ID": "c:cortexM4.h@4176@macro@SYSCTL_DID0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DID0_R",
     "location": {
       "column": "9",
-      "line": "101",
+      "line": "73",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DID0_R",
@@ -4531,13 +4165,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5582@macro@SYSCTL_DID1_R",
+    "ID": "c:cortexM4.h@4251@macro@SYSCTL_DID1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DID1_R",
     "location": {
       "column": "9",
-      "line": "102",
+      "line": "74",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DID1_R",
@@ -4545,13 +4179,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5657@macro@SYSCTL_DC0_R",
+    "ID": "c:cortexM4.h@4326@macro@SYSCTL_DC0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC0_R",
     "location": {
       "column": "9",
-      "line": "103",
+      "line": "75",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC0_R",
@@ -4559,13 +4193,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5732@macro@SYSCTL_DC1_R",
+    "ID": "c:cortexM4.h@4401@macro@SYSCTL_DC1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC1_R",
     "location": {
       "column": "9",
-      "line": "104",
+      "line": "76",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC1_R",
@@ -4573,13 +4207,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5807@macro@SYSCTL_DC2_R",
+    "ID": "c:cortexM4.h@4476@macro@SYSCTL_DC2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC2_R",
     "location": {
       "column": "9",
-      "line": "105",
+      "line": "77",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC2_R",
@@ -4587,13 +4221,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5882@macro@SYSCTL_DC3_R",
+    "ID": "c:cortexM4.h@4551@macro@SYSCTL_DC3_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC3_R",
     "location": {
       "column": "9",
-      "line": "106",
+      "line": "78",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC3_R",
@@ -4601,13 +4235,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@5957@macro@SYSCTL_DC4_R",
+    "ID": "c:cortexM4.h@4626@macro@SYSCTL_DC4_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC4_R",
     "location": {
       "column": "9",
-      "line": "107",
+      "line": "79",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC4_R",
@@ -4615,13 +4249,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6032@macro@SYSCTL_DC5_R",
+    "ID": "c:cortexM4.h@4701@macro@SYSCTL_DC5_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC5_R",
     "location": {
       "column": "9",
-      "line": "108",
+      "line": "80",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC5_R",
@@ -4629,13 +4263,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6107@macro@SYSCTL_DC6_R",
+    "ID": "c:cortexM4.h@4776@macro@SYSCTL_DC6_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC6_R",
     "location": {
       "column": "9",
-      "line": "109",
+      "line": "81",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC6_R",
@@ -4643,13 +4277,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6182@macro@SYSCTL_DC7_R",
+    "ID": "c:cortexM4.h@4851@macro@SYSCTL_DC7_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC7_R",
     "location": {
       "column": "9",
-      "line": "110",
+      "line": "82",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC7_R",
@@ -4657,13 +4291,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6257@macro@SYSCTL_DC8_R",
+    "ID": "c:cortexM4.h@4926@macro@SYSCTL_DC8_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC8_R",
     "location": {
       "column": "9",
-      "line": "111",
+      "line": "83",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC8_R",
@@ -4671,13 +4305,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6332@macro@SYSCTL_PBORCTL_R",
+    "ID": "c:cortexM4.h@5001@macro@SYSCTL_PBORCTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PBORCTL_R",
     "location": {
       "column": "9",
-      "line": "112",
+      "line": "84",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PBORCTL_R",
@@ -4685,13 +4319,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6407@macro@SYSCTL_SRCR0_R",
+    "ID": "c:cortexM4.h@5076@macro@SYSCTL_SRCR0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRCR0_R",
     "location": {
       "column": "9",
-      "line": "113",
+      "line": "85",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRCR0_R",
@@ -4699,13 +4333,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6482@macro@SYSCTL_SRCR1_R",
+    "ID": "c:cortexM4.h@5151@macro@SYSCTL_SRCR1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRCR1_R",
     "location": {
       "column": "9",
-      "line": "114",
+      "line": "86",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRCR1_R",
@@ -4713,13 +4347,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6557@macro@SYSCTL_SRCR2_R",
+    "ID": "c:cortexM4.h@5226@macro@SYSCTL_SRCR2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRCR2_R",
     "location": {
       "column": "9",
-      "line": "115",
+      "line": "87",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRCR2_R",
@@ -4727,13 +4361,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6632@macro@SYSCTL_RIS_R",
+    "ID": "c:cortexM4.h@5301@macro@SYSCTL_RIS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RIS_R",
     "location": {
       "column": "9",
-      "line": "116",
+      "line": "88",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RIS_R",
@@ -4741,13 +4375,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6707@macro@SYSCTL_IMC_R",
+    "ID": "c:cortexM4.h@5376@macro@SYSCTL_IMC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_IMC_R",
     "location": {
       "column": "9",
-      "line": "117",
+      "line": "89",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_IMC_R",
@@ -4755,13 +4389,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6782@macro@SYSCTL_MISC_R",
+    "ID": "c:cortexM4.h@5451@macro@SYSCTL_MISC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_MISC_R",
     "location": {
       "column": "9",
-      "line": "118",
+      "line": "90",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_MISC_R",
@@ -4769,13 +4403,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6857@macro@SYSCTL_RESC_R",
+    "ID": "c:cortexM4.h@5526@macro@SYSCTL_RESC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RESC_R",
     "location": {
       "column": "9",
-      "line": "119",
+      "line": "91",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RESC_R",
@@ -4783,13 +4417,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@6932@macro@SYSCTL_RCC_R",
+    "ID": "c:cortexM4.h@5601@macro@SYSCTL_RCC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCC_R",
     "location": {
       "column": "9",
-      "line": "120",
+      "line": "92",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCC_R",
@@ -4797,13 +4431,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7007@macro@SYSCTL_GPIOHBCTL_R",
+    "ID": "c:cortexM4.h@5676@macro@SYSCTL_GPIOHBCTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_GPIOHBCTL_R",
     "location": {
       "column": "9",
-      "line": "121",
+      "line": "93",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_GPIOHBCTL_R",
@@ -4811,13 +4445,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7082@macro@SYSCTL_RCC2_R",
+    "ID": "c:cortexM4.h@5751@macro@SYSCTL_RCC2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCC2_R",
     "location": {
       "column": "9",
-      "line": "122",
+      "line": "94",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCC2_R",
@@ -4825,13 +4459,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7157@macro@SYSCTL_MOSCCTL_R",
+    "ID": "c:cortexM4.h@5826@macro@SYSCTL_MOSCCTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_MOSCCTL_R",
     "location": {
       "column": "9",
-      "line": "123",
+      "line": "95",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_MOSCCTL_R",
@@ -4839,13 +4473,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7232@macro@SYSCTL_RCGC0_R",
+    "ID": "c:cortexM4.h@5901@macro@SYSCTL_RCGC0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGC0_R",
     "location": {
       "column": "9",
-      "line": "124",
+      "line": "96",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGC0_R",
@@ -4853,13 +4487,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7307@macro@SYSCTL_RCGC1_R",
+    "ID": "c:cortexM4.h@5976@macro@SYSCTL_RCGC1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGC1_R",
     "location": {
       "column": "9",
-      "line": "125",
+      "line": "97",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGC1_R",
@@ -4867,13 +4501,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7382@macro@SYSCTL_RCGC2_R",
+    "ID": "c:cortexM4.h@6051@macro@SYSCTL_RCGC2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGC2_R",
     "location": {
       "column": "9",
-      "line": "126",
+      "line": "98",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGC2_R",
@@ -4881,13 +4515,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7457@macro@SYSCTL_SCGC0_R",
+    "ID": "c:cortexM4.h@6126@macro@SYSCTL_SCGC0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGC0_R",
     "location": {
       "column": "9",
-      "line": "127",
+      "line": "99",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGC0_R",
@@ -4895,13 +4529,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7532@macro@SYSCTL_SCGC1_R",
+    "ID": "c:cortexM4.h@6201@macro@SYSCTL_SCGC1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGC1_R",
     "location": {
       "column": "9",
-      "line": "128",
+      "line": "100",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGC1_R",
@@ -4909,13 +4543,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7607@macro@SYSCTL_SCGC2_R",
+    "ID": "c:cortexM4.h@6276@macro@SYSCTL_SCGC2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGC2_R",
     "location": {
       "column": "9",
-      "line": "129",
+      "line": "101",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGC2_R",
@@ -4923,13 +4557,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7682@macro@SYSCTL_DCGC0_R",
+    "ID": "c:cortexM4.h@6351@macro@SYSCTL_DCGC0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGC0_R",
     "location": {
       "column": "9",
-      "line": "130",
+      "line": "102",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGC0_R",
@@ -4937,13 +4571,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7757@macro@SYSCTL_DCGC1_R",
+    "ID": "c:cortexM4.h@6426@macro@SYSCTL_DCGC1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGC1_R",
     "location": {
       "column": "9",
-      "line": "131",
+      "line": "103",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGC1_R",
@@ -4951,13 +4585,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7832@macro@SYSCTL_DCGC2_R",
+    "ID": "c:cortexM4.h@6501@macro@SYSCTL_DCGC2_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGC2_R",
     "location": {
       "column": "9",
-      "line": "132",
+      "line": "104",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGC2_R",
@@ -4965,13 +4599,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7907@macro@SYSCTL_DSLPCLKCFG_R",
+    "ID": "c:cortexM4.h@6576@macro@SYSCTL_DSLPCLKCFG_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DSLPCLKCFG_R",
     "location": {
       "column": "9",
-      "line": "133",
+      "line": "105",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DSLPCLKCFG_R",
@@ -4979,13 +4613,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@7982@macro@SYSCTL_SYSPROP_R",
+    "ID": "c:cortexM4.h@6651@macro@SYSCTL_SYSPROP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SYSPROP_R",
     "location": {
       "column": "9",
-      "line": "134",
+      "line": "106",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SYSPROP_R",
@@ -4993,13 +4627,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8057@macro@SYSCTL_PIOSCCAL_R",
+    "ID": "c:cortexM4.h@6726@macro@SYSCTL_PIOSCCAL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PIOSCCAL_R",
     "location": {
       "column": "9",
-      "line": "135",
+      "line": "107",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PIOSCCAL_R",
@@ -5007,13 +4641,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8132@macro@SYSCTL_PIOSCSTAT_R",
+    "ID": "c:cortexM4.h@6801@macro@SYSCTL_PIOSCSTAT_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PIOSCSTAT_R",
     "location": {
       "column": "9",
-      "line": "136",
+      "line": "108",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PIOSCSTAT_R",
@@ -5021,13 +4655,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8207@macro@SYSCTL_PLLFREQ0_R",
+    "ID": "c:cortexM4.h@6876@macro@SYSCTL_PLLFREQ0_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PLLFREQ0_R",
     "location": {
       "column": "9",
-      "line": "137",
+      "line": "109",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PLLFREQ0_R",
@@ -5035,13 +4669,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8282@macro@SYSCTL_PLLFREQ1_R",
+    "ID": "c:cortexM4.h@6951@macro@SYSCTL_PLLFREQ1_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PLLFREQ1_R",
     "location": {
       "column": "9",
-      "line": "138",
+      "line": "110",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PLLFREQ1_R",
@@ -5049,13 +4683,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8357@macro@SYSCTL_PLLSTAT_R",
+    "ID": "c:cortexM4.h@7026@macro@SYSCTL_PLLSTAT_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PLLSTAT_R",
     "location": {
       "column": "9",
-      "line": "139",
+      "line": "111",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PLLSTAT_R",
@@ -5063,13 +4697,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8432@macro@SYSCTL_DC9_R",
+    "ID": "c:cortexM4.h@7101@macro@SYSCTL_DC9_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DC9_R",
     "location": {
       "column": "9",
-      "line": "140",
+      "line": "112",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DC9_R",
@@ -5077,13 +4711,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8507@macro@SYSCTL_NVMSTAT_R",
+    "ID": "c:cortexM4.h@7176@macro@SYSCTL_NVMSTAT_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_NVMSTAT_R",
     "location": {
       "column": "9",
-      "line": "141",
+      "line": "113",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_NVMSTAT_R",
@@ -5091,13 +4725,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8582@macro@SYSCTL_PPWD_R",
+    "ID": "c:cortexM4.h@7251@macro@SYSCTL_PPWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPWD_R",
     "location": {
       "column": "9",
-      "line": "142",
+      "line": "114",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPWD_R",
@@ -5105,13 +4739,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8657@macro@SYSCTL_PPTIMER_R",
+    "ID": "c:cortexM4.h@7326@macro@SYSCTL_PPTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPTIMER_R",
     "location": {
       "column": "9",
-      "line": "143",
+      "line": "115",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPTIMER_R",
@@ -5119,13 +4753,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8732@macro@SYSCTL_PPGPIO_R",
+    "ID": "c:cortexM4.h@7401@macro@SYSCTL_PPGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPGPIO_R",
     "location": {
       "column": "9",
-      "line": "144",
+      "line": "116",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPGPIO_R",
@@ -5133,13 +4767,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8807@macro@SYSCTL_PPDMA_R",
+    "ID": "c:cortexM4.h@7476@macro@SYSCTL_PPDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPDMA_R",
     "location": {
       "column": "9",
-      "line": "145",
+      "line": "117",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPDMA_R",
@@ -5147,13 +4781,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8882@macro@SYSCTL_PPHIB_R",
+    "ID": "c:cortexM4.h@7551@macro@SYSCTL_PPHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPHIB_R",
     "location": {
       "column": "9",
-      "line": "146",
+      "line": "118",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPHIB_R",
@@ -5161,13 +4795,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@8957@macro@SYSCTL_PPUART_R",
+    "ID": "c:cortexM4.h@7626@macro@SYSCTL_PPUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPUART_R",
     "location": {
       "column": "9",
-      "line": "147",
+      "line": "119",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPUART_R",
@@ -5175,13 +4809,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9032@macro@SYSCTL_PPSSI_R",
+    "ID": "c:cortexM4.h@7701@macro@SYSCTL_PPSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPSSI_R",
     "location": {
       "column": "9",
-      "line": "148",
+      "line": "120",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPSSI_R",
@@ -5189,13 +4823,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9107@macro@SYSCTL_PPI2C_R",
+    "ID": "c:cortexM4.h@7776@macro@SYSCTL_PPI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPI2C_R",
     "location": {
       "column": "9",
-      "line": "149",
+      "line": "121",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPI2C_R",
@@ -5203,13 +4837,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9182@macro@SYSCTL_PPUSB_R",
+    "ID": "c:cortexM4.h@7851@macro@SYSCTL_PPUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPUSB_R",
     "location": {
       "column": "9",
-      "line": "150",
+      "line": "122",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPUSB_R",
@@ -5217,13 +4851,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9257@macro@SYSCTL_PPCAN_R",
+    "ID": "c:cortexM4.h@7926@macro@SYSCTL_PPCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPCAN_R",
     "location": {
       "column": "9",
-      "line": "151",
+      "line": "123",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPCAN_R",
@@ -5231,13 +4865,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9332@macro@SYSCTL_PPADC_R",
+    "ID": "c:cortexM4.h@8001@macro@SYSCTL_PPADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPADC_R",
     "location": {
       "column": "9",
-      "line": "152",
+      "line": "124",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPADC_R",
@@ -5245,13 +4879,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9407@macro@SYSCTL_PPACMP_R",
+    "ID": "c:cortexM4.h@8076@macro@SYSCTL_PPACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPACMP_R",
     "location": {
       "column": "9",
-      "line": "153",
+      "line": "125",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPACMP_R",
@@ -5259,13 +4893,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9482@macro@SYSCTL_PPPWM_R",
+    "ID": "c:cortexM4.h@8151@macro@SYSCTL_PPPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPPWM_R",
     "location": {
       "column": "9",
-      "line": "154",
+      "line": "126",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPPWM_R",
@@ -5273,13 +4907,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9557@macro@SYSCTL_PPQEI_R",
+    "ID": "c:cortexM4.h@8226@macro@SYSCTL_PPQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPQEI_R",
     "location": {
       "column": "9",
-      "line": "155",
+      "line": "127",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPQEI_R",
@@ -5287,13 +4921,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9632@macro@SYSCTL_PPEEPROM_R",
+    "ID": "c:cortexM4.h@8301@macro@SYSCTL_PPEEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPEEPROM_R",
     "location": {
       "column": "9",
-      "line": "156",
+      "line": "128",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPEEPROM_R",
@@ -5301,13 +4935,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9707@macro@SYSCTL_PPWTIMER_R",
+    "ID": "c:cortexM4.h@8376@macro@SYSCTL_PPWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PPWTIMER_R",
     "location": {
       "column": "9",
-      "line": "157",
+      "line": "129",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PPWTIMER_R",
@@ -5315,13 +4949,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9782@macro@SYSCTL_SRWD_R",
+    "ID": "c:cortexM4.h@8451@macro@SYSCTL_SRWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRWD_R",
     "location": {
       "column": "9",
-      "line": "158",
+      "line": "130",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRWD_R",
@@ -5329,13 +4963,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9857@macro@SYSCTL_SRTIMER_R",
+    "ID": "c:cortexM4.h@8526@macro@SYSCTL_SRTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRTIMER_R",
     "location": {
       "column": "9",
-      "line": "159",
+      "line": "131",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRTIMER_R",
@@ -5343,13 +4977,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@9932@macro@SYSCTL_SRGPIO_R",
+    "ID": "c:cortexM4.h@8601@macro@SYSCTL_SRGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRGPIO_R",
     "location": {
       "column": "9",
-      "line": "160",
+      "line": "132",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRGPIO_R",
@@ -5357,13 +4991,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10007@macro@SYSCTL_SRDMA_R",
+    "ID": "c:cortexM4.h@8676@macro@SYSCTL_SRDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRDMA_R",
     "location": {
       "column": "9",
-      "line": "161",
+      "line": "133",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRDMA_R",
@@ -5371,13 +5005,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10082@macro@SYSCTL_SRHIB_R",
+    "ID": "c:cortexM4.h@8751@macro@SYSCTL_SRHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRHIB_R",
     "location": {
       "column": "9",
-      "line": "162",
+      "line": "134",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRHIB_R",
@@ -5385,13 +5019,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10157@macro@SYSCTL_SRUART_R",
+    "ID": "c:cortexM4.h@8826@macro@SYSCTL_SRUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRUART_R",
     "location": {
       "column": "9",
-      "line": "163",
+      "line": "135",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRUART_R",
@@ -5399,13 +5033,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10232@macro@SYSCTL_SRSSI_R",
+    "ID": "c:cortexM4.h@8901@macro@SYSCTL_SRSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRSSI_R",
     "location": {
       "column": "9",
-      "line": "164",
+      "line": "136",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRSSI_R",
@@ -5413,13 +5047,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10307@macro@SYSCTL_SRI2C_R",
+    "ID": "c:cortexM4.h@8976@macro@SYSCTL_SRI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRI2C_R",
     "location": {
       "column": "9",
-      "line": "165",
+      "line": "137",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRI2C_R",
@@ -5427,13 +5061,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10382@macro@SYSCTL_SRUSB_R",
+    "ID": "c:cortexM4.h@9051@macro@SYSCTL_SRUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRUSB_R",
     "location": {
       "column": "9",
-      "line": "166",
+      "line": "138",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRUSB_R",
@@ -5441,13 +5075,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10457@macro@SYSCTL_SRCAN_R",
+    "ID": "c:cortexM4.h@9126@macro@SYSCTL_SRCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRCAN_R",
     "location": {
       "column": "9",
-      "line": "167",
+      "line": "139",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRCAN_R",
@@ -5455,13 +5089,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10532@macro@SYSCTL_SRADC_R",
+    "ID": "c:cortexM4.h@9201@macro@SYSCTL_SRADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRADC_R",
     "location": {
       "column": "9",
-      "line": "168",
+      "line": "140",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRADC_R",
@@ -5469,13 +5103,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10607@macro@SYSCTL_SRACMP_R",
+    "ID": "c:cortexM4.h@9276@macro@SYSCTL_SRACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRACMP_R",
     "location": {
       "column": "9",
-      "line": "169",
+      "line": "141",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRACMP_R",
@@ -5483,13 +5117,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10682@macro@SYSCTL_SRPWM_R",
+    "ID": "c:cortexM4.h@9351@macro@SYSCTL_SRPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRPWM_R",
     "location": {
       "column": "9",
-      "line": "170",
+      "line": "142",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRPWM_R",
@@ -5497,13 +5131,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10757@macro@SYSCTL_SRQEI_R",
+    "ID": "c:cortexM4.h@9426@macro@SYSCTL_SRQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRQEI_R",
     "location": {
       "column": "9",
-      "line": "171",
+      "line": "143",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRQEI_R",
@@ -5511,13 +5145,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10832@macro@SYSCTL_SREEPROM_R",
+    "ID": "c:cortexM4.h@9501@macro@SYSCTL_SREEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SREEPROM_R",
     "location": {
       "column": "9",
-      "line": "172",
+      "line": "144",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SREEPROM_R",
@@ -5525,13 +5159,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10907@macro@SYSCTL_SRWTIMER_R",
+    "ID": "c:cortexM4.h@9576@macro@SYSCTL_SRWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SRWTIMER_R",
     "location": {
       "column": "9",
-      "line": "173",
+      "line": "145",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SRWTIMER_R",
@@ -5539,13 +5173,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@10982@macro@SYSCTL_RCGCWD_R",
+    "ID": "c:cortexM4.h@9651@macro@SYSCTL_RCGCWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCWD_R",
     "location": {
       "column": "9",
-      "line": "174",
+      "line": "146",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCWD_R",
@@ -5553,13 +5187,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11057@macro@SYSCTL_RCGCTIMER_R",
+    "ID": "c:cortexM4.h@9726@macro@SYSCTL_RCGCTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCTIMER_R",
     "location": {
       "column": "9",
-      "line": "175",
+      "line": "147",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCTIMER_R",
@@ -5567,13 +5201,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11132@macro@SYSCTL_RCGCGPIO_R",
+    "ID": "c:cortexM4.h@9801@macro@SYSCTL_RCGCGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCGPIO_R",
     "location": {
       "column": "9",
-      "line": "176",
+      "line": "148",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCGPIO_R",
@@ -5581,13 +5215,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11207@macro@SYSCTL_RCGCDMA_R",
+    "ID": "c:cortexM4.h@9876@macro@SYSCTL_RCGCDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCDMA_R",
     "location": {
       "column": "9",
-      "line": "177",
+      "line": "149",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCDMA_R",
@@ -5595,13 +5229,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11282@macro@SYSCTL_RCGCHIB_R",
+    "ID": "c:cortexM4.h@9951@macro@SYSCTL_RCGCHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCHIB_R",
     "location": {
       "column": "9",
-      "line": "178",
+      "line": "150",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCHIB_R",
@@ -5609,13 +5243,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11357@macro@SYSCTL_RCGCUART_R",
+    "ID": "c:cortexM4.h@10026@macro@SYSCTL_RCGCUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCUART_R",
     "location": {
       "column": "9",
-      "line": "179",
+      "line": "151",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCUART_R",
@@ -5623,13 +5257,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11432@macro@SYSCTL_RCGCSSI_R",
+    "ID": "c:cortexM4.h@10101@macro@SYSCTL_RCGCSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCSSI_R",
     "location": {
       "column": "9",
-      "line": "180",
+      "line": "152",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCSSI_R",
@@ -5637,13 +5271,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11507@macro@SYSCTL_RCGCI2C_R",
+    "ID": "c:cortexM4.h@10176@macro@SYSCTL_RCGCI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCI2C_R",
     "location": {
       "column": "9",
-      "line": "181",
+      "line": "153",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCI2C_R",
@@ -5651,13 +5285,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11582@macro@SYSCTL_RCGCUSB_R",
+    "ID": "c:cortexM4.h@10251@macro@SYSCTL_RCGCUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCUSB_R",
     "location": {
       "column": "9",
-      "line": "182",
+      "line": "154",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCUSB_R",
@@ -5665,13 +5299,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11657@macro@SYSCTL_RCGCCAN_R",
+    "ID": "c:cortexM4.h@10326@macro@SYSCTL_RCGCCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCCAN_R",
     "location": {
       "column": "9",
-      "line": "183",
+      "line": "155",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCCAN_R",
@@ -5679,13 +5313,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11732@macro@SYSCTL_RCGCADC_R",
+    "ID": "c:cortexM4.h@10401@macro@SYSCTL_RCGCADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCADC_R",
     "location": {
       "column": "9",
-      "line": "184",
+      "line": "156",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCADC_R",
@@ -5693,13 +5327,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11807@macro@SYSCTL_RCGCACMP_R",
+    "ID": "c:cortexM4.h@10476@macro@SYSCTL_RCGCACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCACMP_R",
     "location": {
       "column": "9",
-      "line": "185",
+      "line": "157",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCACMP_R",
@@ -5707,13 +5341,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11882@macro@SYSCTL_RCGCPWM_R",
+    "ID": "c:cortexM4.h@10551@macro@SYSCTL_RCGCPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCPWM_R",
     "location": {
       "column": "9",
-      "line": "186",
+      "line": "158",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCPWM_R",
@@ -5721,13 +5355,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@11957@macro@SYSCTL_RCGCQEI_R",
+    "ID": "c:cortexM4.h@10626@macro@SYSCTL_RCGCQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCQEI_R",
     "location": {
       "column": "9",
-      "line": "187",
+      "line": "159",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCQEI_R",
@@ -5735,13 +5369,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12032@macro@SYSCTL_RCGCEEPROM_R",
+    "ID": "c:cortexM4.h@10701@macro@SYSCTL_RCGCEEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCEEPROM_R",
     "location": {
       "column": "9",
-      "line": "188",
+      "line": "160",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCEEPROM_R",
@@ -5749,13 +5383,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12107@macro@SYSCTL_RCGCWTIMER_R",
+    "ID": "c:cortexM4.h@10776@macro@SYSCTL_RCGCWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_RCGCWTIMER_R",
     "location": {
       "column": "9",
-      "line": "189",
+      "line": "161",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_RCGCWTIMER_R",
@@ -5763,13 +5397,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12182@macro@SYSCTL_SCGCWD_R",
+    "ID": "c:cortexM4.h@10851@macro@SYSCTL_SCGCWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCWD_R",
     "location": {
       "column": "9",
-      "line": "190",
+      "line": "162",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCWD_R",
@@ -5777,13 +5411,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12257@macro@SYSCTL_SCGCTIMER_R",
+    "ID": "c:cortexM4.h@10926@macro@SYSCTL_SCGCTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCTIMER_R",
     "location": {
       "column": "9",
-      "line": "191",
+      "line": "163",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCTIMER_R",
@@ -5791,13 +5425,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12332@macro@SYSCTL_SCGCGPIO_R",
+    "ID": "c:cortexM4.h@11001@macro@SYSCTL_SCGCGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCGPIO_R",
     "location": {
       "column": "9",
-      "line": "192",
+      "line": "164",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCGPIO_R",
@@ -5805,13 +5439,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12407@macro@SYSCTL_SCGCDMA_R",
+    "ID": "c:cortexM4.h@11076@macro@SYSCTL_SCGCDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCDMA_R",
     "location": {
       "column": "9",
-      "line": "193",
+      "line": "165",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCDMA_R",
@@ -5819,13 +5453,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12482@macro@SYSCTL_SCGCHIB_R",
+    "ID": "c:cortexM4.h@11151@macro@SYSCTL_SCGCHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCHIB_R",
     "location": {
       "column": "9",
-      "line": "194",
+      "line": "166",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCHIB_R",
@@ -5833,13 +5467,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12557@macro@SYSCTL_SCGCUART_R",
+    "ID": "c:cortexM4.h@11226@macro@SYSCTL_SCGCUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCUART_R",
     "location": {
       "column": "9",
-      "line": "195",
+      "line": "167",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCUART_R",
@@ -5847,13 +5481,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12632@macro@SYSCTL_SCGCSSI_R",
+    "ID": "c:cortexM4.h@11301@macro@SYSCTL_SCGCSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCSSI_R",
     "location": {
       "column": "9",
-      "line": "196",
+      "line": "168",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCSSI_R",
@@ -5861,13 +5495,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12707@macro@SYSCTL_SCGCI2C_R",
+    "ID": "c:cortexM4.h@11376@macro@SYSCTL_SCGCI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCI2C_R",
     "location": {
       "column": "9",
-      "line": "197",
+      "line": "169",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCI2C_R",
@@ -5875,13 +5509,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12782@macro@SYSCTL_SCGCUSB_R",
+    "ID": "c:cortexM4.h@11451@macro@SYSCTL_SCGCUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCUSB_R",
     "location": {
       "column": "9",
-      "line": "198",
+      "line": "170",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCUSB_R",
@@ -5889,13 +5523,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12857@macro@SYSCTL_SCGCCAN_R",
+    "ID": "c:cortexM4.h@11526@macro@SYSCTL_SCGCCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCCAN_R",
     "location": {
       "column": "9",
-      "line": "199",
+      "line": "171",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCCAN_R",
@@ -5903,13 +5537,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@12932@macro@SYSCTL_SCGCADC_R",
+    "ID": "c:cortexM4.h@11601@macro@SYSCTL_SCGCADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCADC_R",
     "location": {
       "column": "9",
-      "line": "200",
+      "line": "172",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCADC_R",
@@ -5917,13 +5551,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13007@macro@SYSCTL_SCGCACMP_R",
+    "ID": "c:cortexM4.h@11676@macro@SYSCTL_SCGCACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCACMP_R",
     "location": {
       "column": "9",
-      "line": "201",
+      "line": "173",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCACMP_R",
@@ -5931,13 +5565,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13082@macro@SYSCTL_SCGCPWM_R",
+    "ID": "c:cortexM4.h@11751@macro@SYSCTL_SCGCPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCPWM_R",
     "location": {
       "column": "9",
-      "line": "202",
+      "line": "174",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCPWM_R",
@@ -5945,13 +5579,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13157@macro@SYSCTL_SCGCQEI_R",
+    "ID": "c:cortexM4.h@11826@macro@SYSCTL_SCGCQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCQEI_R",
     "location": {
       "column": "9",
-      "line": "203",
+      "line": "175",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCQEI_R",
@@ -5959,13 +5593,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13232@macro@SYSCTL_SCGCEEPROM_R",
+    "ID": "c:cortexM4.h@11901@macro@SYSCTL_SCGCEEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCEEPROM_R",
     "location": {
       "column": "9",
-      "line": "204",
+      "line": "176",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCEEPROM_R",
@@ -5973,13 +5607,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13307@macro@SYSCTL_SCGCWTIMER_R",
+    "ID": "c:cortexM4.h@11976@macro@SYSCTL_SCGCWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_SCGCWTIMER_R",
     "location": {
       "column": "9",
-      "line": "205",
+      "line": "177",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_SCGCWTIMER_R",
@@ -5987,13 +5621,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13382@macro@SYSCTL_DCGCWD_R",
+    "ID": "c:cortexM4.h@12051@macro@SYSCTL_DCGCWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCWD_R",
     "location": {
       "column": "9",
-      "line": "206",
+      "line": "178",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCWD_R",
@@ -6001,13 +5635,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13457@macro@SYSCTL_DCGCTIMER_R",
+    "ID": "c:cortexM4.h@12126@macro@SYSCTL_DCGCTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCTIMER_R",
     "location": {
       "column": "9",
-      "line": "207",
+      "line": "179",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCTIMER_R",
@@ -6015,13 +5649,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13532@macro@SYSCTL_DCGCGPIO_R",
+    "ID": "c:cortexM4.h@12201@macro@SYSCTL_DCGCGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCGPIO_R",
     "location": {
       "column": "9",
-      "line": "208",
+      "line": "180",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCGPIO_R",
@@ -6029,13 +5663,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13607@macro@SYSCTL_DCGCDMA_R",
+    "ID": "c:cortexM4.h@12276@macro@SYSCTL_DCGCDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCDMA_R",
     "location": {
       "column": "9",
-      "line": "209",
+      "line": "181",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCDMA_R",
@@ -6043,13 +5677,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13682@macro@SYSCTL_DCGCHIB_R",
+    "ID": "c:cortexM4.h@12351@macro@SYSCTL_DCGCHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCHIB_R",
     "location": {
       "column": "9",
-      "line": "210",
+      "line": "182",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCHIB_R",
@@ -6057,13 +5691,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13757@macro@SYSCTL_DCGCUART_R",
+    "ID": "c:cortexM4.h@12426@macro@SYSCTL_DCGCUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCUART_R",
     "location": {
       "column": "9",
-      "line": "211",
+      "line": "183",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCUART_R",
@@ -6071,13 +5705,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13832@macro@SYSCTL_DCGCSSI_R",
+    "ID": "c:cortexM4.h@12501@macro@SYSCTL_DCGCSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCSSI_R",
     "location": {
       "column": "9",
-      "line": "212",
+      "line": "184",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCSSI_R",
@@ -6085,13 +5719,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13907@macro@SYSCTL_DCGCI2C_R",
+    "ID": "c:cortexM4.h@12576@macro@SYSCTL_DCGCI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCI2C_R",
     "location": {
       "column": "9",
-      "line": "213",
+      "line": "185",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCI2C_R",
@@ -6099,13 +5733,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@13982@macro@SYSCTL_DCGCUSB_R",
+    "ID": "c:cortexM4.h@12651@macro@SYSCTL_DCGCUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCUSB_R",
     "location": {
       "column": "9",
-      "line": "214",
+      "line": "186",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCUSB_R",
@@ -6113,13 +5747,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14057@macro@SYSCTL_DCGCCAN_R",
+    "ID": "c:cortexM4.h@12726@macro@SYSCTL_DCGCCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCCAN_R",
     "location": {
       "column": "9",
-      "line": "215",
+      "line": "187",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCCAN_R",
@@ -6127,13 +5761,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14132@macro@SYSCTL_DCGCADC_R",
+    "ID": "c:cortexM4.h@12801@macro@SYSCTL_DCGCADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCADC_R",
     "location": {
       "column": "9",
-      "line": "216",
+      "line": "188",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCADC_R",
@@ -6141,13 +5775,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14207@macro@SYSCTL_DCGCACMP_R",
+    "ID": "c:cortexM4.h@12876@macro@SYSCTL_DCGCACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCACMP_R",
     "location": {
       "column": "9",
-      "line": "217",
+      "line": "189",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCACMP_R",
@@ -6155,13 +5789,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14282@macro@SYSCTL_DCGCPWM_R",
+    "ID": "c:cortexM4.h@12951@macro@SYSCTL_DCGCPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCPWM_R",
     "location": {
       "column": "9",
-      "line": "218",
+      "line": "190",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCPWM_R",
@@ -6169,13 +5803,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14357@macro@SYSCTL_DCGCQEI_R",
+    "ID": "c:cortexM4.h@13026@macro@SYSCTL_DCGCQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCQEI_R",
     "location": {
       "column": "9",
-      "line": "219",
+      "line": "191",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCQEI_R",
@@ -6183,13 +5817,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14432@macro@SYSCTL_DCGCEEPROM_R",
+    "ID": "c:cortexM4.h@13101@macro@SYSCTL_DCGCEEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCEEPROM_R",
     "location": {
       "column": "9",
-      "line": "220",
+      "line": "192",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCEEPROM_R",
@@ -6197,13 +5831,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14507@macro@SYSCTL_DCGCWTIMER_R",
+    "ID": "c:cortexM4.h@13176@macro@SYSCTL_DCGCWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_DCGCWTIMER_R",
     "location": {
       "column": "9",
-      "line": "221",
+      "line": "193",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_DCGCWTIMER_R",
@@ -6211,13 +5845,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14582@macro@SYSCTL_PRWD_R",
+    "ID": "c:cortexM4.h@13251@macro@SYSCTL_PRWD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRWD_R",
     "location": {
       "column": "9",
-      "line": "222",
+      "line": "194",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRWD_R",
@@ -6225,13 +5859,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14657@macro@SYSCTL_PRTIMER_R",
+    "ID": "c:cortexM4.h@13326@macro@SYSCTL_PRTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRTIMER_R",
     "location": {
       "column": "9",
-      "line": "223",
+      "line": "195",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRTIMER_R",
@@ -6239,13 +5873,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14732@macro@SYSCTL_PRGPIO_R",
+    "ID": "c:cortexM4.h@13401@macro@SYSCTL_PRGPIO_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRGPIO_R",
     "location": {
       "column": "9",
-      "line": "224",
+      "line": "196",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRGPIO_R",
@@ -6253,13 +5887,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14807@macro@SYSCTL_PRDMA_R",
+    "ID": "c:cortexM4.h@13476@macro@SYSCTL_PRDMA_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRDMA_R",
     "location": {
       "column": "9",
-      "line": "225",
+      "line": "197",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRDMA_R",
@@ -6267,13 +5901,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14882@macro@SYSCTL_PRHIB_R",
+    "ID": "c:cortexM4.h@13551@macro@SYSCTL_PRHIB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRHIB_R",
     "location": {
       "column": "9",
-      "line": "226",
+      "line": "198",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRHIB_R",
@@ -6281,13 +5915,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@14957@macro@SYSCTL_PRUART_R",
+    "ID": "c:cortexM4.h@13626@macro@SYSCTL_PRUART_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRUART_R",
     "location": {
       "column": "9",
-      "line": "227",
+      "line": "199",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRUART_R",
@@ -6295,13 +5929,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15032@macro@SYSCTL_PRSSI_R",
+    "ID": "c:cortexM4.h@13701@macro@SYSCTL_PRSSI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRSSI_R",
     "location": {
       "column": "9",
-      "line": "228",
+      "line": "200",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRSSI_R",
@@ -6309,13 +5943,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15107@macro@SYSCTL_PRI2C_R",
+    "ID": "c:cortexM4.h@13776@macro@SYSCTL_PRI2C_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRI2C_R",
     "location": {
       "column": "9",
-      "line": "229",
+      "line": "201",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRI2C_R",
@@ -6323,13 +5957,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15182@macro@SYSCTL_PRUSB_R",
+    "ID": "c:cortexM4.h@13851@macro@SYSCTL_PRUSB_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRUSB_R",
     "location": {
       "column": "9",
-      "line": "230",
+      "line": "202",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRUSB_R",
@@ -6337,13 +5971,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15257@macro@SYSCTL_PRCAN_R",
+    "ID": "c:cortexM4.h@13926@macro@SYSCTL_PRCAN_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRCAN_R",
     "location": {
       "column": "9",
-      "line": "231",
+      "line": "203",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRCAN_R",
@@ -6351,13 +5985,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15332@macro@SYSCTL_PRADC_R",
+    "ID": "c:cortexM4.h@14001@macro@SYSCTL_PRADC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRADC_R",
     "location": {
       "column": "9",
-      "line": "232",
+      "line": "204",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRADC_R",
@@ -6365,13 +5999,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15407@macro@SYSCTL_PRACMP_R",
+    "ID": "c:cortexM4.h@14076@macro@SYSCTL_PRACMP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRACMP_R",
     "location": {
       "column": "9",
-      "line": "233",
+      "line": "205",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRACMP_R",
@@ -6379,13 +6013,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15482@macro@SYSCTL_PRPWM_R",
+    "ID": "c:cortexM4.h@14151@macro@SYSCTL_PRPWM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRPWM_R",
     "location": {
       "column": "9",
-      "line": "234",
+      "line": "206",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRPWM_R",
@@ -6393,13 +6027,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15557@macro@SYSCTL_PRQEI_R",
+    "ID": "c:cortexM4.h@14226@macro@SYSCTL_PRQEI_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRQEI_R",
     "location": {
       "column": "9",
-      "line": "235",
+      "line": "207",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRQEI_R",
@@ -6407,13 +6041,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15632@macro@SYSCTL_PREEPROM_R",
+    "ID": "c:cortexM4.h@14301@macro@SYSCTL_PREEPROM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PREEPROM_R",
     "location": {
       "column": "9",
-      "line": "236",
+      "line": "208",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PREEPROM_R",
@@ -6421,13 +6055,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15707@macro@SYSCTL_PRWTIMER_R",
+    "ID": "c:cortexM4.h@14376@macro@SYSCTL_PRWTIMER_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSCTL_PRWTIMER_R",
     "location": {
       "column": "9",
-      "line": "237",
+      "line": "209",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSCTL_PRWTIMER_R",
@@ -6435,13 +6069,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@15993@macro@SYSTICK_STCTRL_R",
+    "ID": "c:cortexM4.h@14662@macro@SYSTICK_STCTRL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSTICK_STCTRL_R",
     "location": {
       "column": "9",
-      "line": "245",
+      "line": "217",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSTICK_STCTRL_R",
@@ -6449,13 +6083,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@16067@macro@SYSTICK_STRELOAD_R",
+    "ID": "c:cortexM4.h@14736@macro@SYSTICK_STRELOAD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSTICK_STRELOAD_R",
     "location": {
       "column": "9",
-      "line": "246",
+      "line": "218",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSTICK_STRELOAD_R",
@@ -6463,13 +6097,13 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@16141@macro@SYSTICK_STCURRENT_R",
+    "ID": "c:cortexM4.h@14810@macro@SYSTICK_STCURRENT_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "SYSTICK_STCURRENT_R",
     "location": {
       "column": "9",
-      "line": "247",
+      "line": "219",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
     "name": "SYSTICK_STCURRENT_R",
@@ -6477,590 +6111,746 @@
     "scope": null
   },
   {
-    "ID": "c:types.h@27@macro@_TYPES_H_",
-    "What": "MacroDef",
+    "ID": "c:@SA@timer_typedef",
+    "What": "Struct",
     "defdec": "Def",
-    "display": "_TYPES_H_",
+    "display": "",
     "location": {
       "column": "9",
-      "line": "2",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "line": "227",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "_TYPES_H_",
+    "members": [
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMCFG",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMCFG",
+        "location": {
+          "column": "11",
+          "line": "228",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMCFG",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAMR",
+        "location": {
+          "column": "11",
+          "line": "229",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAMR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBMR",
+        "location": {
+          "column": "11",
+          "line": "230",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBMR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMCTL",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMCTL",
+        "location": {
+          "column": "11",
+          "line": "231",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMCTL",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMSYNC",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMSYNC",
+        "location": {
+          "column": "11",
+          "line": "232",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMSYNC",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@reserved",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "reserved",
+        "location": {
+          "column": "11",
+          "line": "233",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "reserved",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMIMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMIMR",
+        "location": {
+          "column": "11",
+          "line": "234",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMIMR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMRIS",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMRIS",
+        "location": {
+          "column": "11",
+          "line": "235",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMRIS",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMMIS",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMMIS",
+        "location": {
+          "column": "11",
+          "line": "236",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMMIS",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMICR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMICR",
+        "location": {
+          "column": "11",
+          "line": "237",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMICR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAILR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAILR",
+        "location": {
+          "column": "11",
+          "line": "238",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAILR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBILR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBILR",
+        "location": {
+          "column": "11",
+          "line": "239",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBILR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAMATCHR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAMATCHR",
+        "location": {
+          "column": "11",
+          "line": "240",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAMATCHR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBMATCHR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBMATCHR",
+        "location": {
+          "column": "11",
+          "line": "241",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBMATCHR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAPR",
+        "location": {
+          "column": "11",
+          "line": "242",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAPR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBPR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBPR",
+        "location": {
+          "column": "11",
+          "line": "243",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBPR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAPMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAPMR",
+        "location": {
+          "column": "11",
+          "line": "244",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAPMR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBPMR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBPMR",
+        "location": {
+          "column": "11",
+          "line": "245",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBPMR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAR",
+        "location": {
+          "column": "11",
+          "line": "246",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBR",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBR",
+        "location": {
+          "column": "11",
+          "line": "247",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBR",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAV",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAV",
+        "location": {
+          "column": "11",
+          "line": "248",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAV",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBV",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBV",
+        "location": {
+          "column": "11",
+          "line": "249",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBV",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMRTCPD",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMRTCPD",
+        "location": {
+          "column": "11",
+          "line": "250",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMRTCPD",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAPS",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAPS",
+        "location": {
+          "column": "11",
+          "line": "251",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAPS",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBPS",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBPS",
+        "location": {
+          "column": "11",
+          "line": "252",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBPS",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTAPV",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTAPV",
+        "location": {
+          "column": "11",
+          "line": "253",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTAPV",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@SA@timer_typedef@FI@GPTMTBPV",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "GPTMTBPV",
+        "location": {
+          "column": "11",
+          "line": "254",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "GPTMTBPV",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      },
+      {
+        "ID": "c:@T@timer_typedef",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct timer_typedef",
+        "location": {
+          "column": "2",
+          "line": "255",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
+        },
+        "name": "timer_typedef",
+        "origin": "system_include",
+        "scope": "_anonymous_cortexM4_h_227_9"
+      }
+    ],
+    "name": "",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@boolean",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@16894@macro@TIMER0_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned char",
+    "display": "TIMER0_BASE",
     "location": {
-      "column": "33",
-      "line": "6",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "258",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "boolean",
+    "name": "TIMER0_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int8",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@16964@macro@TIMER1_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "signed char",
+    "display": "TIMER1_BASE",
     "location": {
-      "column": "24",
-      "line": "7",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "259",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int8",
+    "name": "TIMER1_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@uint8",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17034@macro@TIMER2_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned char",
+    "display": "TIMER2_BASE",
     "location": {
-      "column": "33",
-      "line": "8",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "260",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "uint8",
+    "name": "TIMER2_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int16",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17104@macro@TIMER3_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "short",
+    "display": "TIMER3_BASE",
     "location": {
-      "column": "32",
-      "line": "9",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "261",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int16",
+    "name": "TIMER3_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@uint16",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17174@macro@TIMER4_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned short",
+    "display": "TIMER4_BASE",
     "location": {
-      "column": "34",
-      "line": "10",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "262",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "uint16",
+    "name": "TIMER4_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17244@macro@TIMER5_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "long",
+    "display": "TIMER5_BASE",
     "location": {
-      "column": "24",
-      "line": "11",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "263",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int32",
+    "name": "TIMER5_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@uint32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17314@macro@WTIMER0_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned long",
+    "display": "WTIMER0_BASE",
     "location": {
-      "column": "33",
-      "line": "12",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "264",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "uint32",
+    "name": "WTIMER0_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17384@macro@WTIMER1_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "long long",
+    "display": "WTIMER1_BASE",
     "location": {
-      "column": "35",
-      "line": "13",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "265",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int64",
+    "name": "WTIMER1_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@uint64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17454@macro@WTIMER2_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "unsigned long long",
+    "display": "WTIMER2_BASE",
     "location": {
-      "column": "37",
-      "line": "14",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "266",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "uint64",
+    "name": "WTIMER2_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@float32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17524@macro@WTIMER3_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "float",
+    "display": "WTIMER3_BASE",
     "location": {
-      "column": "19",
-      "line": "15",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "267",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "float32",
+    "name": "WTIMER3_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@float64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17594@macro@WTIMER4_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "double",
+    "display": "WTIMER4_BASE",
     "location": {
-      "column": "21",
-      "line": "16",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "268",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "float64",
+    "name": "WTIMER4_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vint8",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17664@macro@WTIMER5_BASE",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile int8",
+    "display": "WTIMER5_BASE",
     "location": {
-      "column": "44",
-      "line": "19",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "269",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vint8",
+    "name": "WTIMER5_BASE",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vuint8",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17816@macro@TIMER0",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile uint8",
+    "display": "TIMER0",
     "location": {
-      "column": "41",
-      "line": "20",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "275",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vuint8",
+    "name": "TIMER0",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vint16",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17905@macro@TIMER1",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile int16",
+    "display": "TIMER1",
     "location": {
-      "column": "41",
-      "line": "21",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "276",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vint16",
+    "name": "TIMER1",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vuint16",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@17994@macro@TIMER2",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile uint16",
+    "display": "TIMER2",
     "location": {
-      "column": "42",
-      "line": "22",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "277",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vuint16",
+    "name": "TIMER2",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vint32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18083@macro@TIMER3",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile int32",
+    "display": "TIMER3",
     "location": {
-      "column": "41",
-      "line": "23",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "278",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vint32",
+    "name": "TIMER3",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vuint32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18172@macro@TIMER4",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile uint32",
+    "display": "TIMER4",
     "location": {
-      "column": "42",
-      "line": "24",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "279",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vuint32",
+    "name": "TIMER4",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vint64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18261@macro@TIMER5",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile int64",
+    "display": "TIMER5",
     "location": {
-      "column": "41",
-      "line": "25",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "280",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vint64",
+    "name": "TIMER5",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vuint64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18350@macro@WTIMER0",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile uint64",
+    "display": "WTIMER0",
     "location": {
-      "column": "42",
-      "line": "26",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "281",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vuint64",
+    "name": "WTIMER0",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vfloat32",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18440@macro@WTIMER1",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile float32",
+    "display": "WTIMER1",
     "location": {
-      "column": "35",
-      "line": "27",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "282",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vfloat32",
+    "name": "WTIMER1",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@vfloat64",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18530@macro@WTIMER2",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "volatile float64",
+    "display": "WTIMER2",
     "location": {
-      "column": "35",
-      "line": "28",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "283",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "vfloat64",
+    "name": "WTIMER2",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int8_ptr",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18620@macro@WTIMER3",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "int8 *",
+    "display": "WTIMER3",
     "location": {
-      "column": "39",
-      "line": "32",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "284",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int8_ptr",
+    "name": "WTIMER3",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@uint8_ptr",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18710@macro@WTIMER4",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "uint8 *",
+    "display": "WTIMER4",
     "location": {
-      "column": "35",
-      "line": "33",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "285",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "uint8_ptr",
+    "name": "WTIMER4",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:types.h@T@int16_ptr",
-    "What": "Typedef",
+    "ID": "c:cortexM4.h@18800@macro@WTIMER5",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "int16 *",
+    "display": "WTIMER5",
     "location": {
-      "column": "35",
-      "line": "34",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+      "column": "9",
+      "line": "286",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\cortexM4.h"
     },
-    "name": "int16_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@uint16_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "uint16 *",
-    "location": {
-      "column": "35",
-      "line": "35",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "uint16_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@int32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int32 *",
-    "location": {
-      "column": "35",
-      "line": "36",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "int32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@uint32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "uint32 *",
-    "location": {
-      "column": "35",
-      "line": "37",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "uint32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@int64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "int64 *",
-    "location": {
-      "column": "35",
-      "line": "38",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "int64_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@uint64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "uint64 *",
-    "location": {
-      "column": "35",
-      "line": "39",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "uint64_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@float32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "float32 *",
-    "location": {
-      "column": "41",
-      "line": "40",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "float32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@float64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "float64 *",
-    "location": {
-      "column": "40",
-      "line": "41",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "float64_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vint8_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vint8 *",
-    "location": {
-      "column": "40",
-      "line": "44",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vint8_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vuint8_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vuint8 *",
-    "location": {
-      "column": "36",
-      "line": "45",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vuint8_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vint16_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vint16 *",
-    "location": {
-      "column": "36",
-      "line": "46",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vint16_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vuint16_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vuint16 *",
-    "location": {
-      "column": "36",
-      "line": "47",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vuint16_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vint32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vint32 *",
-    "location": {
-      "column": "36",
-      "line": "48",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vint32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vuint32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vuint32 *",
-    "location": {
-      "column": "36",
-      "line": "49",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vuint32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vint64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vint64 *",
-    "location": {
-      "column": "36",
-      "line": "50",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vint64_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vuint64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vuint64 *",
-    "location": {
-      "column": "36",
-      "line": "51",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vuint64_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vfloat32_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vfloat32 *",
-    "location": {
-      "column": "42",
-      "line": "52",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vfloat32_ptr",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:types.h@T@vfloat64_ptr",
-    "What": "Typedef",
-    "defdec": "Def",
-    "display": "vfloat64 *",
-    "location": {
-      "column": "41",
-      "line": "53",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
-    },
-    "name": "vfloat64_ptr",
+    "name": "WTIMER5",
     "origin": "system_include",
     "scope": null
   },
@@ -7725,6 +7515,594 @@
     "scope": null
   },
   {
+    "ID": "c:types.h@27@macro@_TYPES_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TYPES_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "_TYPES_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@boolean",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "33",
+      "line": "6",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "boolean",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "signed char",
+    "location": {
+      "column": "24",
+      "line": "7",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned char",
+    "location": {
+      "column": "33",
+      "line": "8",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "short",
+    "location": {
+      "column": "32",
+      "line": "9",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int16",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned short",
+    "location": {
+      "column": "34",
+      "line": "10",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint16",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long",
+    "location": {
+      "column": "24",
+      "line": "11",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long",
+    "location": {
+      "column": "33",
+      "line": "12",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "long long",
+    "location": {
+      "column": "35",
+      "line": "13",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned long long",
+    "location": {
+      "column": "37",
+      "line": "14",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@float32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "float",
+    "location": {
+      "column": "19",
+      "line": "15",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "float32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@float64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "double",
+    "location": {
+      "column": "21",
+      "line": "16",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "float64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile int8",
+    "location": {
+      "column": "44",
+      "line": "19",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint8",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile uint8",
+    "location": {
+      "column": "41",
+      "line": "20",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint8",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile int16",
+    "location": {
+      "column": "41",
+      "line": "21",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint16",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint16",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile uint16",
+    "location": {
+      "column": "42",
+      "line": "22",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint16",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile int32",
+    "location": {
+      "column": "41",
+      "line": "23",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile uint32",
+    "location": {
+      "column": "42",
+      "line": "24",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile int64",
+    "location": {
+      "column": "41",
+      "line": "25",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile uint64",
+    "location": {
+      "column": "42",
+      "line": "26",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vfloat32",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile float32",
+    "location": {
+      "column": "35",
+      "line": "27",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vfloat32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vfloat64",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "volatile float64",
+    "location": {
+      "column": "35",
+      "line": "28",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vfloat64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int8_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int8 *",
+    "location": {
+      "column": "39",
+      "line": "32",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int8_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint8_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint8 *",
+    "location": {
+      "column": "35",
+      "line": "33",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint8_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int16_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int16 *",
+    "location": {
+      "column": "35",
+      "line": "34",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int16_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint16_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint16 *",
+    "location": {
+      "column": "35",
+      "line": "35",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint16_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int32 *",
+    "location": {
+      "column": "35",
+      "line": "36",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint32 *",
+    "location": {
+      "column": "35",
+      "line": "37",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@int64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "int64 *",
+    "location": {
+      "column": "35",
+      "line": "38",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "int64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@uint64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "uint64 *",
+    "location": {
+      "column": "35",
+      "line": "39",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "uint64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@float32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "float32 *",
+    "location": {
+      "column": "41",
+      "line": "40",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "float32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@float64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "float64 *",
+    "location": {
+      "column": "40",
+      "line": "41",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "float64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint8_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vint8 *",
+    "location": {
+      "column": "40",
+      "line": "44",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint8_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint8_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vuint8 *",
+    "location": {
+      "column": "36",
+      "line": "45",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint8_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint16_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vint16 *",
+    "location": {
+      "column": "36",
+      "line": "46",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint16_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint16_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vuint16 *",
+    "location": {
+      "column": "36",
+      "line": "47",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint16_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vint32 *",
+    "location": {
+      "column": "36",
+      "line": "48",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vuint32 *",
+    "location": {
+      "column": "36",
+      "line": "49",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vint64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vint64 *",
+    "location": {
+      "column": "36",
+      "line": "50",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vint64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vuint64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vuint64 *",
+    "location": {
+      "column": "36",
+      "line": "51",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vuint64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vfloat32_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vfloat32 *",
+    "location": {
+      "column": "42",
+      "line": "52",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vfloat32_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:types.h@T@vfloat64_ptr",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "vfloat64 *",
+    "location": {
+      "column": "41",
+      "line": "53",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\types.h"
+    },
+    "name": "vfloat64_ptr",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:@F@MCAL_GPIO_Init",
     "What": "Function",
     "defdec": "Def",
@@ -8187,6 +8565,680 @@
     "scope": null
   },
   {
+    "ID": "c:timer.h@27@macro@_TIMER_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TIMER_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "_TIMER_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@325@macro@CPU_CLOCK_MS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_CLOCK_MS",
+    "location": {
+      "column": "9",
+      "line": "13",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "CPU_CLOCK_MS",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@SA@timer_config",
+    "What": "Struct",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "members": [
+      {
+        "ID": "c:@SA@timer_config@FI@timerAlpha",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timerAlpha",
+        "location": {
+          "column": "9",
+          "line": "18",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timerAlpha",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@mode",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "mode",
+        "location": {
+          "column": "9",
+          "line": "19",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "mode",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timerUse",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timerUse",
+        "location": {
+          "column": "9",
+          "line": "20",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timerUse",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@countDirection",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "countDirection",
+        "location": {
+          "column": "9",
+          "line": "21",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "countDirection",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@counterSize",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "counterSize",
+        "location": {
+          "column": "9",
+          "line": "22",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "counterSize",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timeNumber",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timeNumber",
+        "location": {
+          "column": "9",
+          "line": "23",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timeNumber",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timerWidth",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timerWidth",
+        "location": {
+          "column": "9",
+          "line": "24",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timerWidth",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@prescalerSize",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "prescalerSize",
+        "location": {
+          "column": "9",
+          "line": "25",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "prescalerSize",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@enableInterrupt",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "enableInterrupt",
+        "location": {
+          "column": "9",
+          "line": "26",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "enableInterrupt",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@callBackFunc",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "callBackFunc",
+        "location": {
+          "column": "11",
+          "line": "27",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "callBackFunc",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      },
+      {
+        "ID": "c:@T@timer_config",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct timer_config",
+        "location": {
+          "column": "2",
+          "line": "28",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timer_config",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_17_9"
+      }
+    ],
+    "name": "",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@868@macro@TIMER_ALPHA_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_ALPHA_A",
+    "location": {
+      "column": "9",
+      "line": "31",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_ALPHA_A",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@929@macro@TIMER_ALPHA_B",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_ALPHA_B",
+    "location": {
+      "column": "9",
+      "line": "32",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_ALPHA_B",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1008@macro@TIMER_SIZE_16_32_32CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_32CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "35",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_32CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1069@macro@TIMER_SIZE_32_64_64CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_64CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "36",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_64CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1130@macro@TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1191@macro@TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1252@macro@TIMER_SIZE_16_32_16CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_16CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_16CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1313@macro@TIMER_SIZE_32_64_32CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_32CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_32CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1395@macro@TIMER_WIDTH_16_32",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_WIDTH_16_32",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_WIDTH_16_32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1456@macro@TIMER_WIDTH_32_64",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_WIDTH_32_64",
+    "location": {
+      "column": "9",
+      "line": "46",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_WIDTH_32_64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1543@macro@TIMER_NUMBER_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_0",
+    "location": {
+      "column": "9",
+      "line": "50",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1604@macro@TIMER_NUMBER_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_1",
+    "location": {
+      "column": "9",
+      "line": "51",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1665@macro@TIMER_NUMBER_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_2",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1726@macro@TIMER_NUMBER_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_3",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1787@macro@TIMER_NUMBER_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_4",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1848@macro@TIMER_NUMBER_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_5",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_5",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1925@macro@TIMER_MODE_RESERVED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_RESERVED",
+    "location": {
+      "column": "9",
+      "line": "58",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_RESERVED",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1986@macro@TIMER_MODE_ONE_SHOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_ONE_SHOT",
+    "location": {
+      "column": "9",
+      "line": "59",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_ONE_SHOT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2047@macro@TIMER_MODE_PERIODIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_PERIODIC",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_PERIODIC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2108@macro@TIMER_MODE_CAPTURE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_CAPTURE",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_CAPTURE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2197@macro@TINER_COUNT_DIRECTION_DOWN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TINER_COUNT_DIRECTION_DOWN",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TINER_COUNT_DIRECTION_DOWN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2258@macro@TINER_COUNT_DIRECTION_UP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TINER_COUNT_DIRECTION_UP",
+    "location": {
+      "column": "9",
+      "line": "65",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TINER_COUNT_DIRECTION_UP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Disable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Disable",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Disable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "83",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Disable",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "97",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Enable",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Enable",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "97",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Enable",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
+    "location": {
+      "column": "6",
+      "line": "100",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_DelayMs_P(timer_typedef *, uint32, uint8)",
+    "location": {
+      "column": "6",
+      "line": "103",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_DelayMs_P(timer_typedef *, uint32, uint8)",
+    "location": {
+      "column": "6",
+      "line": "103",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Disable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "5",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "MCAL_TIMER_Disable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Enable",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
+    "location": {
+      "column": "6",
+      "line": "15",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "MCAL_TIMER_Enable",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
+    "location": {
+      "column": "6",
+      "line": "23",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "MCAL_TIMER_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_DelayMs_P",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_TIMER_DelayMs_P(timer_typedef *, uint32, uint8)",
+    "location": {
+      "column": "6",
+      "line": "49",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "MCAL_TIMER_DelayMs_P",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@8@macro@DELAY_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -8207,7 +9259,7 @@
     "display": "void turnOnWhite(void)",
     "location": {
       "column": "6",
-      "line": "6",
+      "line": "7",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnWhite",
@@ -8221,7 +9273,7 @@
     "display": "void turnOnRed(void)",
     "location": {
       "column": "6",
-      "line": "7",
+      "line": "8",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnRed",
@@ -8235,7 +9287,7 @@
     "display": "void turnOnBule(void)",
     "location": {
       "column": "6",
-      "line": "8",
+      "line": "9",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnBule",
@@ -8249,7 +9301,7 @@
     "display": "void turnOnGreen(void)",
     "location": {
       "column": "6",
-      "line": "9",
+      "line": "10",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnGreen",
@@ -8263,7 +9315,7 @@
     "display": "void turnOffAll(void)",
     "location": {
       "column": "6",
-      "line": "10",
+      "line": "11",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOffAll",
@@ -8277,7 +9329,7 @@
     "display": "void init(void)",
     "location": {
       "column": "6",
-      "line": "11",
+      "line": "12",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "init",
@@ -8291,7 +9343,7 @@
     "display": "void read(uint8_ptr, uint8_ptr)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "13",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "read",
@@ -8305,7 +9357,7 @@
     "display": "void Delay(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "14",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "Delay",
@@ -8319,7 +9371,7 @@
     "display": "void toggle(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "16",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "toggle",
@@ -8327,13 +9379,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@323@F@toggle@count",
+    "ID": "c:main.c@354@F@toggle@count",
     "What": "Variable",
     "defdec": "Def",
     "display": "count",
     "location": {
       "column": "16",
-      "line": "16",
+      "line": "17",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "count",
@@ -8347,10 +9399,24 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "25",
+      "line": "26",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "main",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@538@F@main@config",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "config",
+    "location": {
+      "column": "16",
+      "line": "31",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
+    },
+    "name": "config",
     "origin": "project_file",
     "scope": null
   },
@@ -8361,7 +9427,7 @@
     "display": "void init(void)",
     "location": {
       "column": "6",
-      "line": "43",
+      "line": "52",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "init",
@@ -8369,13 +9435,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@655@F@init@config",
+    "ID": "c:main.c@1122@F@init@config",
     "What": "Variable",
     "defdec": "Def",
     "display": "config",
     "location": {
       "column": "16",
-      "line": "44",
+      "line": "53",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "config",
@@ -8389,7 +9455,7 @@
     "display": "void turnOnWhite(void)",
     "location": {
       "column": "6",
-      "line": "69",
+      "line": "78",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnWhite",
@@ -8403,7 +9469,7 @@
     "display": "void turnOnRed(void)",
     "location": {
       "column": "6",
-      "line": "75",
+      "line": "84",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnRed",
@@ -8417,7 +9483,7 @@
     "display": "void turnOnBule(void)",
     "location": {
       "column": "6",
-      "line": "79",
+      "line": "88",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnBule",
@@ -8431,7 +9497,7 @@
     "display": "void turnOnGreen(void)",
     "location": {
       "column": "6",
-      "line": "84",
+      "line": "93",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnGreen",
@@ -8445,7 +9511,7 @@
     "display": "void turnOffAll(void)",
     "location": {
       "column": "6",
-      "line": "89",
+      "line": "98",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOffAll",
@@ -8459,7 +9525,7 @@
     "display": "void read(uint8_ptr, uint8_ptr)",
     "location": {
       "column": "6",
-      "line": "95",
+      "line": "104",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "read",
@@ -8467,13 +9533,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1940@F@read@swt1",
+    "ID": "c:main.c@2407@F@read@swt1",
     "What": "Variable",
     "defdec": "Def",
     "display": "swt1",
     "location": {
       "column": "9",
-      "line": "98",
+      "line": "107",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "swt1",
@@ -8481,13 +9547,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1940@F@read@swt2",
+    "ID": "c:main.c@2407@F@read@swt2",
     "What": "Variable",
     "defdec": "Dec",
     "display": "swt2",
     "location": {
       "column": "19",
-      "line": "98",
+      "line": "107",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "swt2",
@@ -8501,7 +9567,7 @@
     "display": "void Delay(void)",
     "location": {
       "column": "6",
-      "line": "108",
+      "line": "117",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "Delay",
@@ -8509,13 +9575,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2164@F@Delay@i",
+    "ID": "c:main.c@2631@F@Delay@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "24",
-      "line": "110",
+      "line": "119",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "i",
