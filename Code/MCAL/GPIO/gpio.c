@@ -17,47 +17,89 @@ void MCAL_GPIO_Pin_Init(vuint32_ptr PORTx, pin_config_t * config){
   //2. Commiting changes 
   *((uint32_ptr)((uint8_ptr)PORTx + GPIOCR_BASE)) |= config->pinNumber;
   
-  //3. Configuring direction 
-  if(config->direction == MCAL_GPIO_DIRECTION_INPUT){
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) &= ~config->pinNumber;   //Configuring pin as input
-  }else {
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) |= config->pinNumber;    //Configuring pin as output
-  }
-  
-  //4. Configuring output options 
-  switch(config->outputMode){
-  case MCAL_GPIO_OUTPUT_MODE_OPEN_DRAIN :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIOODR_BASE)) |= config->pinNumber;
-    break;
-   
-  case MCAL_GPIO_OUTPUT_MODE_PULL_UP :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIOPUR_BASE)) |= config->pinNumber;
-    break;
-  
-  case MCAL_GPIO_OUTPUT_MODE_PULL_DOWN :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIOPDR_BASE)) |= config->pinNumber;
-    break;
+  if(config->alterFunc == MCAL_GPIO_ALTERFUNC_NONE){
+    //3. Configuring direction 
+    if(config->direction == MCAL_GPIO_DIRECTION_INPUT){
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) &= ~config->pinNumber;   //Configuring pin as input
+    }else {
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) |= config->pinNumber;    //Configuring pin as output
+    }
     
-  default:
-    break;
-  }
-  
-  //5. Configuring output speed 
-  switch(config->outputSpeed){
-  case MCAL_GPIO_OUTPUT_SPEED_2mA_DRIVE :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR2R_BASE)) |= config->pinNumber;
-    break;
-   
-  case MCAL_GPIO_OUTPUT_SPEED_4mA_DRIVE :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR4R_BASE)) |= config->pinNumber;
-    break;
-  
-  case MCAL_GPIO_OUTPUT_SPEED_8mA_DRIVE :
-    *((uint32_ptr)((uint8_ptr)PORTx + GPIODR8R_BASE)) |= config->pinNumber;
-    break;
+    //4. Configuring output options 
+    switch(config->outputMode){
+    case MCAL_GPIO_OUTPUT_MODE_OPEN_DRAIN :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOODR_BASE)) |= config->pinNumber;
+      break;
+     
+    case MCAL_GPIO_OUTPUT_MODE_PULL_UP :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPUR_BASE)) |= config->pinNumber;
+      break;
     
-  default:
-    break;
+    case MCAL_GPIO_OUTPUT_MODE_PULL_DOWN :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPDR_BASE)) |= config->pinNumber;
+      break;
+      
+    default:
+      break;
+    }
+    
+    //5. Configuring output speed 
+    switch(config->outputSpeed){
+    case MCAL_GPIO_OUTPUT_SPEED_2mA_DRIVE :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIODR2R_BASE)) |= config->pinNumber;
+      break;
+     
+    case MCAL_GPIO_OUTPUT_SPEED_4mA_DRIVE :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIODR4R_BASE)) |= config->pinNumber;
+      break;
+    
+    case MCAL_GPIO_OUTPUT_SPEED_8mA_DRIVE :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIODR8R_BASE)) |= config->pinNumber;
+      break;
+      
+    default:
+      break;
+    }
+  }else{
+    //Enabling Alternative Function to the pin
+    *((uint32_ptr)((uint8_ptr)PORTx + GPIOAFSEL_BASE)) |= config->pinNumber;
+    
+    switch(config->pinNumber){
+    case PIN_0 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= config->alterFunc;
+      break;
+     
+    case PIN_1 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 4);
+      break;
+    
+    case PIN_2 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 8);
+      break;
+      
+    case PIN_3 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 12);
+      break;
+      
+    case PIN_4 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 16);
+      break;
+      
+    case PIN_5 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 20);
+      break;
+      
+    case PIN_6 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 24);
+      break;
+      
+    case PIN_7 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 28);
+      break;
+      
+    default:
+      break;
+    }
   }
   
   //6. Enabling pins  

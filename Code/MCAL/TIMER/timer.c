@@ -1,6 +1,6 @@
 #include "timer.h"
 
-
+void (* callbackFunc)(void);
 
 void MCAL_TIMER_Disable(timer_typedef * TIMERx, uint8 timerAlpha){
   if(timerAlpha == TIMER_ALPHA_A){
@@ -39,6 +39,13 @@ void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config){
     TIMERx->GPTMCFG |= config->counterSize;
     TIMERx->GPTMTAMR |= config->mode;
     TIMERx->GPTMTAMR |= config->countDirection;
+    if(TIMERx->GPTMIMR |= config->enableInterrupt == TIMER_INTERRUPT_ENABLE_A){
+      Enable_Exceptions();
+      TIMERx->GPTMIMR |= config->enableInterrupt;
+      SET_BIT(TIMER0->GPTMICR, 0);
+      NVIC_EN1_R |= (1 << (35-32));
+      callbackFunc = config->callBackFunc;
+    }
   }
 
   
@@ -46,22 +53,24 @@ void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config){
 }
 
 
-void MCAL_TIMER_DelayMs_P(timer_typedef * TIMERx, uint32 delay, uint8 timerAlpha){
-  MCAL_TIMER_Disable(TIMERx, timerAlpha);
 
-  
-  if(timerAlpha == TIMER_ALPHA_A){
-    SET_BIT(TIMERx->GPTMICR, 0);
-    TIMERx->GPTMTAILR = (delay * CPU_CLOCK_MS) - 1;
-    MCAL_TIMER_Enable(TIMERx, timerAlpha);
-    while(READ_BIT(TIMERx->GPTMRIS, 0) == 0);
-  } else if(timerAlpha == TIMER_ALPHA_B){
-    SET_BIT(TIMERx->GPTMICR, 8);
-    TIMERx->GPTMTBILR = (delay * CPU_CLOCK_MS) - 1;
-    MCAL_TIMER_Enable(TIMERx, timerAlpha);
-    while(READ_BIT(TIMERx->GPTMRIS, 8) == 0);
-  }
-  
-  
-  
+void MCAL_TIMERA_DelayMs_P(timer_typedef * TIMERx, uint32 delay){
+  CLEAR_BIT(TIMERx->GPTMCTL, 0);                        //Disable timer
+  SET_BIT(TIMERx->GPTMICR, 0);                          //Clear interrupt flag
+  TIMERx->GPTMTAILR = (delay * CPU_CLOCK_MS) - 1;       //Setting delay
+  SET_BIT(TIMERx->GPTMCTL, 0);                          //Enabling delay
+  while(READ_BIT(TIMERx->GPTMRIS, 0) == 0);             //Busy wait
+}
+
+void MCAL_TIMERB_DelayMs_P(timer_typedef * TIMERx, uint32 delay){
+  CLEAR_BIT(TIMERx->GPTMCTL, 8);                        //Disable timer
+  SET_BIT(TIMERx->GPTMICR, 8);                          //Clear interrupt flag
+  TIMERx->GPTMTAILR = (delay * CPU_CLOCK_MS) - 1;       //Setting delay
+  SET_BIT(TIMERx->GPTMCTL, 8);                          //Enabling delay
+  while(READ_BIT(TIMERx->GPTMRIS, 8) == 0);             //Busy wait
+}
+
+void TIMER0A_Handler(void){
+  SET_BIT(TIMER0->GPTMICR, 0);
+  callbackFunc();
 }

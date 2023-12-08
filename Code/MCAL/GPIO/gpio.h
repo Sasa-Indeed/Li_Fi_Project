@@ -19,6 +19,8 @@ typedef struct{
   uint8 outputMode;     /*Configuring mode when in output mode must be configured from @ref output_modes*/
   
   uint8 outputSpeed;    /*Configuring speed when in output mode must be configured from @ref output_speeds*/
+  
+  uint8 alterFunc;      /*Configures pin for its alternative function must be configured from @ref alternative_function*/
 }pin_config_t;
 
 //@ref portNumber
@@ -55,9 +57,18 @@ typedef struct{
 #define MCAL_GPIO_OUTPUT_SPEED_4mA_DRIVE             ((uint8)0x2)
 #define MCAL_GPIO_OUTPUT_SPEED_8mA_DRIVE             ((uint8)0x3)
 
+//@ref alternative_function
+#define MCAL_GPIO_ALTERFUNC_NONE                     ((uint8)0x0)
+#define MCAL_GPIO_ALTERFUNC_UART0                    ((uint8)0x1)
+#define MCAL_GPIO_ALTERFUNC_SSI0                     ((uint8)0x2)
+#define MCAL_GPIO_ALTERFUNC_I2C0                     ((uint8)0x3)
+
+
+
+
 //@ref value
-#define LOW					0
-#define HIGH					1
+#define LOW					        0
+#define HIGH					        1
 
 /* 
  * 

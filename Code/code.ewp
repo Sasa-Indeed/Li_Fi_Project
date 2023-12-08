@@ -2132,6 +2132,15 @@
                 <name>$PROJ_DIR$\MCAL\TIMER\timer.h</name>
             </file>
         </group>
+        <group>
+            <name>UART</name>
+            <file>
+                <name>$PROJ_DIR$\MCAL\UART\uart.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\MCAL\UART\uart.h</name>
+            </file>
+        </group>
     </group>
     <file>
         <name>$PROJ_DIR$\main.c</name>

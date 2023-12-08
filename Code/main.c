@@ -14,13 +14,14 @@ void read(uint8_ptr out1, uint8_ptr out2);
 void Delay(void);
 
 void toggle(void){
-  static uint8 count = 5;
+  /*static uint8 count = 5;
   if(count == 0){
     MCAL_GPIO_TogglePin(GPIOF, PIN_3);
     count = 5;
   }else{
     count--;
-  }
+  }*/
+  MCAL_GPIO_TogglePin(GPIOF, PIN_3);
 }
 
 int main(){
@@ -35,13 +36,16 @@ int main(){
   config.timerWidth = TIMER_WIDTH_16_32;
   config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
   config.mode = TIMER_MODE_PERIODIC;
-  config.countDirection = TINER_COUNT_DIRECTION_DOWN;
+  config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
   config.timerAlpha = TIMER_ALPHA_A;
+  config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
+  
   MCAL_TIMER_Init(TIMER0, &config);
+  
+  
   while(1){
-    MCAL_TIMER_DelayMs_P(TIMER0, 500, TIMER_ALPHA_A);
-    MCAL_GPIO_TogglePin(GPIOF, PIN_1);
-    MCAL_TIMER_DelayMs_P(TIMER0, 500, TIMER_ALPHA_A);
+    MCAL_TIMERA_DelayMs_P(TIMER0, 500);
+    MCAL_GPIO_TogglePin(GPIOF, PIN_3);
   }
 
   
@@ -58,6 +62,7 @@ void init(void){
   config.direction = MCAL_GPIO_DIRECTION_OUTPUT;
   config.outputMode = MCAL_GPIO_OUTPUT_MODE_NONE;
   config.outputSpeed = MCAL_GPIO_OUTPUT_SPEED_NONE;
+  config.alterFunc = MCAL_GPIO_ALTERFUNC_NONE;
   MCAL_GPIO_Pin_Init(GPIOF, &config);
   
   config.pinNumber = PIN_2;

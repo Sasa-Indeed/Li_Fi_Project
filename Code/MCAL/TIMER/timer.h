@@ -23,7 +23,7 @@ typedef struct{
   uint8 timeNumber;              // @ref Timer Number
   uint8 timerWidth;              //@ref  Timer width
   uint8 prescalerSize;
-  uint8 enableInterrupt;
+  uint8 enableInterrupt;         //@ref Timer enale
   void (* callBackFunc)(void); 
 }timer_config;
 
@@ -61,8 +61,13 @@ typedef struct{
 #define TIMER_MODE_CAPTURE                              0x3 
 
 //@ ref count Direction
-#define TINER_COUNT_DIRECTION_DOWN                      0X0
-#define TINER_COUNT_DIRECTION_UP                        0X10
+#define TIMER_COUNT_DIRECTION_DOWN                      0x0
+#define TIMER_COUNT_DIRECTION_UP                        0x10
+
+//@ref Timer enale
+#define TIMER_INTERRUPT_ENABLE_NONE                     0x0
+#define TIMER_INTERRUPT_ENABLE_A                        0x1
+#define TIMER_INTERRUPT_ENABLE_B                        0x100
 
 
 
@@ -100,8 +105,10 @@ void MCAL_TIMER_Enable(timer_typedef * TIMERx, uint8 timerAlpha);
 void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config);
 
 
-void MCAL_TIMER_DelayMs_P(timer_typedef * TIMERx, uint32 delay, uint8 timerAlpha);
+void MCAL_TIMERA_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
+void MCAL_TIMERB_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 
+void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay, uint8 timerAlpha);
 
 
 
