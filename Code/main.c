@@ -1,8 +1,12 @@
 #define DELAY_VALUE 4000000
 
+#include <stdint.h>
 #include "MCAL/GPIO/gpio.h"
 #include "MCAL/SYSTICK/sysTick.h"
 #include "MCAL/TIMER/timer.h"
+#include "MCAL/UART/uart.h"
+#include "driverlib/systick.h"
+
 
 void turnOnWhite(void);
 void turnOnRed(void);
@@ -13,23 +17,29 @@ void init(void);
 void read(uint8_ptr out1, uint8_ptr out2);
 void Delay(void);
 
+volatile uint8 counter = 0;
+
 void toggle(void){
-  /*static uint8 count = 5;
-  if(count == 0){
-    MCAL_GPIO_TogglePin(GPIOF, PIN_3);
-    count = 5;
-  }else{
-    count--;
-  }*/
-  MCAL_GPIO_TogglePin(GPIOF, PIN_3);
+  MCAL_GPIO_TogglePin(GPIOF, PIN_2);
 }
 
 int main(){
   
   init(); 
   turnOffAll();
-
+  //MCAL_UART_Init1();
   timer_config config;
+  config.timerWidth = TIMER_WIDTH_16_32;
+  config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
+  config.mode = TIMER_MODE_PERIODIC;
+  config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
+  config.timerAlpha = TIMER_ALPHA_A;
+  config.enableInterrupt = TIMER_INTERRUPT_ENABLE_A;
+  config.callBackFunc = toggle;
+  MCAL_TIMER_Init(TIMER0, &config);
+  MCAL_TIMER_DelayMs(TIMER0, 1000);
+
+/*  timer_config config;
   //MCAL_SYSTICK_delayMs(1000);
   //MCAL_SYSTICK_EnableInterrupt(toggle);
   
@@ -41,15 +51,47 @@ int main(){
   config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
   
   MCAL_TIMER_Init(TIMER0, &config);
-  
-  
-  while(1){
     MCAL_TIMERA_DelayMs_P(TIMER0, 500);
-    MCAL_GPIO_TogglePin(GPIOF, PIN_3);
+    MCAL_GPIO_TogglePin(GPIOF, PIN_3);*/
+      /*
+    if(counter >= 5){
+      MCAL_GPIO_TogglePin(GPIOF, PIN_1);
+      counter = 0;
+    }
+    MCAL_UART_PrintString("Enter \"r\", \"g\", or \"b\":\n\r");
+    ch = MCAL_UART_ReadChar();
+    MCAL_UART_PrintChar(ch);
+    MCAL_UART_PrintString("\n\r");
+    switch(ch){
+    case 'r':
+      turnOnRed();
+      break;
+      
+    case 'b':
+      turnOnBule();
+      break;
+      
+    case 'g':
+      turnOnGreen();
+      break;
+      
+    default:
+      turnOffAll();
+      break;
+    }
+uint8 ch;
+    */
+  
+  // SysTickIntRegister(toggle);
+   //SysTickPeriodSet(7999999);
+   //SysTickEnable();
+   
+
+  while(1){
   }
 
   
-  return 0;
+
 }
 
 
@@ -71,7 +113,7 @@ void init(void){
   config.pinNumber = PIN_3;
   MCAL_GPIO_Pin_Init(GPIOF, &config);
 
-  config.pinNumber = PIN_0;
+  config.pinNumber = PIN_0;  
   config.direction = MCAL_GPIO_DIRECTION_INPUT;
   config.outputMode = MCAL_GPIO_OUTPUT_MODE_PULL_UP;
   MCAL_GPIO_Pin_Init(GPIOF, &config);

@@ -11,11 +11,15 @@ D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\De
 -I
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\INC
 -I
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Tivaware\
+-I
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\IAR_Systems\arm\inc\c\aarch32
 -I
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\IAR_Systems\arm\inc
 -I
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\IAR_Systems\arm\inc\c
+-I
+D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Tivaware
 -D__CHAR_BITS__=8
 -D__CHAR_MAX__=0xff
 -D__CHAR_MIN__=0
@@ -315,6 +319,9 @@ D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\IAR_Systems\arm
 -D__EDG_FLOAT80_ENABLING_POSSIBLE=0
 -D__EDG_FLOAT128_ENABLING_POSSIBLE=0
 -D__EDG_INT128_EXTENSIONS_ALLOWED=0
+-Dewarm=1
+-DPART_TM4C123GH6PM=1
+-DTARGET_IS_TM4C123_RB1=1
 -D_DLIB_CONFIG_FILE_HEADER_NAME="D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\IAR_Systems\arm\inc\c\DLib_Config_Normal.h"
 -D_DLIB_CONFIG_FILE_STRING="D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\DLib_Config_Normal.h"
 -D__VERSION__="IAR ANSI C/C++ Compiler V9.10.1.308/W64 for ARM"

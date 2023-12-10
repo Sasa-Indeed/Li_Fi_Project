@@ -373,18 +373,18 @@ typedef struct{
 }timer_typedef;
 
 
-#define TIMER0_BASE                                     0x40030000UL
-#define TIMER1_BASE                                     0x40031000UL
-#define TIMER2_BASE                                     0x40032000UL
-#define TIMER3_BASE                                     0x40033000UL
-#define TIMER4_BASE                                     0x40034000UL
-#define TIMER5_BASE                                     0x40035000UL
-#define WTIMER0_BASE                                    0x40036000UL
-#define WTIMER1_BASE                                    0x40037000UL
-#define WTIMER2_BASE                                    0x4004C000UL
-#define WTIMER3_BASE                                    0x4004D000UL
-#define WTIMER4_BASE                                    0x4004E000UL
-#define WTIMER5_BASE                                    0x4004F000UL
+#define TIMER0_BASE                                     0x40030000
+#define TIMER1_BASE                                     0x40031000
+#define TIMER2_BASE                                     0x40032000
+#define TIMER3_BASE                                     0x40033000
+#define TIMER4_BASE                                     0x40034000
+#define TIMER5_BASE                                     0x40035000
+#define WTIMER0_BASE                                    0x40036000
+#define WTIMER1_BASE                                    0x40037000
+#define WTIMER2_BASE                                    0x4004C000
+#define WTIMER3_BASE                                    0x4004D000
+#define WTIMER4_BASE                                    0x4004E000
+#define WTIMER5_BASE                                    0x4004F000
 
 
 //-*-*-*-*-*-*-*-*-*-*-*-
@@ -429,6 +429,31 @@ typedef struct{
 #define UART0_PP_R              (*((volatile unsigned long *)0x4000CFC0))
 #define UART0_CC_R              (*((volatile unsigned long *)0x4000CFC8))
 
+
+//*****************************************************************************
+//
+// UART registers (UART1)
+//
+//*****************************************************************************
+#define UART1_DR_R              (*((volatile unsigned long *)0x4000D000))
+#define UART1_RSR_R             (*((volatile unsigned long *)0x4000D004))
+#define UART1_ECR_R             (*((volatile unsigned long *)0x4000D004))
+#define UART1_FR_R              (*((volatile unsigned long *)0x4000D018))
+#define UART1_ILPR_R            (*((volatile unsigned long *)0x4000D020))
+#define UART1_IBRD_R            (*((volatile unsigned long *)0x4000D024))
+#define UART1_FBRD_R            (*((volatile unsigned long *)0x4000D028))
+#define UART1_LCRH_R            (*((volatile unsigned long *)0x4000D02C))
+#define UART1_CTL_R             (*((volatile unsigned long *)0x4000D030))
+#define UART1_IFLS_R            (*((volatile unsigned long *)0x4000D034))
+#define UART1_IM_R              (*((volatile unsigned long *)0x4000D038))
+#define UART1_RIS_R             (*((volatile unsigned long *)0x4000D03C))
+#define UART1_MIS_R             (*((volatile unsigned long *)0x4000D040))
+#define UART1_ICR_R             (*((volatile unsigned long *)0x4000D044))
+#define UART1_DMACTL_R          (*((volatile unsigned long *)0x4000D048))
+#define UART1_9BITADDR_R        (*((volatile unsigned long *)0x4000D0A4))
+#define UART1_9BITAMASK_R       (*((volatile unsigned long *)0x4000D0A8))
+#define UART1_PP_R              (*((volatile unsigned long *)0x4000DFC0))
+#define UART1_CC_R              (*((volatile unsigned long *)0x4000DFC8))
 
 
 

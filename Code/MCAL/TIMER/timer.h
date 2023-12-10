@@ -108,7 +108,7 @@ void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config);
 void MCAL_TIMERA_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 void MCAL_TIMERB_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 
-void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay, uint8 timerAlpha);
+void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay);
 
 
 
