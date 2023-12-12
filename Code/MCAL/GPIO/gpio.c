@@ -64,36 +64,52 @@ void MCAL_GPIO_Pin_Init(vuint32_ptr PORTx, pin_config_t * config){
     //Enabling Alternative Function to the pin
     *((uint32_ptr)((uint8_ptr)PORTx + GPIOAFSEL_BASE)) |= config->pinNumber;
     
+    if(config->alterFuncIO == MCAL_GPIO_ALTERFUNCIO_ENABLE){
+      if(config->direction == MCAL_GPIO_DIRECTION_INPUT){
+        *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) &= ~config->pinNumber;   //Configuring pin as input
+      }else {
+        *((uint32_ptr)((uint8_ptr)PORTx + GPIODIR_BASE)) |= config->pinNumber;    //Configuring pin as output
+      }
+    }
+    
     switch(config->pinNumber){
     case PIN_0 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= config->alterFunc;
       break;
      
     case PIN_1 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 4);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 4);
       break;
     
     case PIN_2 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 8);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 8);
       break;
       
     case PIN_3 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 12);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 12);
       break;
       
     case PIN_4 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 16);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 16);
       break;
       
     case PIN_5 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 20);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 20);
       break;
       
     case PIN_6 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF << 24);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 24);
       break;
       
     case PIN_7 :
+      *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) &= ~(0xF<< 28);
       *((uint32_ptr)((uint8_ptr)PORTx + GPIOPCTL_BASE)) |= (config->alterFunc << 28);
       break;
       

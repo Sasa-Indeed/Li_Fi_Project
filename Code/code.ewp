@@ -2088,6 +2088,27 @@
         </settings>
     </configuration>
     <group>
+        <name>HAL</name>
+        <group>
+            <name>SMOKE_SENSOR</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.h</name>
+            </file>
+        </group>
+        <group>
+            <name>ULTRASONIC_SENSOR</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.h</name>
+            </file>
+        </group>
+    </group>
+    <group>
         <name>INC</name>
         <file>
             <name>$PROJ_DIR$\INC\bitwiseOperations.h</name>

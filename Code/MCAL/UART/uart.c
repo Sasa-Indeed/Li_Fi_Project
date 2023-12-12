@@ -15,6 +15,7 @@ void MCAL_UART_Init(void){
   
   pconfig.pinNumber = PIN_0;
   pconfig.alterFunc = MCAL_GPIO_ALTERFUNC_UART0;
+  pconfig.alterFuncIO = MCAL_GPIO_ALTERFUNCIO_DISABLE;
   MCAL_GPIO_Pin_Init(GPIOA, &pconfig);
   
   pconfig.pinNumber = PIN_1;
@@ -65,6 +66,8 @@ void MCAL_UART_Init1(void){
   GPIOPinConfigure(GPIO_PB0_U1RX);
   GPIOPinConfigure(GPIO_PB1_U1TX);
    
+  
+  SET_BIT(SYSCTL_RCGCUART_R, 1);
   //2. Busy wait until port is ready
   while((SYSCTL_PRUART_R & 0x2) == 0);
   
@@ -91,13 +94,13 @@ void MCAL_UART_Init1(void){
 
 uint8 MCAL_UART_ReadChar(void){
   uint8 data;
-  while(READ_BIT(UART1_FR_R, 4) != 0);
+  while(READ_BIT(UART0_FR_R, 4) != 0);
   data = UART0_DR_R;
   return data;
 }
 
 void MCAL_UART_PrintChar(uint8 data){
-  while(READ_BIT(UART1_FR_R, 5) != 0);
+  while(READ_BIT(UART0_FR_R, 5) != 0);
   UART0_DR_R = data;
 }
 
@@ -105,5 +108,24 @@ void MCAL_UART_PrintString(uint8_ptr string){
   uint8_ptr st = string;
   while(*st){
     MCAL_UART_PrintChar(*(st++));
+  }
+}
+
+uint8 MCAL_UART_ReadChar1(void){
+  uint8 data;
+  while(READ_BIT(UART1_FR_R, 4) != 0);
+  data = UART1_DR_R;
+  return data;
+}
+
+void MCAL_UART_PrintChar1(uint8 data){
+  while(READ_BIT(UART1_FR_R, 5) != 0);
+  UART1_DR_R = data;
+}
+
+void MCAL_UART_PrintString1(uint8_ptr string){
+  uint8_ptr st = string;
+  while(*st){
+    MCAL_UART_PrintChar1(*(st++));
   }
 }

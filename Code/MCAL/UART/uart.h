@@ -38,7 +38,7 @@ typedef struct{
 
 
 //------------------------------------------------------------------------------------------
-//			APIs supported by "MCAL sysTick Driver"
+//			APIs supported by "MCAL UART Driver"
 //------------------------------------------------------------------------------------------
 /****************************************************************************
 * Function Name: MCAL_UART_Init
@@ -52,12 +52,20 @@ typedef struct{
 * Note!!!     : None
 ******************************************************************************/
 void MCAL_UART_Init(void);
+void MCAL_UART_Init1(void);
+
 
 uint8 MCAL_UART_ReadChar(void);
 
 void MCAL_UART_PrintChar(uint8 data);
 
 void MCAL_UART_PrintString(uint8_ptr string);
+
+uint8 MCAL_UART_ReadChar1(void);
+
+void MCAL_UART_PrintChar1(uint8 data);
+
+void MCAL_UART_PrintString1(uint8_ptr string);
 
 
 

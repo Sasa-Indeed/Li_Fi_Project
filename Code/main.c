@@ -6,6 +6,7 @@
 #include "MCAL/TIMER/timer.h"
 #include "MCAL/UART/uart.h"
 #include "driverlib/systick.h"
+#include "HAL/SMOKE_SENSOR/smoke_sensor.h"
 
 
 void turnOnWhite(void);
@@ -27,8 +28,9 @@ int main(){
   
   init(); 
   turnOffAll();
+  HAL_SMOKE_SENSOR_Init();
   //MCAL_UART_Init1();
-  timer_config config;
+ /* timer_config config;
   config.timerWidth = TIMER_WIDTH_16_32;
   config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
   config.mode = TIMER_MODE_PERIODIC;
@@ -37,9 +39,10 @@ int main(){
   config.enableInterrupt = TIMER_INTERRUPT_ENABLE_A;
   config.callBackFunc = toggle;
   MCAL_TIMER_Init(TIMER0, &config);
-  MCAL_TIMER_DelayMs(TIMER0, 1000);
+  MCAL_TIMER_DelayMs(TIMER0, 1000);*/
+ // uint8 ch;
 
-/*  timer_config config;
+   timer_config config;
   //MCAL_SYSTICK_delayMs(1000);
   //MCAL_SYSTICK_EnableInterrupt(toggle);
   
@@ -51,13 +54,15 @@ int main(){
   config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
   
   MCAL_TIMER_Init(TIMER0, &config);
-    MCAL_TIMERA_DelayMs_P(TIMER0, 500);
-    MCAL_GPIO_TogglePin(GPIOF, PIN_3);*/
+    
+   
+   /* MCAL_GPIO_TogglePin(GPIOF, PIN_3);*/
       /*
     if(counter >= 5){
       MCAL_GPIO_TogglePin(GPIOF, PIN_1);
       counter = 0;
     }
+  
     MCAL_UART_PrintString("Enter \"r\", \"g\", or \"b\":\n\r");
     ch = MCAL_UART_ReadChar();
     MCAL_UART_PrintChar(ch);
@@ -79,7 +84,7 @@ int main(){
       turnOffAll();
       break;
     }
-uint8 ch;
+
     */
   
   // SysTickIntRegister(toggle);
@@ -88,7 +93,14 @@ uint8 ch;
    
 
   while(1){
+    if(HAL_SMOKE_SENSOR_Read() == HIGH){
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
+    }else{
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+    }
+    MCAL_TIMERA_DelayMs_P(TIMER0, 1000);
   }
+  
 
   
 
