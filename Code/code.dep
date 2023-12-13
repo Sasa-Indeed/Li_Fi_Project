@@ -5,135 +5,74 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</file>
-            <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\SMOKE_SENSOR\smoke_sensor.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\UART\uart.o</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\pin_map.h</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\SYSTICK\sysTick.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_ints.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\gpio.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_memmap.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$PROJ_DIR$\Debug\List\code.map</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\..\..\Tivaware\driverlib\sysctl.h</file>
-            <file>$PROJ_DIR$\Debug\Exe\code.out</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\TIMER\timer.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\systick.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\interrupt.h</file>
-            <file>$PROJ_DIR$\INC\bitwiseOperations.h</file>
-            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.h</file>
-            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</file>
-            <file>$PROJ_DIR$\INC\types.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
             <file>$PROJ_DIR$\MCAL\GPIO\gpio.c</file>
-            <file>$PROJ_DIR$\main.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\MCAL\TIMER\timer.c</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\GPIO\gpio.o</file>
-            <file>$PROJ_DIR$\INC\startup_ewarm.c</file>
-            <file>$PROJ_DIR$\MCAL\GPIO\gpio.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\INC\startup_ewarm.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</file>
-            <file>$PROJ_DIR$\MCAL\TIMER\timer.h</file>
-            <file>$PROJ_DIR$\MCAL\UART\uart.h</file>
-            <file>$PROJ_DIR$\INC\cortexM4.h</file>
-            <file>$PROJ_DIR$\MCAL\UART\uart.c</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\INC\bitwiseOperations.h</file>
             <file>$PROJ_DIR$\INC\tm4c123gh6pm.h</file>
+            <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.h</file>
+            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</file>
+            <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</file>
+            <file>$PROJ_DIR$\INC\cortexM4.h</file>
+            <file>$PROJ_DIR$\INC\startup_ewarm.c</file>
+            <file>$PROJ_DIR$\INC\types.h</file>
+            <file>$PROJ_DIR$\MCAL\GPIO\gpio.h</file>
             <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.h</file>
+            <file>$PROJ_DIR$\MCAL\TIMER\timer.c</file>
+            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</file>
+            <file>$PROJ_DIR$\MCAL\TIMER\timer.h</file>
+            <file>$PROJ_DIR$\MCAL\UART\uart.c</file>
+            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.h</file>
+            <file>$PROJ_DIR$\MCAL\UART\uart.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\SYSTICK\sysTick.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\systick.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_ints.h</file>
             <file>$PROJ_DIR$\Debug\Obj\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\GPIO\gpio.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\UART\uart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\TIMER\timer.o</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\interrupt.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\List\code.map</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_memmap.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\INC\startup_ewarm.o</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Exe\code.out</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\SMOKE_SENSOR\smoke_sensor.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
         </outputs>
-        <file>
-            <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 2</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 1 26 42 29 36</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 19 14</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\code.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 14</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 8 5 17 4 6 2 47 37 34 9 20 3 23 44</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 47</file>
-                </tool>
-            </outputs>
-        </file>
         <file>
             <name>$PROJ_DIR$\MCAL\GPIO\gpio.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 34</file>
+                    <file> 33</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 26 42 29 36</file>
+                    <file> 3 8 10 11</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 23</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 38 22 13 15 32 16 1 26 42 29 36 46 40 41 21</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
+            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -143,12 +82,42 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38 22 13 24 15 32 16 26 42 29 40 25 10</file>
+                    <file> 3 8 10 12</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 5 3 8 10 11</file>
                 </tool>
             </inputs>
         </file>
         <file>
             <name>$PROJ_DIR$\INC\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 35 28 31 40 21</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -158,22 +127,22 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38 22 13 15 32 16</file>
+                    <file> 26 35 28 27 31 40 21 3 8 10 11 15 39 23</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
+            <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 9</file>
+                    <file> 24</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 26 42 29 46</file>
+                    <file> 17 3 8 10 11 15</file>
                 </tool>
             </inputs>
         </file>
@@ -182,26 +151,65 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 3</file>
+                    <file> 34</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 38 22 13 24 15 32 16 26 42 29 36 41 11 7 18 12</file>
+                    <file> 26 35 28 27 31 40 21 3 8 10 11 18 36 38 0 42</file>
                 </tool>
             </inputs>
         </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26 35 28 31 48 40 49 21 17 3 8 10 11 12 15 18 22</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\code.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 41</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 25 47 44 1 29 46 24 43 33 20 37 34 30 32</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 45 41</file>
+                </tool>
+            </outputs>
+        </file>
+        <forcedrebuild>
+            <name>[MULTI_TOOL]</name>
+            <tool>ILINK</tool>
+        </forcedrebuild>
         <forcedrebuild>
             <name>$PROJ_DIR$\MCAL\GPIO\gpio.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\main.c</name>
-            <tool>ICCARM</tool>
-        </forcedrebuild>
-        <forcedrebuild>
-            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
+            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
@@ -209,7 +217,7 @@
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
+            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
@@ -217,8 +225,8 @@
             <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
-            <name>[MULTI_TOOL]</name>
-            <tool>ILINK</tool>
+            <name>$PROJ_DIR$\main.c</name>
+            <tool>ICCARM</tool>
         </forcedrebuild>
         <forcedrebuild>
             <name>[REBUILD_ALL]</name>

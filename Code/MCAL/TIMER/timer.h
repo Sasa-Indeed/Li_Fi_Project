@@ -6,6 +6,7 @@
 //--------------------------------
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
+#include "../GPIO/gpio.h"
 
 //--------------------------------
 //Macros Configuration References
@@ -24,6 +25,7 @@ typedef struct{
   uint8 timerWidth;              //@ref  Timer width
   uint8 prescalerSize;
   uint8 enableInterrupt;         //@ref Timer enale
+  uint8 captureEdge;             //@ref Capture Edge
   void (* callBackFunc)(void); 
 }timer_config;
 
@@ -58,7 +60,9 @@ typedef struct{
 #define TIMER_MODE_RESERVED                             0X0
 #define TIMER_MODE_ONE_SHOT                             0x1
 #define TIMER_MODE_PERIODIC                             0x2
-#define TIMER_MODE_CAPTURE                              0x3 
+#define TIMER_MODE_CAPTURE_EDGE_COUNT                   0x3
+#define TIMER_MODE_CAPTURE_EDGE_TIME                    0x7 
+
 
 //@ ref count Direction
 #define TIMER_COUNT_DIRECTION_DOWN                      0x0
@@ -69,7 +73,10 @@ typedef struct{
 #define TIMER_INTERRUPT_ENABLE_A                        0x1
 #define TIMER_INTERRUPT_ENABLE_B                        0x100
 
-
+//@ref Capture Edge
+#define TIMER_CAPTURE_EDGE_POSTIVE                      0x0
+#define TIMER_CAPTURE_EDGE_NEGATIVE                     0x4
+#define TIMER_CAPTURE_EDGE_BOTH                         0xC
 
 //------------------------------------------------------------------------------------------
 //			APIs supported by "MCAL sysTick Driver"
@@ -102,6 +109,19 @@ void MCAL_TIMER_Disable(timer_typedef * TIMERx, uint8 timerAlpha);
 void MCAL_TIMER_Enable(timer_typedef * TIMERx, uint8 timerAlpha);
 
 
+/****************************************************************************
+* Function Name: MCAL_TIMER_Init
+*
+* Description  : This function initializes the timer
+*
+* PARAMETER1 : The timer you want to initialize
+*
+* PARAMETER2 : The configuration for the timer you want to initialize
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 must be from Timer Peripheral Instants 
+******************************************************************************/
 void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config);
 
 
@@ -109,6 +129,11 @@ void MCAL_TIMERA_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 void MCAL_TIMERB_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 
 void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay);
+
+void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef * TIMERx,uint32 delay);
+
+uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr writePort, uint8 writePIN, vuint32_ptr readPort, uint8 readPIN,
+                                       timer_typedef * delay, timer_typedef * capture);
 
 
 

@@ -50,6 +50,20 @@ void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config){
       IntEnable(INT_TIMER0A);
       callbackFunc = config->callBackFunc;
     }
+  }else if(config->counterSize == TIMER_SIZE_16_32_16CONFIGURATION || config->counterSize == TIMER_SIZE_32_64_32CONFIGURATION){
+    TIMERx->GPTMCFG |= config->counterSize;
+    
+    if(config->timerAlpha == TIMER_ALPHA_A){
+      TIMERx->GPTMTAMR |= config->mode;
+      if(config->mode == TIMER_MODE_CAPTURE_EDGE_TIME){
+        TIMERx->GPTMCTL |= config->captureEdge;
+      }
+      TIMERx->GPTMTAMR |= config->countDirection;
+    } else if(config->timerAlpha == TIMER_ALPHA_B){
+      TIMERx->GPTMTBMR |= config->mode;
+      TIMERx->GPTMTBMR |= config->countDirection;
+    }
+    
   }
 
   
@@ -79,6 +93,50 @@ void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay){
   SET_BIT(TIMERx->GPTMICR, 0);                          //Clear interrupt flag
   TIMERx->GPTMTAILR = (delay * CPU_CLOCK_MS) - 1;       //Setting delay
   SET_BIT(TIMERx->GPTMCTL, 0);                          //Enabling Timer
+}
+
+void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef * TIMERx, uint32 delay){
+  uint32 i;
+  
+  CLEAR_BIT(TIMERx->GPTMCTL, 0);                        //Disable timer
+  SET_BIT(TIMERx->GPTMICR, 0);                          //Clear interrupt flag
+  TIMERx->GPTMTAILR = 15;                               //Setting delay of one microsecond
+  SET_BIT(TIMERx->GPTMCTL, 0);                          //Enabling Timer
+  
+  for(i = 0; i < delay; i++){
+    while(READ_BIT(TIMERx->GPTMRIS, 0) == 0);
+    SET_BIT(TIMERx->GPTMICR, 0);
+  }
+}
+
+
+uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr writePort, uint8 writePIN, vuint32_ptr readPort, uint8 readPIN,
+                                       timer_typedef * delay, timer_typedef * capture){
+  uint32 lastEdge, thisEdge;
+  uint8 pinData;
+  
+  /*Giving a 10 us trigger pulse*/
+  MCAL_GPIO_WritePin(writePort, writePIN, LOW);         /*Making the pin low*/
+  MCAL_TIMERA_Delay_MicroSecond_P(delay, 10);           /*10 microseconds delay*/
+  MCAL_GPIO_WritePin(writePort, writePIN, HIGH);        /*Making the pin high*/
+  MCAL_TIMERA_Delay_MicroSecond_P(delay, 10);           /*10 microseconds delay*/
+  MCAL_GPIO_WritePin(writePort, writePIN, LOW);         /*Making the pin low*/
+  
+  while(1){
+    capture->GPTMICR = 0x4;                             /*Clearing the capture flag*/
+    while((capture->GPTMRIS & 0x4) == 0);               /*Wait till flag is captured*/
+    MCAL_GPIO_ReadPin(readPort, readPIN, &pinData);     /*Reading pin and checking if rising edge detected*/
+    if(pinData){
+      /*Detecting falling edge*/
+      lastEdge = capture->GPTMTAR;                      /*Saving the timestamp of the rising edge*/
+      capture->GPTMICR = 0x4;                           /*Clearing the capture flag*/
+      while((capture->GPTMRIS & 0x4) == 0);             /*Wait till flag is captured*/
+      thisEdge = capture->GPTMTAR;                      /*Saving the timestamp of the falling edge*/
+      return thisEdge - lastEdge;                       /*The difference between the falling and the rising 
+                                                        will give the pulse time size*/
+    }
+  }
+  
 }
 
 

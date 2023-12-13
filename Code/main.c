@@ -1,12 +1,13 @@
 #define DELAY_VALUE 4000000
 
 #include <stdint.h>
+#include <stdio.h>
 #include "MCAL/GPIO/gpio.h"
 #include "MCAL/SYSTICK/sysTick.h"
 #include "MCAL/TIMER/timer.h"
 #include "MCAL/UART/uart.h"
 #include "driverlib/systick.h"
-#include "HAL/SMOKE_SENSOR/smoke_sensor.h"
+#include "HAL/ULTRASONIC_SENSOR/ultrasonic_sensor.h"
 
 
 void turnOnWhite(void);
@@ -28,8 +29,9 @@ int main(){
   
   init(); 
   turnOffAll();
-  HAL_SMOKE_SENSOR_Init();
-  //MCAL_UART_Init1();
+  //HAL_SMOKE_SENSOR_Init();
+  MCAL_UART_Init1();
+  HAL_ULTRASONIC_Init();
  /* timer_config config;
   config.timerWidth = TIMER_WIDTH_16_32;
   config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
@@ -40,20 +42,23 @@ int main(){
   config.callBackFunc = toggle;
   MCAL_TIMER_Init(TIMER0, &config);
   MCAL_TIMER_DelayMs(TIMER0, 1000);*/
- // uint8 ch;
+  uint8 ch;
+  uint32 time_ds;
+  uint8 msg[20];
 
    timer_config config;
   //MCAL_SYSTICK_delayMs(1000);
   //MCAL_SYSTICK_EnableInterrupt(toggle);
   
   config.timerWidth = TIMER_WIDTH_16_32;
+  config.timeNumber = TIMER_NUMBER_2;
   config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
   config.mode = TIMER_MODE_PERIODIC;
   config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
   config.timerAlpha = TIMER_ALPHA_A;
   config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
   
-  MCAL_TIMER_Init(TIMER0, &config);
+  MCAL_TIMER_Init(TIMER2, &config);
     
    
    /* MCAL_GPIO_TogglePin(GPIOF, PIN_3);*/
@@ -85,6 +90,13 @@ int main(){
       break;
     }
 
+if(HAL_SMOKE_SENSOR_Read() == HIGH){
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
+    }else{
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+    }
+    MCAL_GPIO_TogglePin(GPIOF, PIN_1);
+    MCAL_TIMERA_DelayMs_P(TIMER1, 1000);
     */
   
   // SysTickIntRegister(toggle);
@@ -93,12 +105,10 @@ int main(){
    
 
   while(1){
-    if(HAL_SMOKE_SENSOR_Read() == HIGH){
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-    }else{
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
-    }
-    MCAL_TIMERA_DelayMs_P(TIMER0, 1000);
+    time_ds = HAL_ULTRASONIC_Measure_Distance();
+    sprintf(msg, "\r\nDistance = %d cm", time_ds);
+    MCAL_UART_PrintString1(msg);
+    MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
   }
   
 

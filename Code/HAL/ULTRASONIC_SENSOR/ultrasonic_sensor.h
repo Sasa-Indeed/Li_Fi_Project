@@ -7,6 +7,7 @@
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
 #include "../../MCAL/GPIO/gpio.h"
+#include "../../MCAL/TIMER/timer.h"
 
 //--------------------------------
 //Macros Configuration References
@@ -19,6 +20,10 @@
 #define TRIGGER_PORT_NUMBER             PORTB
 #define TRIGGER_PIN                     PIN_2
 
+#define CAPTURE_TIMER                   TIMER0
+#define DELAY_TIMER                     TIMER1
+
+
 
 
 
@@ -26,7 +31,10 @@
 //------------------------------------------------------------------------------------------
 //			APIs supported by "MCAL ULTRASONIC SENSOR Driver"
 //------------------------------------------------------------------------------------------
-uint32_t Measure_distance(void);
+void HAL_ULTRASONIC_Init(void);
+
+
+uint32 HAL_ULTRASONIC_Measure_Distance(void);
 
 
 

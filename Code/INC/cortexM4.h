@@ -387,9 +387,9 @@ typedef struct{
 #define WTIMER5_BASE                                    0x4004F000
 
 
-//-*-*-*-*-*-*-*-*-*-*-*-
-//Peripheral Instants:
-//-*-*-*-*-*-*-*-*-*-*-*-
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
+//Timer Peripheral Instants:
+//-*-*-*-*-*-*-*-*-*-*-*-*-*-*-
 #define TIMER0                                          ((timer_typedef *) TIMER0_BASE)
 #define TIMER1                                          ((timer_typedef *) TIMER1_BASE)
 #define TIMER2                                          ((timer_typedef *) TIMER2_BASE)

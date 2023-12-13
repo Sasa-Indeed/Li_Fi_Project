@@ -1,13 +1,42 @@
 #include "ultrasonic_sensor.h"
 
-void Timer0ACapture_init(void);
-void Delay_MicroSecond(int time);
+
+
+/*uint32 HAL_ULTRASONIC_Measure_Distance(void){
+  uint32 lastEdge, thisEdge;
+  uint8 pinData;
+  
+  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, LOW);
+  MCAL_TIMERA_Delay_MicroSecond_P(DELAY_TIMER, 10);
+  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, HIGH);
+  MCAL_TIMERA_Delay_MicroSecond_P(DELAY_TIMER, 10);
+  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, LOW);
+  
+  while(1){
+    CAPTURE_TIMER->GPTMICR = 0x4;
+    while((CAPTURE_TIMER->GPTMRIS & 0x4) == 0);
+    MCAL_GPIO_ReadPin(ECHO_PORT, ECHO_PIN, &pinData);
+    if(pinData){
+      lastEdge = CAPTURE_TIMER->GPTMTAR;
+      CAPTURE_TIMER->GPTMICR = 0x4;
+      while((CAPTURE_TIMER->GPTMRIS & 0x4) == 0);
+      thisEdge = CAPTURE_TIMER->GPTMTAR;
+      return thisEdge - lastEdge;
+    }
+  }
+  
+}*/
+
+uint32 HAL_ULTRASONIC_Measure_Distance(void){
+  uint32 time;
+  time = MCAL_TIMER_Measure_Capture_Time(TRIGGER_PORT, TRIGGER_PIN, ECHO_PORT, 
+                                         ECHO_PIN, DELAY_TIMER, CAPTURE_TIMER);
+  return (time * 10625)/10000000;
+}
 
 
 
-
-
-void Timer0ACapture_init(void){
+void HAL_ULTRASONIC_Init(void){
   pin_config_t config;
   
   //Enabling the pin for echo pin
@@ -27,5 +56,42 @@ void Timer0ACapture_init(void){
   config.outputSpeed = MCAL_GPIO_OUTPUT_SPEED_NONE;
   config.alterFunc = MCAL_GPIO_ALTERFUNC_NONE;
   MCAL_GPIO_Pin_Init(TRIGGER_PORT, &config);
-
+  
+  //Enabling timer0A of capture mode
+  timer_config t_config;  
+  t_config.timerWidth = TIMER_WIDTH_16_32;
+  t_config.counterSize = TIMER_SIZE_16_32_16CONFIGURATION;
+  t_config.timeNumber = TIMER_NUMBER_0;
+  t_config.mode = TIMER_MODE_CAPTURE_EDGE_TIME;
+  t_config.countDirection = TIMER_COUNT_DIRECTION_UP;
+  t_config.captureEdge = TIMER_CAPTURE_EDGE_BOTH;
+  t_config.timerAlpha = TIMER_ALPHA_A;
+  t_config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
+  
+  MCAL_TIMER_Init(CAPTURE_TIMER, &t_config);
+  
+  //Making sure everything is reset to remove unknown behavoir
+  t_config.timerAlpha = 0;
+  t_config.mode = 0;
+  t_config.timerUse = 0;
+  t_config.countDirection = 0;
+  t_config.counterSize = 0;
+  t_config.timeNumber = 0;
+  t_config.timerWidth = 0;
+  t_config.prescalerSize = 0;
+  t_config.enableInterrupt = 0;
+  t_config.captureEdge = 0;
+  
+  
+  //For delay timer
+  t_config.timerWidth = TIMER_WIDTH_16_32;
+  t_config.timeNumber = TIMER_NUMBER_1;
+  t_config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
+  t_config.mode = TIMER_MODE_PERIODIC;
+  t_config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
+  t_config.timerAlpha = TIMER_ALPHA_A;
+  t_config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
+  
+  MCAL_TIMER_Init(DELAY_TIMER, &t_config);
+  
 }

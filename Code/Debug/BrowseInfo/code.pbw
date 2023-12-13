@@ -5282,7 +5282,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26195@macro@TIMER0",
+    "ID": "c:cortexM4.h@26213@macro@TIMER0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER0",
@@ -5296,7 +5296,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26284@macro@TIMER1",
+    "ID": "c:cortexM4.h@26302@macro@TIMER1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER1",
@@ -5310,7 +5310,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26373@macro@TIMER2",
+    "ID": "c:cortexM4.h@26391@macro@TIMER2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER2",
@@ -5324,7 +5324,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26462@macro@TIMER3",
+    "ID": "c:cortexM4.h@26480@macro@TIMER3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER3",
@@ -5338,7 +5338,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26551@macro@TIMER4",
+    "ID": "c:cortexM4.h@26569@macro@TIMER4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER4",
@@ -5352,7 +5352,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26640@macro@TIMER5",
+    "ID": "c:cortexM4.h@26658@macro@TIMER5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "TIMER5",
@@ -5366,7 +5366,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26729@macro@WTIMER0",
+    "ID": "c:cortexM4.h@26747@macro@WTIMER0",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER0",
@@ -5380,7 +5380,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26819@macro@WTIMER1",
+    "ID": "c:cortexM4.h@26837@macro@WTIMER1",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER1",
@@ -5394,7 +5394,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26909@macro@WTIMER2",
+    "ID": "c:cortexM4.h@26927@macro@WTIMER2",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER2",
@@ -5408,7 +5408,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@26999@macro@WTIMER3",
+    "ID": "c:cortexM4.h@27017@macro@WTIMER3",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER3",
@@ -5422,7 +5422,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27089@macro@WTIMER4",
+    "ID": "c:cortexM4.h@27107@macro@WTIMER4",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER4",
@@ -5436,7 +5436,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27179@macro@WTIMER5",
+    "ID": "c:cortexM4.h@27197@macro@WTIMER5",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "WTIMER5",
@@ -5450,7 +5450,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27470@macro@UART0_DR_R",
+    "ID": "c:cortexM4.h@27488@macro@UART0_DR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_DR_R",
@@ -5464,7 +5464,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27545@macro@UART0_RSR_R",
+    "ID": "c:cortexM4.h@27563@macro@UART0_RSR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_RSR_R",
@@ -5478,7 +5478,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27620@macro@UART0_ECR_R",
+    "ID": "c:cortexM4.h@27638@macro@UART0_ECR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_ECR_R",
@@ -5492,7 +5492,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27695@macro@UART0_FR_R",
+    "ID": "c:cortexM4.h@27713@macro@UART0_FR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_FR_R",
@@ -5506,7 +5506,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27770@macro@UART0_ILPR_R",
+    "ID": "c:cortexM4.h@27788@macro@UART0_ILPR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_ILPR_R",
@@ -5520,7 +5520,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27845@macro@UART0_IBRD_R",
+    "ID": "c:cortexM4.h@27863@macro@UART0_IBRD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_IBRD_R",
@@ -5534,7 +5534,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27920@macro@UART0_FBRD_R",
+    "ID": "c:cortexM4.h@27938@macro@UART0_FBRD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_FBRD_R",
@@ -5548,7 +5548,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@27995@macro@UART0_LCRH_R",
+    "ID": "c:cortexM4.h@28013@macro@UART0_LCRH_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_LCRH_R",
@@ -5562,7 +5562,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28070@macro@UART0_CTL_R",
+    "ID": "c:cortexM4.h@28088@macro@UART0_CTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_CTL_R",
@@ -5576,7 +5576,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28145@macro@UART0_IFLS_R",
+    "ID": "c:cortexM4.h@28163@macro@UART0_IFLS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_IFLS_R",
@@ -5590,7 +5590,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28220@macro@UART0_IM_R",
+    "ID": "c:cortexM4.h@28238@macro@UART0_IM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_IM_R",
@@ -5604,7 +5604,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28295@macro@UART0_RIS_R",
+    "ID": "c:cortexM4.h@28313@macro@UART0_RIS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_RIS_R",
@@ -5618,7 +5618,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28370@macro@UART0_MIS_R",
+    "ID": "c:cortexM4.h@28388@macro@UART0_MIS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_MIS_R",
@@ -5632,7 +5632,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28445@macro@UART0_ICR_R",
+    "ID": "c:cortexM4.h@28463@macro@UART0_ICR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_ICR_R",
@@ -5646,7 +5646,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28520@macro@UART0_DMACTL_R",
+    "ID": "c:cortexM4.h@28538@macro@UART0_DMACTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_DMACTL_R",
@@ -5660,7 +5660,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28595@macro@UART0_9BITADDR_R",
+    "ID": "c:cortexM4.h@28613@macro@UART0_9BITADDR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_9BITADDR_R",
@@ -5674,7 +5674,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28670@macro@UART0_9BITAMASK_R",
+    "ID": "c:cortexM4.h@28688@macro@UART0_9BITAMASK_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_9BITAMASK_R",
@@ -5688,7 +5688,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28745@macro@UART0_PP_R",
+    "ID": "c:cortexM4.h@28763@macro@UART0_PP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_PP_R",
@@ -5702,7 +5702,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@28820@macro@UART0_CC_R",
+    "ID": "c:cortexM4.h@28838@macro@UART0_CC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART0_CC_R",
@@ -5716,7 +5716,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29096@macro@UART1_DR_R",
+    "ID": "c:cortexM4.h@29114@macro@UART1_DR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_DR_R",
@@ -5730,7 +5730,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29171@macro@UART1_RSR_R",
+    "ID": "c:cortexM4.h@29189@macro@UART1_RSR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_RSR_R",
@@ -5744,7 +5744,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29246@macro@UART1_ECR_R",
+    "ID": "c:cortexM4.h@29264@macro@UART1_ECR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_ECR_R",
@@ -5758,7 +5758,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29321@macro@UART1_FR_R",
+    "ID": "c:cortexM4.h@29339@macro@UART1_FR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_FR_R",
@@ -5772,7 +5772,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29396@macro@UART1_ILPR_R",
+    "ID": "c:cortexM4.h@29414@macro@UART1_ILPR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_ILPR_R",
@@ -5786,7 +5786,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29471@macro@UART1_IBRD_R",
+    "ID": "c:cortexM4.h@29489@macro@UART1_IBRD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_IBRD_R",
@@ -5800,7 +5800,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29546@macro@UART1_FBRD_R",
+    "ID": "c:cortexM4.h@29564@macro@UART1_FBRD_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_FBRD_R",
@@ -5814,7 +5814,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29621@macro@UART1_LCRH_R",
+    "ID": "c:cortexM4.h@29639@macro@UART1_LCRH_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_LCRH_R",
@@ -5828,7 +5828,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29696@macro@UART1_CTL_R",
+    "ID": "c:cortexM4.h@29714@macro@UART1_CTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_CTL_R",
@@ -5842,7 +5842,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29771@macro@UART1_IFLS_R",
+    "ID": "c:cortexM4.h@29789@macro@UART1_IFLS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_IFLS_R",
@@ -5856,7 +5856,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29846@macro@UART1_IM_R",
+    "ID": "c:cortexM4.h@29864@macro@UART1_IM_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_IM_R",
@@ -5870,7 +5870,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29921@macro@UART1_RIS_R",
+    "ID": "c:cortexM4.h@29939@macro@UART1_RIS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_RIS_R",
@@ -5884,7 +5884,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@29996@macro@UART1_MIS_R",
+    "ID": "c:cortexM4.h@30014@macro@UART1_MIS_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_MIS_R",
@@ -5898,7 +5898,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30071@macro@UART1_ICR_R",
+    "ID": "c:cortexM4.h@30089@macro@UART1_ICR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_ICR_R",
@@ -5912,7 +5912,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30146@macro@UART1_DMACTL_R",
+    "ID": "c:cortexM4.h@30164@macro@UART1_DMACTL_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_DMACTL_R",
@@ -5926,7 +5926,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30221@macro@UART1_9BITADDR_R",
+    "ID": "c:cortexM4.h@30239@macro@UART1_9BITADDR_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_9BITADDR_R",
@@ -5940,7 +5940,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30296@macro@UART1_9BITAMASK_R",
+    "ID": "c:cortexM4.h@30314@macro@UART1_9BITAMASK_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_9BITAMASK_R",
@@ -5954,7 +5954,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30371@macro@UART1_PP_R",
+    "ID": "c:cortexM4.h@30389@macro@UART1_PP_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_PP_R",
@@ -5968,7 +5968,7 @@
     "scope": null
   },
   {
-    "ID": "c:cortexM4.h@30446@macro@UART1_CC_R",
+    "ID": "c:cortexM4.h@30464@macro@UART1_CC_R",
     "What": "MacroDef",
     "defdec": "Def",
     "display": "UART1_CC_R",
@@ -7303,59 +7303,255 @@
     "scope": null
   },
   {
-    "ID": "c:@F@Timer0ACapture_init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Timer0ACapture_init(void)",
-    "location": {
-      "column": "6",
-      "line": "3",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
-    },
-    "name": "Timer0ACapture_init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Delay_MicroSecond",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void Delay_MicroSecond(int)",
-    "location": {
-      "column": "6",
-      "line": "4",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
-    },
-    "name": "Delay_MicroSecond",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Timer0ACapture_init",
+    "ID": "c:@F@HAL_ULTRASONIC_Measure_Distance",
     "What": "Function",
     "defdec": "Def",
-    "display": "void Timer0ACapture_init(void)",
+    "display": "uint32 HAL_ULTRASONIC_Measure_Distance(void)",
     "location": {
-      "column": "6",
-      "line": "10",
+      "column": "8",
+      "line": "30",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
     },
-    "name": "Timer0ACapture_init",
+    "name": "HAL_ULTRASONIC_Measure_Distance",
     "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:ultrasonic_sensor.c@147@F@Timer0ACapture_init@config",
+    "ID": "c:ultrasonic_sensor.c@864@F@HAL_ULTRASONIC_Measure_Distance@time",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "time",
+    "location": {
+      "column": "10",
+      "line": "31",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
+    },
+    "name": "time",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_ULTRASONIC_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void HAL_ULTRASONIC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "39",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
+    },
+    "name": "HAL_ULTRASONIC_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.c@1119@F@HAL_ULTRASONIC_Init@config",
     "What": "Variable",
     "defdec": "Def",
     "display": "config",
     "location": {
       "column": "16",
-      "line": "11",
+      "line": "40",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
     },
     "name": "config",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.c@1906@F@HAL_ULTRASONIC_Init@t_config",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "t_config",
+    "location": {
+      "column": "16",
+      "line": "61",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.c"
+    },
+    "name": "t_config",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@39@macro@_ULTRASONIC_SENSOR_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_ULTRASONIC_SENSOR_H_",
+    "location": {
+      "column": "9",
+      "line": "2",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "_ULTRASONIC_SENSOR_H_",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@421@macro@ECHO_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ECHO_PORT",
+    "location": {
+      "column": "9",
+      "line": "15",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "ECHO_PORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@468@macro@ECHO_PORT_NUMBER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ECHO_PORT_NUMBER",
+    "location": {
+      "column": "9",
+      "line": "16",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "ECHO_PORT_NUMBER",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@515@macro@ECHO_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "ECHO_PIN",
+    "location": {
+      "column": "9",
+      "line": "17",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "ECHO_PIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@564@macro@TRIGGER_PORT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRIGGER_PORT",
+    "location": {
+      "column": "9",
+      "line": "19",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "TRIGGER_PORT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@611@macro@TRIGGER_PORT_NUMBER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRIGGER_PORT_NUMBER",
+    "location": {
+      "column": "9",
+      "line": "20",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "TRIGGER_PORT_NUMBER",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@658@macro@TRIGGER_PIN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TRIGGER_PIN",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "TRIGGER_PIN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@707@macro@CAPTURE_TIMER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CAPTURE_TIMER",
+    "location": {
+      "column": "9",
+      "line": "23",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "CAPTURE_TIMER",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ultrasonic_sensor.h@755@macro@DELAY_TIMER",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "DELAY_TIMER",
+    "location": {
+      "column": "9",
+      "line": "24",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "DELAY_TIMER",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_ULTRASONIC_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void HAL_ULTRASONIC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "34",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "HAL_ULTRASONIC_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_ULTRASONIC_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void HAL_ULTRASONIC_Init(void)",
+    "location": {
+      "column": "6",
+      "line": "34",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "HAL_ULTRASONIC_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_ULTRASONIC_Measure_Distance",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32 HAL_ULTRASONIC_Measure_Distance(void)",
+    "location": {
+      "column": "8",
+      "line": "37",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "HAL_ULTRASONIC_Measure_Distance",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@HAL_ULTRASONIC_Measure_Distance",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32 HAL_ULTRASONIC_Measure_Distance(void)",
+    "location": {
+      "column": "8",
+      "line": "37",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+    },
+    "name": "HAL_ULTRASONIC_Measure_Distance",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -9375,20 +9571,6 @@
     "scope": null
   },
   {
-    "ID": "c:@F@HAL_SMOKE_SENSOR_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void HAL_SMOKE_SENSOR_Init(void)",
-    "location": {
-      "column": "6",
-      "line": "22",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\SMOKE_SENSOR\\smoke_sensor.h"
-    },
-    "name": "HAL_SMOKE_SENSOR_Init",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
     "ID": "c:@F@HAL_SMOKE_SENSOR_Read",
     "What": "Function",
     "defdec": "Dec",
@@ -9403,257 +9585,845 @@
     "scope": null
   },
   {
-    "ID": "c:@F@HAL_SMOKE_SENSOR_Read",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "uint8 HAL_SMOKE_SENSOR_Read(void)",
+    "ID": "c:timer.h@27@macro@_TIMER_H_",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_TIMER_H_",
     "location": {
-      "column": "7",
-      "line": "23",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\SMOKE_SENSOR\\smoke_sensor.h"
+      "column": "9",
+      "line": "2",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "HAL_SMOKE_SENSOR_Read",
+    "name": "_TIMER_H_",
     "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@F@ResetISR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void ResetISR(void)",
+    "ID": "c:timer.h@352@macro@CPU_CLOCK_MS",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "CPU_CLOCK_MS",
     "location": {
-      "column": "6",
-      "line": "40",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "column": "9",
+      "line": "14",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "ResetISR",
-    "origin": "project_file",
+    "name": "CPU_CLOCK_MS",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:startup_ewarm.c@F@NmiSR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void NmiSR(void)",
-    "location": {
-      "column": "13",
-      "line": "41",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "NmiSR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@FaultISR",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void FaultISR(void)",
-    "location": {
-      "column": "13",
-      "line": "42",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "FaultISR",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void IntDefaultHandler(void)",
-    "location": {
-      "column": "13",
-      "line": "43",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "IntDefaultHandler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@SysTick_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void SysTick_Handler(void)",
-    "location": {
-      "column": "13",
-      "line": "50",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "SysTick_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIMER0A_Handler",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void TIMER0A_Handler(void)",
-    "location": {
-      "column": "13",
-      "line": "51",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "TIMER0A_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@__iar_program_start",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void __iar_program_start(void)",
-    "location": {
-      "column": "13",
-      "line": "58",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "__iar_program_start",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:startup_ewarm.c@pui32Stack",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "pui32Stack",
-    "location": {
-      "column": "17",
-      "line": "65",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "pui32Stack",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@UA@uVectorEntry",
-    "What": "Union",
+    "ID": "c:@SA@timer_config",
+    "What": "Struct",
     "defdec": "Def",
     "display": "",
     "location": {
       "column": "9",
-      "line": "74",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "line": "18",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
     "members": [
       {
-        "ID": "c:@UA@uVectorEntry@FI@pfnHandler",
+        "ID": "c:@SA@timer_config@FI@timerAlpha",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "pfnHandler",
+        "display": "timerAlpha",
         "location": {
-          "column": "12",
-          "line": "76",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+          "column": "9",
+          "line": "19",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
         },
-        "name": "pfnHandler",
-        "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_74_9"
+        "name": "timerAlpha",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
       },
       {
-        "ID": "c:@UA@uVectorEntry@FI@ui32Ptr",
+        "ID": "c:@SA@timer_config@FI@mode",
         "What": "FieldDecl",
         "defdec": "Def",
-        "display": "ui32Ptr",
+        "display": "mode",
         "location": {
-          "column": "14",
-          "line": "77",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+          "column": "9",
+          "line": "20",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
         },
-        "name": "ui32Ptr",
-        "origin": "project_file",
-        "scope": "_anonymous_startup_ewarm_c_74_9"
+        "name": "mode",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timerUse",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timerUse",
+        "location": {
+          "column": "9",
+          "line": "21",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timerUse",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@countDirection",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "countDirection",
+        "location": {
+          "column": "9",
+          "line": "22",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "countDirection",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@counterSize",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "counterSize",
+        "location": {
+          "column": "9",
+          "line": "23",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "counterSize",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timeNumber",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timeNumber",
+        "location": {
+          "column": "9",
+          "line": "24",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timeNumber",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@timerWidth",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "timerWidth",
+        "location": {
+          "column": "9",
+          "line": "25",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timerWidth",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@prescalerSize",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "prescalerSize",
+        "location": {
+          "column": "9",
+          "line": "26",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "prescalerSize",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@enableInterrupt",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "enableInterrupt",
+        "location": {
+          "column": "9",
+          "line": "27",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "enableInterrupt",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@captureEdge",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "captureEdge",
+        "location": {
+          "column": "9",
+          "line": "28",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "captureEdge",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@SA@timer_config@FI@callBackFunc",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "callBackFunc",
+        "location": {
+          "column": "11",
+          "line": "29",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "callBackFunc",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
+      },
+      {
+        "ID": "c:@T@timer_config",
+        "What": "TypedefDecl",
+        "defdec": "Def",
+        "display": "struct timer_config",
+        "location": {
+          "column": "2",
+          "line": "30",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+        },
+        "name": "timer_config",
+        "origin": "system_include",
+        "scope": "_anonymous_timer_h_18_9"
       }
     ],
     "name": "",
-    "origin": "project_file",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@T@uVectorEntry",
-    "What": "Typedef",
+    "ID": "c:timer.h@976@macro@TIMER_ALPHA_A",
+    "What": "MacroDef",
     "defdec": "Def",
-    "display": "union uVectorEntry",
+    "display": "TIMER_ALPHA_A",
     "location": {
-      "column": "1",
+      "column": "9",
+      "line": "33",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_ALPHA_A",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1037@macro@TIMER_ALPHA_B",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_ALPHA_B",
+    "location": {
+      "column": "9",
+      "line": "34",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_ALPHA_B",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1116@macro@TIMER_SIZE_16_32_32CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_32CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "37",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_32CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1177@macro@TIMER_SIZE_32_64_64CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_64CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "38",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_64CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1238@macro@TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "39",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1299@macro@TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "40",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1360@macro@TIMER_SIZE_16_32_16CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_16_32_16CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "41",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_16_32_16CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1421@macro@TIMER_SIZE_32_64_32CONFIGURATION",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_SIZE_32_64_32CONFIGURATION",
+    "location": {
+      "column": "9",
+      "line": "42",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_SIZE_32_64_32CONFIGURATION",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1503@macro@TIMER_WIDTH_16_32",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_WIDTH_16_32",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_WIDTH_16_32",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1564@macro@TIMER_WIDTH_32_64",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_WIDTH_32_64",
+    "location": {
+      "column": "9",
+      "line": "48",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_WIDTH_32_64",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1651@macro@TIMER_NUMBER_0",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_0",
+    "location": {
+      "column": "9",
+      "line": "52",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_0",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1712@macro@TIMER_NUMBER_1",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_1",
+    "location": {
+      "column": "9",
+      "line": "53",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_1",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1773@macro@TIMER_NUMBER_2",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_2",
+    "location": {
+      "column": "9",
+      "line": "54",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_2",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1834@macro@TIMER_NUMBER_3",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_3",
+    "location": {
+      "column": "9",
+      "line": "55",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_3",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1895@macro@TIMER_NUMBER_4",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_4",
+    "location": {
+      "column": "9",
+      "line": "56",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_4",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@1956@macro@TIMER_NUMBER_5",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_NUMBER_5",
+    "location": {
+      "column": "9",
+      "line": "57",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_NUMBER_5",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2033@macro@TIMER_MODE_RESERVED",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_RESERVED",
+    "location": {
+      "column": "9",
+      "line": "60",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_RESERVED",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2094@macro@TIMER_MODE_ONE_SHOT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_ONE_SHOT",
+    "location": {
+      "column": "9",
+      "line": "61",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_ONE_SHOT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2155@macro@TIMER_MODE_PERIODIC",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_PERIODIC",
+    "location": {
+      "column": "9",
+      "line": "62",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_PERIODIC",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2216@macro@TIMER_MODE_CAPTURE_EDGE_COUNT",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_CAPTURE_EDGE_COUNT",
+    "location": {
+      "column": "9",
+      "line": "63",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_CAPTURE_EDGE_COUNT",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2277@macro@TIMER_MODE_CAPTURE_EDGE_TIME",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_MODE_CAPTURE_EDGE_TIME",
+    "location": {
+      "column": "9",
+      "line": "64",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_MODE_CAPTURE_EDGE_TIME",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2368@macro@TIMER_COUNT_DIRECTION_DOWN",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_COUNT_DIRECTION_DOWN",
+    "location": {
+      "column": "9",
+      "line": "68",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_COUNT_DIRECTION_DOWN",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2429@macro@TIMER_COUNT_DIRECTION_UP",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_COUNT_DIRECTION_UP",
+    "location": {
+      "column": "9",
+      "line": "69",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_COUNT_DIRECTION_UP",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2513@macro@TIMER_INTERRUPT_ENABLE_NONE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INTERRUPT_ENABLE_NONE",
+    "location": {
+      "column": "9",
+      "line": "72",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_INTERRUPT_ENABLE_NONE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2574@macro@TIMER_INTERRUPT_ENABLE_A",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INTERRUPT_ENABLE_A",
+    "location": {
+      "column": "9",
+      "line": "73",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_INTERRUPT_ENABLE_A",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2635@macro@TIMER_INTERRUPT_ENABLE_B",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_INTERRUPT_ENABLE_B",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_INTERRUPT_ENABLE_B",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2721@macro@TIMER_CAPTURE_EDGE_POSTIVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CAPTURE_EDGE_POSTIVE",
+    "location": {
+      "column": "9",
+      "line": "77",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_CAPTURE_EDGE_POSTIVE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2782@macro@TIMER_CAPTURE_EDGE_NEGATIVE",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CAPTURE_EDGE_NEGATIVE",
+    "location": {
+      "column": "9",
+      "line": "78",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "TIMER_CAPTURE_EDGE_NEGATIVE",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.h@2843@macro@TIMER_CAPTURE_EDGE_BOTH",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "TIMER_CAPTURE_EDGE_BOTH",
+    "location": {
+      "column": "9",
       "line": "79",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "uVectorEntry",
-    "origin": "project_file",
+    "name": "TIMER_CAPTURE_EDGE_BOTH",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:@__vector_table",
-    "What": "Variable",
-    "defdec": "Def",
-    "display": "__vector_table",
-    "location": {
-      "column": "27",
-      "line": "87",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
-    },
-    "name": "__vector_table",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@ResetISR",
+    "ID": "c:@F@MCAL_TIMER_Disable",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void ResetISR(void)",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
     "location": {
-      "column": "1",
-      "line": "258",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "column": "6",
+      "line": "95",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "ResetISR",
-    "origin": "project_file",
+    "name": "MCAL_TIMER_Disable",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:startup_ewarm.c@F@NmiSR",
+    "ID": "c:@F@MCAL_TIMER_Disable",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void NmiSR(void)",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
     "location": {
-      "column": "1",
-      "line": "288",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "column": "6",
+      "line": "95",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "NmiSR",
-    "origin": "project_file",
+    "name": "MCAL_TIMER_Disable",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:startup_ewarm.c@F@FaultISR",
+    "ID": "c:@F@MCAL_TIMER_Enable",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void FaultISR(void)",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
     "location": {
-      "column": "1",
-      "line": "306",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "column": "6",
+      "line": "109",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "FaultISR",
-    "origin": "project_file",
+    "name": "MCAL_TIMER_Enable",
+    "origin": "system_include",
     "scope": null
   },
   {
-    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
+    "ID": "c:@F@MCAL_TIMER_Enable",
     "What": "Function",
-    "defdec": "Def",
-    "display": "void IntDefaultHandler(void)",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
     "location": {
-      "column": "1",
-      "line": "324",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+      "column": "6",
+      "line": "109",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
     },
-    "name": "IntDefaultHandler",
-    "origin": "project_file",
+    "name": "MCAL_TIMER_Enable",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Init",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Init",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERA_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERA_DelayMs_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "128",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERA_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERA_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERA_DelayMs_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "128",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERA_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERB_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERB_DelayMs_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERB_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERB_DelayMs_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERB_DelayMs_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "129",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERB_DelayMs_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_DelayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_DelayMs(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "131",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_DelayMs",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_DelayMs",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMER_DelayMs(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "131",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_DelayMs",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERA_Delay_MicroSecond_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "133",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERA_Delay_MicroSecond_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMERA_Delay_MicroSecond_P",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef *, uint32)",
+    "location": {
+      "column": "6",
+      "line": "133",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMERA_Delay_MicroSecond_P",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Measure_Capture_Time",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr, uint8, vuint32_ptr, uint8, timer_typedef *, timer_typedef *)",
+    "location": {
+      "column": "8",
+      "line": "135",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Measure_Capture_Time",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Measure_Capture_Time",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr, uint8, vuint32_ptr, uint8, timer_typedef *, timer_typedef *)",
+    "location": {
+      "column": "8",
+      "line": "135",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+    },
+    "name": "MCAL_TIMER_Measure_Capture_Time",
+    "origin": "system_include",
     "scope": null
   },
   {
@@ -10035,115 +10805,243 @@
     "scope": null
   },
   {
-    "ID": "c:ultrasonic_sensor.h@39@macro@_ULTRASONIC_SENSOR_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_ULTRASONIC_SENSOR_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "_ULTRASONIC_SENSOR_H_",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@384@macro@ECHO_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ECHO_PORT",
-    "location": {
-      "column": "9",
-      "line": "14",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "ECHO_PORT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@431@macro@ECHO_PORT_NUMBER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ECHO_PORT_NUMBER",
-    "location": {
-      "column": "9",
-      "line": "15",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "ECHO_PORT_NUMBER",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@478@macro@ECHO_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "ECHO_PIN",
-    "location": {
-      "column": "9",
-      "line": "16",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "ECHO_PIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@527@macro@TRIGGER_PORT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TRIGGER_PORT",
-    "location": {
-      "column": "9",
-      "line": "18",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "TRIGGER_PORT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@574@macro@TRIGGER_PORT_NUMBER",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TRIGGER_PORT_NUMBER",
-    "location": {
-      "column": "9",
-      "line": "19",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "TRIGGER_PORT_NUMBER",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:ultrasonic_sensor.h@621@macro@TRIGGER_PIN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TRIGGER_PIN",
-    "location": {
-      "column": "9",
-      "line": "20",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
-    },
-    "name": "TRIGGER_PIN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@Measure_distance",
+    "ID": "c:@F@ResetISR",
     "What": "Function",
     "defdec": "Dec",
-    "display": "int Measure_distance(void)",
+    "display": "void ResetISR(void)",
     "location": {
-      "column": "10",
-      "line": "29",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\HAL\\ULTRASONIC_SENSOR\\ultrasonic_sensor.h"
+      "column": "6",
+      "line": "40",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
     },
-    "name": "Measure_distance",
-    "origin": "system_include",
+    "name": "ResetISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@NmiSR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void NmiSR(void)",
+    "location": {
+      "column": "13",
+      "line": "41",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "NmiSR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@FaultISR",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void FaultISR(void)",
+    "location": {
+      "column": "13",
+      "line": "42",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "FaultISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void IntDefaultHandler(void)",
+    "location": {
+      "column": "13",
+      "line": "43",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "IntDefaultHandler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@SysTick_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void SysTick_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "50",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "SysTick_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER0A_Handler",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void TIMER0A_Handler(void)",
+    "location": {
+      "column": "13",
+      "line": "51",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "TIMER0A_Handler",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__iar_program_start",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void __iar_program_start(void)",
+    "location": {
+      "column": "13",
+      "line": "58",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "__iar_program_start",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@pui32Stack",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "pui32Stack",
+    "location": {
+      "column": "17",
+      "line": "65",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "pui32Stack",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@UA@uVectorEntry",
+    "What": "Union",
+    "defdec": "Def",
+    "display": "",
+    "location": {
+      "column": "9",
+      "line": "74",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "members": [
+      {
+        "ID": "c:@UA@uVectorEntry@FI@pfnHandler",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "pfnHandler",
+        "location": {
+          "column": "12",
+          "line": "76",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+        },
+        "name": "pfnHandler",
+        "origin": "project_file",
+        "scope": "_anonymous_startup_ewarm_c_74_9"
+      },
+      {
+        "ID": "c:@UA@uVectorEntry@FI@ui32Ptr",
+        "What": "FieldDecl",
+        "defdec": "Def",
+        "display": "ui32Ptr",
+        "location": {
+          "column": "14",
+          "line": "77",
+          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+        },
+        "name": "ui32Ptr",
+        "origin": "project_file",
+        "scope": "_anonymous_startup_ewarm_c_74_9"
+      }
+    ],
+    "name": "",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@T@uVectorEntry",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "union uVectorEntry",
+    "location": {
+      "column": "1",
+      "line": "79",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "uVectorEntry",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@__vector_table",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "__vector_table",
+    "location": {
+      "column": "27",
+      "line": "87",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "__vector_table",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@ResetISR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void ResetISR(void)",
+    "location": {
+      "column": "1",
+      "line": "258",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "ResetISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@NmiSR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void NmiSR(void)",
+    "location": {
+      "column": "1",
+      "line": "288",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "NmiSR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@FaultISR",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void FaultISR(void)",
+    "location": {
+      "column": "1",
+      "line": "306",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "FaultISR",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:startup_ewarm.c@F@IntDefaultHandler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void IntDefaultHandler(void)",
+    "location": {
+      "column": "1",
+      "line": "324",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\INC\\startup_ewarm.c"
+    },
+    "name": "IntDefaultHandler",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -10620,6 +11518,104 @@
     },
     "name": "_DLIB_CONFIG_H",
     "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_Init(vuint32_ptr, uint8)",
+    "location": {
+      "column": "6",
+      "line": "3",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_Pin_Init",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_Pin_Init(vuint32_ptr, pin_config_t *)",
+    "location": {
+      "column": "6",
+      "line": "12",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_Pin_Init",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_WritePin",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_WritePin(vuint32_ptr, uint8, uint8)",
+    "location": {
+      "column": "6",
+      "line": "125",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_WritePin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_WritePort",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_WritePort(vuint32_ptr, uint8)",
+    "location": {
+      "column": "6",
+      "line": "135",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_WritePort",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_TogglePin",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_TogglePin(vuint32_ptr, uint8)",
+    "location": {
+      "column": "6",
+      "line": "142",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_TogglePin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_ReadPin",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_ReadPin(vuint32_ptr, uint8, uint8 *)",
+    "location": {
+      "column": "6",
+      "line": "148",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_ReadPin",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_GPIO_ReadPort",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void MCAL_GPIO_ReadPort(vuint32_ptr, uint8 *)",
+    "location": {
+      "column": "6",
+      "line": "155",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+    },
+    "name": "MCAL_GPIO_ReadPort",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -15509,817 +16505,199 @@
     "scope": null
   },
   {
-    "ID": "c:@F@MCAL_GPIO_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_Init(vuint32_ptr, uint8)",
+    "ID": "c:@callbackFunc",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "callbackFunc",
     "location": {
-      "column": "6",
-      "line": "3",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
+      "column": "9",
+      "line": "8",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
-    "name": "MCAL_GPIO_Init",
+    "name": "callbackFunc",
     "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_Pin_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_Pin_Init(vuint32_ptr, pin_config_t *)",
-    "location": {
-      "column": "6",
-      "line": "12",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_Pin_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_WritePin",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_WritePin(vuint32_ptr, uint8, uint8)",
-    "location": {
-      "column": "6",
-      "line": "125",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_WritePin",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_WritePort",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_WritePort(vuint32_ptr, uint8)",
-    "location": {
-      "column": "6",
-      "line": "135",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_WritePort",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_TogglePin",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_TogglePin(vuint32_ptr, uint8)",
-    "location": {
-      "column": "6",
-      "line": "142",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_TogglePin",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_ReadPin",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_ReadPin(vuint32_ptr, uint8, uint8 *)",
-    "location": {
-      "column": "6",
-      "line": "148",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_ReadPin",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_GPIO_ReadPort",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_GPIO_ReadPort(vuint32_ptr, uint8 *)",
-    "location": {
-      "column": "6",
-      "line": "155",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\GPIO\\gpio.c"
-    },
-    "name": "MCAL_GPIO_ReadPort",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@27@macro@_TIMER_H_",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "_TIMER_H_",
-    "location": {
-      "column": "9",
-      "line": "2",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "_TIMER_H_",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@325@macro@CPU_CLOCK_MS",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "CPU_CLOCK_MS",
-    "location": {
-      "column": "9",
-      "line": "13",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "CPU_CLOCK_MS",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@SA@timer_config",
-    "What": "Struct",
-    "defdec": "Def",
-    "display": "",
-    "location": {
-      "column": "9",
-      "line": "17",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "members": [
-      {
-        "ID": "c:@SA@timer_config@FI@timerAlpha",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "timerAlpha",
-        "location": {
-          "column": "9",
-          "line": "18",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "timerAlpha",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@mode",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "mode",
-        "location": {
-          "column": "9",
-          "line": "19",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "mode",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@timerUse",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "timerUse",
-        "location": {
-          "column": "9",
-          "line": "20",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "timerUse",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@countDirection",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "countDirection",
-        "location": {
-          "column": "9",
-          "line": "21",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "countDirection",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@counterSize",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "counterSize",
-        "location": {
-          "column": "9",
-          "line": "22",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "counterSize",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@timeNumber",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "timeNumber",
-        "location": {
-          "column": "9",
-          "line": "23",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "timeNumber",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@timerWidth",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "timerWidth",
-        "location": {
-          "column": "9",
-          "line": "24",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "timerWidth",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@prescalerSize",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "prescalerSize",
-        "location": {
-          "column": "9",
-          "line": "25",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "prescalerSize",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@enableInterrupt",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "enableInterrupt",
-        "location": {
-          "column": "9",
-          "line": "26",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "enableInterrupt",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@SA@timer_config@FI@callBackFunc",
-        "What": "FieldDecl",
-        "defdec": "Def",
-        "display": "callBackFunc",
-        "location": {
-          "column": "11",
-          "line": "27",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "callBackFunc",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      },
-      {
-        "ID": "c:@T@timer_config",
-        "What": "TypedefDecl",
-        "defdec": "Def",
-        "display": "struct timer_config",
-        "location": {
-          "column": "2",
-          "line": "28",
-          "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-        },
-        "name": "timer_config",
-        "origin": "system_include",
-        "scope": "_anonymous_timer_h_17_9"
-      }
-    ],
-    "name": "",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@895@macro@TIMER_ALPHA_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_ALPHA_A",
-    "location": {
-      "column": "9",
-      "line": "31",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_ALPHA_A",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@956@macro@TIMER_ALPHA_B",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_ALPHA_B",
-    "location": {
-      "column": "9",
-      "line": "32",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_ALPHA_B",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1035@macro@TIMER_SIZE_16_32_32CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_16_32_32CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "35",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_16_32_32CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1096@macro@TIMER_SIZE_32_64_64CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_32_64_64CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "36",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_32_64_64CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1157@macro@TIMER_SIZE_16_32_32RTC_CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "37",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_16_32_32RTC_CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1218@macro@TIMER_SIZE_32_64_64RTC_CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "38",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_32_64_64RTC_CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1279@macro@TIMER_SIZE_16_32_16CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_16_32_16CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "39",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_16_32_16CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1340@macro@TIMER_SIZE_32_64_32CONFIGURATION",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_SIZE_32_64_32CONFIGURATION",
-    "location": {
-      "column": "9",
-      "line": "40",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_SIZE_32_64_32CONFIGURATION",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1422@macro@TIMER_WIDTH_16_32",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_WIDTH_16_32",
-    "location": {
-      "column": "9",
-      "line": "45",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_WIDTH_16_32",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1483@macro@TIMER_WIDTH_32_64",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_WIDTH_32_64",
-    "location": {
-      "column": "9",
-      "line": "46",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_WIDTH_32_64",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1570@macro@TIMER_NUMBER_0",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_0",
-    "location": {
-      "column": "9",
-      "line": "50",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_0",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1631@macro@TIMER_NUMBER_1",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_1",
-    "location": {
-      "column": "9",
-      "line": "51",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_1",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1692@macro@TIMER_NUMBER_2",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_2",
-    "location": {
-      "column": "9",
-      "line": "52",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_2",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1753@macro@TIMER_NUMBER_3",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_3",
-    "location": {
-      "column": "9",
-      "line": "53",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_3",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1814@macro@TIMER_NUMBER_4",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_4",
-    "location": {
-      "column": "9",
-      "line": "54",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_4",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1875@macro@TIMER_NUMBER_5",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_NUMBER_5",
-    "location": {
-      "column": "9",
-      "line": "55",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_NUMBER_5",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@1952@macro@TIMER_MODE_RESERVED",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE_RESERVED",
-    "location": {
-      "column": "9",
-      "line": "58",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_MODE_RESERVED",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2013@macro@TIMER_MODE_ONE_SHOT",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE_ONE_SHOT",
-    "location": {
-      "column": "9",
-      "line": "59",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_MODE_ONE_SHOT",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2074@macro@TIMER_MODE_PERIODIC",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE_PERIODIC",
-    "location": {
-      "column": "9",
-      "line": "60",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_MODE_PERIODIC",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2135@macro@TIMER_MODE_CAPTURE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_MODE_CAPTURE",
-    "location": {
-      "column": "9",
-      "line": "61",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_MODE_CAPTURE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2224@macro@TIMER_COUNT_DIRECTION_DOWN",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_COUNT_DIRECTION_DOWN",
-    "location": {
-      "column": "9",
-      "line": "64",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_COUNT_DIRECTION_DOWN",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2285@macro@TIMER_COUNT_DIRECTION_UP",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_COUNT_DIRECTION_UP",
-    "location": {
-      "column": "9",
-      "line": "65",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_COUNT_DIRECTION_UP",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2369@macro@TIMER_INTERRUPT_ENABLE_NONE",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_INTERRUPT_ENABLE_NONE",
-    "location": {
-      "column": "9",
-      "line": "68",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_INTERRUPT_ENABLE_NONE",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2430@macro@TIMER_INTERRUPT_ENABLE_A",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_INTERRUPT_ENABLE_A",
-    "location": {
-      "column": "9",
-      "line": "69",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_INTERRUPT_ENABLE_A",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:timer.h@2491@macro@TIMER_INTERRUPT_ENABLE_B",
-    "What": "MacroDef",
-    "defdec": "Def",
-    "display": "TIMER_INTERRUPT_ENABLE_B",
-    "location": {
-      "column": "9",
-      "line": "70",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "TIMER_INTERRUPT_ENABLE_B",
-    "origin": "system_include",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMER_Disable",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
     "location": {
       "column": "6",
-      "line": "88",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "10",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMER_Disable",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Disable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
-    "location": {
-      "column": "6",
-      "line": "88",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "MCAL_TIMER_Disable",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMER_Enable",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
     "location": {
       "column": "6",
-      "line": "102",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "19",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMER_Enable",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Enable",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
-    "location": {
-      "column": "6",
-      "line": "102",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "MCAL_TIMER_Enable",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMER_Init",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
     "location": {
       "column": "6",
-      "line": "105",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "27",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMER_Init",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Init",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
-    "location": {
-      "column": "6",
-      "line": "105",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "MCAL_TIMER_Init",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMERA_DelayMs_P",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMERA_DelayMs_P(timer_typedef *, uint32)",
     "location": {
       "column": "6",
-      "line": "108",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "75",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMERA_DelayMs_P",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMERA_DelayMs_P",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMERA_DelayMs_P(timer_typedef *, uint32)",
-    "location": {
-      "column": "6",
-      "line": "108",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "MCAL_TIMERA_DelayMs_P",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMERB_DelayMs_P",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMERB_DelayMs_P(timer_typedef *, uint32)",
     "location": {
       "column": "6",
-      "line": "109",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "83",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMERB_DelayMs_P",
-    "origin": "system_include",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMERB_DelayMs_P",
-    "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMERB_DelayMs_P(timer_typedef *, uint32)",
-    "location": {
-      "column": "6",
-      "line": "109",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
-    },
-    "name": "MCAL_TIMERB_DelayMs_P",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
     "ID": "c:@F@MCAL_TIMER_DelayMs",
     "What": "Function",
-    "defdec": "Dec",
+    "defdec": "Def",
     "display": "void MCAL_TIMER_DelayMs(timer_typedef *, uint32)",
     "location": {
       "column": "6",
-      "line": "111",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "91",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
     "name": "MCAL_TIMER_DelayMs",
-    "origin": "system_include",
+    "origin": "project_file",
     "scope": null
   },
   {
-    "ID": "c:@F@MCAL_TIMER_DelayMs",
+    "ID": "c:@F@MCAL_TIMERA_Delay_MicroSecond_P",
     "What": "Function",
-    "defdec": "Dec",
-    "display": "void MCAL_TIMER_DelayMs(timer_typedef *, uint32)",
+    "defdec": "Def",
+    "display": "void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef *, uint32)",
     "location": {
       "column": "6",
-      "line": "111",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.h"
+      "line": "98",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
     },
-    "name": "MCAL_TIMER_DelayMs",
-    "origin": "system_include",
+    "name": "MCAL_TIMERA_Delay_MicroSecond_P",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.c@3675@F@MCAL_TIMERA_Delay_MicroSecond_P@i",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "i",
+    "location": {
+      "column": "10",
+      "line": "99",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "i",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@MCAL_TIMER_Measure_Capture_Time",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr, uint8, vuint32_ptr, uint8, timer_typedef *, timer_typedef *)",
+    "location": {
+      "column": "8",
+      "line": "113",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "MCAL_TIMER_Measure_Capture_Time",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.c@4344@F@MCAL_TIMER_Measure_Capture_Time@lastEdge",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "lastEdge",
+    "location": {
+      "column": "10",
+      "line": "115",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "lastEdge",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.c@4344@F@MCAL_TIMER_Measure_Capture_Time@thisEdge",
+    "What": "Variable",
+    "defdec": "Dec",
+    "display": "thisEdge",
+    "location": {
+      "column": "20",
+      "line": "115",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "thisEdge",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:timer.c@4374@F@MCAL_TIMER_Measure_Capture_Time@pinData",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "pinData",
+    "location": {
+      "column": "9",
+      "line": "116",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "pinData",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@TIMER0A_Handler",
+    "What": "Function",
+    "defdec": "Def",
+    "display": "void TIMER0A_Handler(void)",
+    "location": {
+      "column": "6",
+      "line": "143",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
+    },
+    "name": "TIMER0A_Handler",
+    "origin": "project_file",
     "scope": null
   },
   {
@@ -16459,118 +16837,6 @@
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\SYSTICK\\sysTick.c"
     },
     "name": "SysTick_Handler",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@callbackFunc",
-    "What": "Variable",
-    "defdec": "Dec",
-    "display": "callbackFunc",
-    "location": {
-      "column": "9",
-      "line": "8",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "callbackFunc",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Disable",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMER_Disable(timer_typedef *, uint8)",
-    "location": {
-      "column": "6",
-      "line": "10",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMER_Disable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Enable",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMER_Enable(timer_typedef *, uint8)",
-    "location": {
-      "column": "6",
-      "line": "19",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMER_Enable",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_Init",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMER_Init(timer_typedef *, timer_config *)",
-    "location": {
-      "column": "6",
-      "line": "27",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMER_Init",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMERA_DelayMs_P",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMERA_DelayMs_P(timer_typedef *, uint32)",
-    "location": {
-      "column": "6",
-      "line": "61",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMERA_DelayMs_P",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMERB_DelayMs_P",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMERB_DelayMs_P(timer_typedef *, uint32)",
-    "location": {
-      "column": "6",
-      "line": "69",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMERB_DelayMs_P",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@MCAL_TIMER_DelayMs",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void MCAL_TIMER_DelayMs(timer_typedef *, uint32)",
-    "location": {
-      "column": "6",
-      "line": "77",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "MCAL_TIMER_DelayMs",
-    "origin": "project_file",
-    "scope": null
-  },
-  {
-    "ID": "c:@F@TIMER0A_Handler",
-    "What": "Function",
-    "defdec": "Def",
-    "display": "void TIMER0A_Handler(void)",
-    "location": {
-      "column": "6",
-      "line": "85",
-      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\MCAL\\TIMER\\timer.c"
-    },
-    "name": "TIMER0A_Handler",
     "origin": "project_file",
     "scope": null
   },
@@ -28575,6 +28841,454 @@
     "scope": null
   },
   {
+    "ID": "c:stdio.h@99@macro@_STDIO",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STDIO",
+    "location": {
+      "column": "9",
+      "line": "4",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "_STDIO",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@375@macro@NULL",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "NULL",
+    "location": {
+      "column": "11",
+      "line": "19",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "NULL",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3283@macro@EOF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "EOF",
+    "location": {
+      "column": "9",
+      "line": "103",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "EOF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3315@macro@SEEK_SET",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_SET",
+    "location": {
+      "column": "9",
+      "line": "105",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_SET",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3342@macro@SEEK_CUR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_CUR",
+    "location": {
+      "column": "9",
+      "line": "106",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_CUR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3369@macro@SEEK_END",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "SEEK_END",
+    "location": {
+      "column": "9",
+      "line": "107",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "SEEK_END",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@T@fpos_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Fpost",
+    "location": {
+      "column": "16",
+      "line": "110",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "fpos_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3737@macro@__PRINTFPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__PRINTFPR",
+    "location": {
+      "column": "11",
+      "line": "126",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__PRINTFPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@3934@macro@__SCANFPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SCANFPR",
+    "location": {
+      "column": "11",
+      "line": "129",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__SCANFPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@4131@macro@__SCANFSPR",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__SCANFSPR",
+    "location": {
+      "column": "11",
+      "line": "132",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__SCANFSPR",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@4448@macro@__DEPREC_PRINTF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DEPREC_PRINTF",
+    "location": {
+      "column": "9",
+      "line": "141",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__DEPREC_PRINTF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:stdio.h@4493@macro@__DEPREC_SCANF",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DEPREC_SCANF",
+    "location": {
+      "column": "9",
+      "line": "142",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__DEPREC_SCANF",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * __gets(char *, int)",
+    "location": {
+      "column": "37",
+      "line": "197",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__gets",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@gets",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "char * gets(char *)",
+    "location": {
+      "column": "37",
+      "line": "198",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "gets",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@perror",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "void perror(const char *)",
+    "location": {
+      "column": "39",
+      "line": "200",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "perror",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@printf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int printf(const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "201",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "printf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@puts",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int puts(const char *)",
+    "location": {
+      "column": "39",
+      "line": "202",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "puts",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@scanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int scanf(const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "203",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "scanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sprintf(char *restrict, const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "204",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "sprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@sscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int sscanf(const char *restrict, const char *restrict, ...)",
+    "location": {
+      "column": "39",
+      "line": "206",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "sscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__ungetchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int __ungetchar(int)",
+    "location": {
+      "column": "39",
+      "line": "209",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__ungetchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vprintf(const char *restrict, __Va_list)",
+    "location": {
+      "column": "39",
+      "line": "210",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vscanf(const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "213",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsscanf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsscanf(const char *restrict, const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "214",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsscanf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsprintf(char *restrict, const char *restrict, __Va_list)",
+    "location": {
+      "column": "37",
+      "line": "217",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@__write_array",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "size_t __write_array(const void *, size_t, size_t)",
+    "location": {
+      "column": "35",
+      "line": "220",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "__write_array",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@snprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int snprintf(char *restrict, size_t, const char *restrict, ...)",
+    "location": {
+      "column": "38",
+      "line": "222",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "snprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@vsnprintf",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int vsnprintf(char *restrict, size_t, const char *restrict, __Va_list)",
+    "location": {
+      "column": "38",
+      "line": "224",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "vsnprintf",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@getchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int getchar(void)",
+    "location": {
+      "column": "35",
+      "line": "229",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "getchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@putchar",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int putchar(int)",
+    "location": {
+      "column": "35",
+      "line": "230",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "putchar",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@remove",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int remove(const char *)",
+    "location": {
+      "column": "35",
+      "line": "233",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "remove",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:@F@rename",
+    "What": "Function",
+    "defdec": "Dec",
+    "display": "int rename(const char *, const char *)",
+    "location": {
+      "column": "35",
+      "line": "234",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\stdio.h"
+    },
+    "name": "rename",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
     "ID": "c:main.c@8@macro@DELAY_VALUE",
     "What": "MacroDef",
     "defdec": "Def",
@@ -28595,7 +29309,7 @@
     "display": "void turnOnWhite(void)",
     "location": {
       "column": "6",
-      "line": "12",
+      "line": "13",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnWhite",
@@ -28609,7 +29323,7 @@
     "display": "void turnOnRed(void)",
     "location": {
       "column": "6",
-      "line": "13",
+      "line": "14",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnRed",
@@ -28623,7 +29337,7 @@
     "display": "void turnOnBule(void)",
     "location": {
       "column": "6",
-      "line": "14",
+      "line": "15",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnBule",
@@ -28637,7 +29351,7 @@
     "display": "void turnOnGreen(void)",
     "location": {
       "column": "6",
-      "line": "15",
+      "line": "16",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnGreen",
@@ -28651,7 +29365,7 @@
     "display": "void turnOffAll(void)",
     "location": {
       "column": "6",
-      "line": "16",
+      "line": "17",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOffAll",
@@ -28665,7 +29379,7 @@
     "display": "void init(void)",
     "location": {
       "column": "6",
-      "line": "17",
+      "line": "18",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "init",
@@ -28679,7 +29393,7 @@
     "display": "void read(uint8_ptr, uint8_ptr)",
     "location": {
       "column": "6",
-      "line": "18",
+      "line": "19",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "read",
@@ -28693,7 +29407,7 @@
     "display": "void Delay(void)",
     "location": {
       "column": "6",
-      "line": "19",
+      "line": "20",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "Delay",
@@ -28707,7 +29421,7 @@
     "display": "counter",
     "location": {
       "column": "16",
-      "line": "21",
+      "line": "22",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "counter",
@@ -28721,7 +29435,7 @@
     "display": "void toggle(void)",
     "location": {
       "column": "6",
-      "line": "23",
+      "line": "24",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "toggle",
@@ -28735,7 +29449,7 @@
     "display": "int main(void)",
     "location": {
       "column": "5",
-      "line": "27",
+      "line": "28",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "main",
@@ -28743,13 +29457,55 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@1092@F@main@config",
+    "ID": "c:main.c@1130@F@main@ch",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "ch",
+    "location": {
+      "column": "9",
+      "line": "45",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
+    },
+    "name": "ch",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1143@F@main@time_ds",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "time_ds",
+    "location": {
+      "column": "10",
+      "line": "46",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
+    },
+    "name": "time_ds",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1162@F@main@msg",
+    "What": "Variable",
+    "defdec": "Def",
+    "display": "msg",
+    "location": {
+      "column": "9",
+      "line": "47",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
+    },
+    "name": "msg",
+    "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:main.c@1183@F@main@config",
     "What": "Variable",
     "defdec": "Def",
     "display": "config",
     "location": {
       "column": "17",
-      "line": "45",
+      "line": "49",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "config",
@@ -28763,7 +29519,7 @@
     "display": "void init(void)",
     "location": {
       "column": "6",
-      "line": "110",
+      "line": "120",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "init",
@@ -28771,13 +29527,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@2458@F@init@config",
+    "ID": "c:main.c@2802@F@init@config",
     "What": "Variable",
     "defdec": "Def",
     "display": "config",
     "location": {
       "column": "16",
-      "line": "111",
+      "line": "121",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "config",
@@ -28791,7 +29547,7 @@
     "display": "void turnOnWhite(void)",
     "location": {
       "column": "6",
-      "line": "137",
+      "line": "147",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnWhite",
@@ -28805,7 +29561,7 @@
     "display": "void turnOnRed(void)",
     "location": {
       "column": "6",
-      "line": "143",
+      "line": "153",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnRed",
@@ -28819,7 +29575,7 @@
     "display": "void turnOnBule(void)",
     "location": {
       "column": "6",
-      "line": "147",
+      "line": "157",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnBule",
@@ -28833,7 +29589,7 @@
     "display": "void turnOnGreen(void)",
     "location": {
       "column": "6",
-      "line": "152",
+      "line": "162",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOnGreen",
@@ -28847,7 +29603,7 @@
     "display": "void turnOffAll(void)",
     "location": {
       "column": "6",
-      "line": "157",
+      "line": "167",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "turnOffAll",
@@ -28861,7 +29617,7 @@
     "display": "void read(uint8_ptr, uint8_ptr)",
     "location": {
       "column": "6",
-      "line": "163",
+      "line": "173",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "read",
@@ -28869,13 +29625,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3793@F@read@swt1",
+    "ID": "c:main.c@4137@F@read@swt1",
     "What": "Variable",
     "defdec": "Def",
     "display": "swt1",
     "location": {
       "column": "9",
-      "line": "166",
+      "line": "176",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "swt1",
@@ -28883,13 +29639,13 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@3793@F@read@swt2",
+    "ID": "c:main.c@4137@F@read@swt2",
     "What": "Variable",
     "defdec": "Dec",
     "display": "swt2",
     "location": {
       "column": "19",
-      "line": "166",
+      "line": "176",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "swt2",
@@ -28903,7 +29659,7 @@
     "display": "void Delay(void)",
     "location": {
       "column": "6",
-      "line": "176",
+      "line": "186",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "Delay",
@@ -28911,17 +29667,101 @@
     "scope": null
   },
   {
-    "ID": "c:main.c@4017@F@Delay@i",
+    "ID": "c:main.c@4361@F@Delay@i",
     "What": "Variable",
     "defdec": "Def",
     "display": "i",
     "location": {
       "column": "24",
-      "line": "178",
+      "line": "188",
       "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\Project\\Code\\main.c"
     },
     "name": "i",
     "origin": "project_file",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@111@macro@_YSIZET_H",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_YSIZET_H",
+    "location": {
+      "column": "9",
+      "line": "5",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_YSIZET_H",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@277@macro@_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "16",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@296@macro@_STD_USING_SIZE_T",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "_STD_USING_SIZE_T",
+    "location": {
+      "column": "11",
+      "line": "17",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "_STD_USING_SIZE_T",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "_Sizet",
+    "location": {
+      "column": "18",
+      "line": "18",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "size_t",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@359@macro@__DATA_PTR_MEM_HELPER1__",
+    "What": "MacroDef",
+    "defdec": "Def",
+    "display": "__DATA_PTR_MEM_HELPER1__",
+    "location": {
+      "column": "9",
+      "line": "21",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "__DATA_PTR_MEM_HELPER1__",
+    "origin": "system_include",
+    "scope": null
+  },
+  {
+    "ID": "c:ysizet.h@T@__data_size_t",
+    "What": "Typedef",
+    "defdec": "Def",
+    "display": "unsigned int",
+    "location": {
+      "column": "1",
+      "line": "23",
+      "path": "D:\\ASU\\4-Senior1\\Fall 23\\CSE211 Introduction to Embedded Systems\\IAR_Systems\\arm\\inc\\c\\ysizet.h"
+    },
+    "name": "__data_size_t",
+    "origin": "system_include",
     "scope": null
   },
   {
