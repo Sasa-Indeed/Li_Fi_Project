@@ -7,19 +7,23 @@
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
 #include "../../MCAL/GPIO/gpio.h"
+#include "../../MCAL/SYSTICK/sysTick.h"
+
 
 //--------------------------------
 //Macros Configuration References
 //--------------------------------
-#define SMOKE_SENSOR_PORT                               GPIOF
-#define SMOKE_SENSOR_PORT_NUMBER                        PORTF
-#define SMOKE_SENSOR_PIN                                PIN_2
+#define SMOKE_SENSOR_PORT                               GPIOA
+#define SMOKE_SENSOR_PORT_NUMBER                        PORTA
+#define SMOKE_SENSOR_PIN                                PIN_7
+#define SMOKE_SENSOR_PIN_INT                            GPIO_INT_PIN_7
+
 
 
 //------------------------------------------------------------------------------------------
-//			APIs supported by "MCAL SMOKE SENSOR Driver"
+//			APIs supported by "HAL SMOKE SENSOR Driver"
 //------------------------------------------------------------------------------------------
-void HAL_SMOKE_SENSOR_Init(void);
+void HAL_SMOKE_SENSOR_Init(void (* callBack)(void));
 uint8 HAL_SMOKE_SENSOR_Read(void);
 
 

@@ -6,23 +6,38 @@
 //--------------------------------
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
+#include <stdint.h>
+#include <stdbool.h>
+#include "inc/hw_memmap.h"
+#include "driverlib/gpio.h"
+#include "driverlib/interrupt.h"
 
 //--------------------------------
 //Macros Configuration References
 //--------------------------------
 
 typedef struct{
-  uint8 pinNumber;      /*For initializing the needed pin must be configured from @ref pinNumber*/
+  uint8 portNumber;              /*Only use when configuring exti must be configured from @ref portNumber*/
   
-  uint8 direction;      /*For initializing the dircetion of the pin must be configured from @ref direction*/
+  uint8 pinNumber;              /*For initializing the needed pin must be configured from @ref pinNumber*/
   
-  uint8 outputMode;     /*Configuring mode when in output mode must be configured from @ref output_modes*/
+  uint8 direction;              /*For initializing the dircetion of the pin must be configured from @ref direction*/
   
-  uint8 outputSpeed;    /*Configuring speed when in output mode must be configured from @ref output_speeds*/
+  uint8 outputMode;             /*Configuring mode when in output mode must be configured from @ref output_modes*/
   
-  uint8 alterFunc;      /*Configures pin for its alternative function must be configured from @ref alternative_function*/
+  uint8 outputSpeed;            /*Configuring speed when in output mode must be configured from @ref output_speeds*/
   
-  uint8 alterFuncIO;    /*Configures pin input or output if need for its alternative function must be configured from @ref alternative_function_IO*/
+  uint8 alterFunc;              /*Configures pin for its alternative function must be configured from @ref alternative_function*/
+  
+  uint8 alterFuncIO;            /*Configures pin input or output if need for its alternative function must be configured from @ref alternative_function_IO*/
+
+  uint8 enableEXTI;             /*To enable external interrupt must be configured from @ref enable extrnal Interrupt*/
+
+  uint8 EXTIPinNumber;          /*The pin number for which the interrupt happens must be configured from @ref External Interrupt Pin Number*/
+  
+  uint8 edgeTrigger;            /*The edge trigger of the interrupt must be configured from @ref Edge Trigger*/
+
+  void (* callBackFunc)(void);  /*Call back function*/
 
 }pin_config_t;
 
@@ -70,7 +85,28 @@ typedef struct{
 #define MCAL_GPIO_ALTERFUNCIO_DISABLE                ((uint8)0x0)
 #define MCAL_GPIO_ALTERFUNCIO_ENABLE                 ((uint8)0x1)
 
+//@ref enable extrnal Interrupt
+#define MCAL_GPIO_ENABLEEXTI_DISABLE                 ((uint8)0x0)
+#define MCAL_GPIO_ENABLEEXTI_ENABLE                  ((uint8)0x1)
 
+/* @ref External Interrupt Pin Number :
+ * GPIO_INT_PIN_0
+ * GPIO_INT_PIN_1
+ * GPIO_INT_PIN_2
+ * GPIO_INT_PIN_3
+ * GPIO_INT_PIN_4
+ * GPIO_INT_PIN_5
+ * GPIO_INT_PIN_6
+ * GPIO_INT_PIN_7
+ */
+
+/*@ref Edge Trigger :
+ * GPIO_FALLING_EDGE
+ * GPIO_RISING_EDGE
+ * GPIO_BOTH_EDGES
+ * GPIO_LOW_LEVEL
+ * GPIO_HIGH_LEVEL
+ */
 
 
 //@ref value

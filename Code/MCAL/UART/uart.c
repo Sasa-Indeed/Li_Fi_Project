@@ -6,7 +6,7 @@
 #include "driverlib/pin_map.h"
 #include "driverlib/sysctl.h"
 
-void MCAL_UART_Init(void){
+void MCAL_UART0_Init(void){
   
   //Enabling the pins
   pin_config_t pconfig;
@@ -46,7 +46,7 @@ void MCAL_UART_Init(void){
   UART0_CTL_R |= (1<<0) | (1<<8) | (1<<9);
 }
   
-void MCAL_UART_Init1(void){
+void MCAL_UART1_Init(void){
   
   //
   // Enable the GPIOB peripheral
@@ -92,40 +92,40 @@ void MCAL_UART_Init1(void){
 }
 
 
-uint8 MCAL_UART_ReadChar(void){
+uint8 MCAL_UART0_ReadChar(void){
   uint8 data;
   while(READ_BIT(UART0_FR_R, 4) != 0);
   data = UART0_DR_R;
   return data;
 }
 
-void MCAL_UART_PrintChar(uint8 data){
+void MCAL_UART0_PrintChar(uint8 data){
   while(READ_BIT(UART0_FR_R, 5) != 0);
   UART0_DR_R = data;
 }
 
-void MCAL_UART_PrintString(uint8_ptr string){
+void MCAL_UART0_PrintString(uint8_ptr string){
   uint8_ptr st = string;
   while(*st){
-    MCAL_UART_PrintChar(*(st++));
+    MCAL_UART0_PrintChar(*(st++));
   }
 }
 
-uint8 MCAL_UART_ReadChar1(void){
+uint8 MCAL_UART1_ReadChar(void){
   uint8 data;
   while(READ_BIT(UART1_FR_R, 4) != 0);
   data = UART1_DR_R;
   return data;
 }
 
-void MCAL_UART_PrintChar1(uint8 data){
+void MCAL_UART1_PrintChar(uint8 data){
   while(READ_BIT(UART1_FR_R, 5) != 0);
   UART1_DR_R = data;
 }
 
-void MCAL_UART_PrintString1(uint8_ptr string){
+void MCAL_UART1_PrintString(uint8_ptr string){
   uint8_ptr st = string;
   while(*st){
-    MCAL_UART_PrintChar1(*(st++));
+    MCAL_UART1_PrintChar(*(st++));
   }
 }

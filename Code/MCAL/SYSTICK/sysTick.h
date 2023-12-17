@@ -1,5 +1,5 @@
-#ifndef _GPIO_H_
-#define _GPIO_H_
+#ifndef _SYSTICK_H_
+#define _SYSTICK_H_
 
 //--------------------------------
 //	        Includes
@@ -126,9 +126,23 @@ boolean MCAL_SYSTICK_Is_Time_out(void);
 * 
 * Return Value : None
 *
-* Note!!!     : It has a max delay of 1.04857S
+* Note!!!     : It has a max delay of 1.04857s
 ******************************************************************************/
 void MCAL_SYSTICK_delayMs(uint16 delay);
 
 
-#endif /* _GPIO_H_ */
+/****************************************************************************
+* Function Name: MCAL_SYSTICK_delayMs_P
+*
+* Description  : This function Makes a delay in mS
+*
+* PARAMETER1 : The delay required in ms (miliseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : It has a max delay of 1.04857s and works with polling
+******************************************************************************/
+void MCAL_SYSTICK_delayMs_P(uint16 delay);
+
+
+#endif /* _SYSTICK_H_ */

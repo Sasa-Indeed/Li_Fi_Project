@@ -24,15 +24,10 @@
 #define DELAY_TIMER                     TIMER1
 
 
-
-
-
-
 //------------------------------------------------------------------------------------------
-//			APIs supported by "MCAL ULTRASONIC SENSOR Driver"
+//			APIs supported by "HAL ULTRASONIC SENSOR Driver"
 //------------------------------------------------------------------------------------------
-void HAL_ULTRASONIC_Init(void);
-
+void HAL_ULTRASONIC_SENSOR_Init(void);
 
 uint32 HAL_ULTRASONIC_Measure_Distance(void);
 

@@ -2088,7 +2088,52 @@
         </settings>
     </configuration>
     <group>
+        <name>APPLICATION</name>
+        <file>
+            <name>$PROJ_DIR$\APPLICATION\application.c</name>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\APPLICATION\application.h</name>
+        </file>
+    </group>
+    <group>
         <name>HAL</name>
+        <group>
+            <name>BLUETOOTH</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.h</name>
+            </file>
+        </group>
+        <group>
+            <name>BUTTON</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\BUTTON\button.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\BUTTON\button.h</name>
+            </file>
+        </group>
+        <group>
+            <name>LI-FI</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\LI-FI\li-fi.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\LI-FI\li-fi.h</name>
+            </file>
+        </group>
+        <group>
+            <name>MAGNETIC_SENSOR</name>
+            <file>
+                <name>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.c</name>
+            </file>
+            <file>
+                <name>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.h</name>
+            </file>
+        </group>
         <group>
             <name>SMOKE_SENSOR</name>
             <file>

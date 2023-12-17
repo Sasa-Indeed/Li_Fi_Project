@@ -2,41 +2,7 @@
 
 
 
-/*uint32 HAL_ULTRASONIC_Measure_Distance(void){
-  uint32 lastEdge, thisEdge;
-  uint8 pinData;
-  
-  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, LOW);
-  MCAL_TIMERA_Delay_MicroSecond_P(DELAY_TIMER, 10);
-  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, HIGH);
-  MCAL_TIMERA_Delay_MicroSecond_P(DELAY_TIMER, 10);
-  MCAL_GPIO_WritePin(TRIGGER_PORT, TRIGGER_PIN, LOW);
-  
-  while(1){
-    CAPTURE_TIMER->GPTMICR = 0x4;
-    while((CAPTURE_TIMER->GPTMRIS & 0x4) == 0);
-    MCAL_GPIO_ReadPin(ECHO_PORT, ECHO_PIN, &pinData);
-    if(pinData){
-      lastEdge = CAPTURE_TIMER->GPTMTAR;
-      CAPTURE_TIMER->GPTMICR = 0x4;
-      while((CAPTURE_TIMER->GPTMRIS & 0x4) == 0);
-      thisEdge = CAPTURE_TIMER->GPTMTAR;
-      return thisEdge - lastEdge;
-    }
-  }
-  
-}*/
-
-uint32 HAL_ULTRASONIC_Measure_Distance(void){
-  uint32 time;
-  time = MCAL_TIMER_Measure_Capture_Time(TRIGGER_PORT, TRIGGER_PIN, ECHO_PORT, 
-                                         ECHO_PIN, DELAY_TIMER, CAPTURE_TIMER);
-  return (time * 10625)/10000000;
-}
-
-
-
-void HAL_ULTRASONIC_Init(void){
+void HAL_ULTRASONIC_SENSOR_Init(void){
   pin_config_t config;
   
   //Enabling the pin for echo pin
@@ -94,4 +60,12 @@ void HAL_ULTRASONIC_Init(void){
   
   MCAL_TIMER_Init(DELAY_TIMER, &t_config);
   
+}
+
+
+uint32 HAL_ULTRASONIC_Measure_Distance(void){
+  uint32 time;
+  time = MCAL_TIMER_Measure_Capture_Time(TRIGGER_PORT, TRIGGER_PIN, ECHO_PORT, 
+                                         ECHO_PIN, DELAY_TIMER, CAPTURE_TIMER);
+  return (time * 10625)/10000000;
 }

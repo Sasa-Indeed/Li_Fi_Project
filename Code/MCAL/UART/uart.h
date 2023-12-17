@@ -51,21 +51,21 @@ typedef struct{
 *
 * Note!!!     : None
 ******************************************************************************/
-void MCAL_UART_Init(void);
-void MCAL_UART_Init1(void);
+void MCAL_UART0_Init(void);
 
+uint8 MCAL_UART0_ReadChar(void);
 
-uint8 MCAL_UART_ReadChar(void);
+void MCAL_UART0_PrintChar(uint8 data);
 
-void MCAL_UART_PrintChar(uint8 data);
+void MCAL_UART0_PrintString(uint8_ptr string);
 
-void MCAL_UART_PrintString(uint8_ptr string);
+void MCAL_UART1_Init(void);
 
-uint8 MCAL_UART_ReadChar1(void);
+uint8 MCAL_UART1_ReadChar(void);
 
-void MCAL_UART_PrintChar1(uint8 data);
+void MCAL_UART1_PrintChar(uint8 data);
 
-void MCAL_UART_PrintString1(uint8_ptr string);
+void MCAL_UART1_PrintString(uint8_ptr string);
 
 
 

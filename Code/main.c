@@ -8,7 +8,10 @@
 #include "MCAL/UART/uart.h"
 #include "driverlib/systick.h"
 #include "HAL/ULTRASONIC_SENSOR/ultrasonic_sensor.h"
-
+#include "HAL/MAGNETIC_SENSOR/magnetic_sensor.h"
+#include "HAL/LI-FI/li-fi.h"
+#include "HAL/BLUETOOTH/bluetooth.h"
+#include "HAL/BUTTON/button.h"
 
 void turnOnWhite(void);
 void turnOnRed(void);
@@ -29,9 +32,17 @@ int main(){
   
   init(); 
   turnOffAll();
-  //HAL_SMOKE_SENSOR_Init();
-  MCAL_UART_Init1();
-  HAL_ULTRASONIC_Init();
+  timer_config config;
+  HAL_Button_Init();
+  uint8 data;
+
+  // HAL_SMOKE_SENSOR_Init();
+ // HAL_BLUETOOTH_Init();
+ // uint8 i = 0;
+ //HAL_MAGNETIC_SENSOR_Init();
+  //MCAL_UART1_Init();
+ //HAL_ULTRASONIC_Init();
+ //uint32 ds;
  /* timer_config config;
   config.timerWidth = TIMER_WIDTH_16_32;
   config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
@@ -41,14 +52,14 @@ int main(){
   config.enableInterrupt = TIMER_INTERRUPT_ENABLE_A;
   config.callBackFunc = toggle;
   MCAL_TIMER_Init(TIMER0, &config);
-  MCAL_TIMER_DelayMs(TIMER0, 1000);*/
+  MCAL_TIMER_DelayMs(TIMER0, 1000);
   uint8 ch;
   uint32 time_ds;
   uint8 msg[20];
 
    timer_config config;
   //MCAL_SYSTICK_delayMs(1000);
-  //MCAL_SYSTICK_EnableInterrupt(toggle);
+  //MCAL_SYSTICK_EnableInterrupt(toggle);*/
   
   config.timerWidth = TIMER_WIDTH_16_32;
   config.timeNumber = TIMER_NUMBER_2;
@@ -103,12 +114,53 @@ if(HAL_SMOKE_SENSOR_Read() == HIGH){
    //SysTickPeriodSet(7999999);
    //SysTickEnable();
    
-
+  //HAL_LCD_Init();
   while(1){
-    time_ds = HAL_ULTRASONIC_Measure_Distance();
+    /*time_ds = HAL_ULTRASONIC_Measure_Distance();
     sprintf(msg, "\r\nDistance = %d cm", time_ds);
     MCAL_UART_PrintString1(msg);
-    MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
+    MCAL_TIMERA_DelayMs_P(TIMER2, 2000);*/
+   // MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
+   // MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+    //Door();
+    //CAL_TIMERA_DelayMs_P(TIMER2, 2000);
+    //fire();
+    //MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
+    //Ultra();
+    //MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
+    //Door();
+    //HAL_LCD_On();
+   // HAL_LCD_Off();
+    /*if(HAL_MAGNETIC_SENSOR_Read() == HIGH){
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
+    }else{
+      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+    }
+    MCAL_TIMERA_DelayMs_P(TIMER2, 1000);
+    */
+    
+     /* if(i == 0){
+        HAL_BLUETOOTH_Send_Message("Smoke Detected!!!\n");
+        i++;
+      }else if(i == 1){
+        HAL_BLUETOOTH_Send_Message("Door was Opened!!!\n");
+        i++;
+      }else if(i == 2){
+        HAL_BLUETOOTH_Send_Message("Proximity Warning!!!\n");
+        i++;
+      }else{
+        i = 0;
+      }
+      
+      MCAL_TIMERA_DelayMs_P(TIMER2, 1000);*/
+      HAL_Button_Read(STOP_BUTTON, &data);
+      
+      if(data == HIGH){
+        MCAL_GPIO_TogglePin(GPIOF, PIN_3);
+      }
+    
+
+
   }
   
 
@@ -134,14 +186,9 @@ void init(void){
   
   config.pinNumber = PIN_3;
   MCAL_GPIO_Pin_Init(GPIOF, &config);
+  
 
-  config.pinNumber = PIN_0;  
-  config.direction = MCAL_GPIO_DIRECTION_INPUT;
-  config.outputMode = MCAL_GPIO_OUTPUT_MODE_PULL_UP;
-  MCAL_GPIO_Pin_Init(GPIOF, &config);
 
-  config.pinNumber = PIN_4;
-  MCAL_GPIO_Pin_Init(GPIOF, &config);
 }
 
 void turnOnWhite(void){

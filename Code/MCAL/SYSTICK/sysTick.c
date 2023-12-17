@@ -38,6 +38,14 @@ void MCAL_SYSTICK_delayMs(uint16 delay){
   MCAL_SYSTICK_Enable();
 }
 
+void MCAL_SYSTICK_delayMs_P(uint16 delay){
+  MCAL_SYSTICK_Disable();
+  MCAL_SYSTICK_PeriodSet(((delay)*(SYSTEM_CLK_4)) - 1);
+  SYSTICK_STCURRENT_R = 0;
+  MCAL_SYSTICK_Enable();
+  while(READ_BIT(SYSTICK_STCTRL_R,16) == 0);
+}
+
 void SysTick_Handler(void){
   calbackFunction();
 }
