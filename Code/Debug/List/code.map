@@ -1,6 +1,6 @@
 ###############################################################################
 #
-# IAR ELF Linker V9.10.1.308/W64 for ARM                  17/Dec/2023  23:37:12
+# IAR ELF Linker V9.10.1.308/W64 for ARM                  21/Dec/2023  20:51:01
 # Copyright 2007-2021 IAR Systems AB.
 #
 #    Output file  =
@@ -92,53 +92,76 @@ define block HEAP with size = 8K, alignment = 8 { };
 "P2":  place in [from 0x2000'0000 to 0x2000'7fff] {
           rw, block CSTACK, block HEAP };
 do not initialize { rw section .noinit };
+initialize by copy { rw };
 
-  Section          Kind         Address   Size  Object
-  -------          ----         -------   ----  ------
-"A0":                                    0x26c
-  .intvec          const            0x0  0x26c  startup_ewarm.o [9]
-                                - 0x26c  0x26c
+  Section            Kind         Address    Size  Object
+  -------            ----         -------    ----  ------
+"A0":                                       0x26c
+  .intvec            const            0x0   0x26c  startup_ewarm.o [9]
+                                  - 0x26c   0x26c
 
-"P1":                                    0x8fa
-  .text            ro code        0x26c  0x3e8  gpio.o [10]
-  .text            ro code        0x654   0x5a  gpio.o [15]
-  .text            ro code        0x6b0   0xb0  interrupt.o [15]
-  .text            ro code        0x760    0x8  cpu.o [15]
-  .text            ro code        0x768  0x188  timer.o [12]
-  .text            ro code        0x8f0   0xd8  main.o [1]
-  .text            ro code        0x9c8   0x88  button.o [4]
-  .text            ro code        0xa50   0x38  zero_init3.o [17]
-  .text            ro code        0xa88   0x28  data_init.o [17]
-  .text            ro code        0xab0   0x22  fpinit_M.o [16]
-  .iar.init_table  const          0xad4   0x10  - Linker created -
-  .text            ro code        0xae4   0x1e  cmain.o [17]
-  .text            ro code        0xb02    0x4  low_level_init.o [14]
-  .text            ro code        0xb06    0x4  exit.o [14]
-  .text            ro code        0xb0c    0xa  cexit.o [17]
-  .text            ro code        0xb18   0x14  exit.o [18]
-  .text            ro code        0xb2c   0x1c  cstartup_M.o [17]
-  .text            ro code        0xb48   0x10  sysTick.o [11]
-  .text            ro code        0xb58    0xe  startup_ewarm.o [9]
-  .rodata          const          0xb66    0x0  zero_init3.o [17]
-                                - 0xb66  0x8fa
+"P1":                                      0x1340
+  .text              ro code        0x26c   0x4b0  gpio.o [10]
+  .text              ro code        0x71c   0x304  gpio.o [15]
+  .text              ro code        0xa20    0xb0  interrupt.o [15]
+  .text              ro code        0xad0     0x8  cpu.o [15]
+  .text              ro code        0xad8   0x234  timer.o [12]
+  .text              ro code        0xd0c   0x140  ultrasonic_sensor.o [8]
+  .text              ro code        0xe4c   0x120  li-fi.o [5]
+  .text              ro code        0xf6c    0x80  sysTick.o [11]
+  .text              ro code        0xfec   0x114  application.o [2]
+  .text              ro code       0x1100    0x6a  smoke_sensor.o [7]
+  .text              ro code       0x116a    0x10  bluetooth.o [3]
+  .text              ro code       0x117a    0x2a  copy_init3.o [17]
+  .text              ro code       0x11a4    0x6c  magnetic_sensor.o [6]
+  .text              ro code       0x1210    0xb8  button.o [4]
+  .text              ro code       0x12c8    0xca  uart.o [13]
+  .text              ro code       0x1394    0x44  sysctl.o [15]
+  .text              ro code       0x13d8    0x38  zero_init3.o [17]
+  .text              ro code       0x1410    0x28  data_init.o [17]
+  .rodata            const         0x1438    0x24  application.o [2]
+  .rodata            const         0x145c    0x24  application.o [2]
+  .rodata            const         0x1480    0x24  application.o [2]
+  .text              ro code       0x14a4    0x22  fpinit_M.o [16]
+  .iar.init_table    const         0x14c8    0x24  - Linker created -
+  .text              ro code       0x14ec    0x1e  cmain.o [17]
+  .text              ro code       0x150a     0x4  low_level_init.o [14]
+  .text              ro code       0x1510     0xe  main.o [1]
+  .text              ro code       0x151e     0x4  exit.o [14]
+  .text              ro code       0x1524     0xa  cexit.o [17]
+  .text              ro code       0x1530    0x14  exit.o [18]
+  .rodata            const         0x1544    0x1c  application.o [2]
+  .rodata            const         0x1560    0x1c  application.o [2]
+  .text              ro code       0x157c    0x1c  cstartup_M.o [17]
+  .text              ro code       0x1598     0xe  startup_ewarm.o [9]
+  Initializer bytes  const         0x15a8     0x4  <for P2-1>
+  .rodata            const         0x15ac     0x0  zero_init3.o [17]
+  .rodata            const         0x15ac     0x0  copy_init3.o [17]
+                                 - 0x15ac  0x1340
 
-"P2", part 1 of 2:                       0x28c
-  VTABLE           zero     0x2000'0000  0x26c  interrupt.o [15]
-  .bss             zero     0x2000'026c   0x18  gpio.o [10]
-  .bss             zero     0x2000'0284    0x4  sysTick.o [11]
-  .bss             zero     0x2000'0288    0x4  timer.o [12]
-                          - 0x2000'028c  0x28c
+"P2", part 1 of 3:                            0x4
+  P2-1                        0x2000'0000     0x1  <Init block>
+    .data            inited   0x2000'0000     0x1  application.o [2]
+                            - 0x2000'0001     0x1
 
-"P2", part 2 of 2:                       0x400
-  .noinit          uninit   0x2000'028c  0x400  startup_ewarm.o [9]
-                          - 0x2000'068c  0x400
+"P2", part 2 of 3:                          0x68c
+  VTABLE             zero     0x2000'0400   0x26c  interrupt.o [15]
+  .bss               zero     0x2000'066c    0x18  gpio.o [10]
+  .bss               zero     0x2000'0684     0x4  sysTick.o [11]
+  .bss               zero     0x2000'0688     0x4  timer.o [12]
+  .bss               zero     0x2000'068c     0x1  application.o [2]
+                            - 0x2000'068d   0x689
+
+"P2", part 3 of 3:                          0x400
+  .noinit            uninit   0x2000'0690   0x400  startup_ewarm.o [9]
+                            - 0x2000'0a90   0x400
 
 Unused ranges:
 
          From           To      Size
          ----           --      ----
-        0xb66     0x3'ffff  0x3'f49a
-  0x2000'068c  0x2000'7fff    0x7974
+       0x15ac     0x3'ffff  0x3'ea54
+  0x2000'0a90  0x2000'7fff    0x7570
 
 
 *******************************************************************************
@@ -148,8 +171,14 @@ Unused ranges:
           Address      Size
           -------      ----
 Zero (__iar_zero_init3)
-    1 destination range, total size 0x28c:
-          0x2000'0000  0x28c
+    1 destination range, total size 0x28d:
+          0x2000'0400  0x28d
+
+Copy (__iar_copy_init3)
+    1 source range, total size 0x4 (400% of destination):
+               0x15a8    0x4
+    1 destination range, total size 0x1:
+          0x2000'0000    0x1
 
 
 
@@ -157,106 +186,115 @@ Zero (__iar_zero_init3)
 *** MODULE SUMMARY
 ***
 
-    Module            ro code  ro data  rw data
-    ------            -------  -------  -------
+    Module               ro code  ro data  rw data
+    ------               -------  -------  -------
 command line/config:
-    -------------------------------------------
+    ----------------------------------------------
     Total:
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj: [1]
-    main.o                216
-    -------------------------------------------
-    Total:                216
+    main.o                    14
+    ----------------------------------------------
+    Total:                    14
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\APPLICATION: [2]
-    -------------------------------------------
-    Total:
+    application.o            276      165        2
+    ----------------------------------------------
+    Total:                   276      165        2
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\BLUETOOTH: [3]
-    -------------------------------------------
-    Total:
+    bluetooth.o               16
+    ----------------------------------------------
+    Total:                    16
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\BUTTON: [4]
-    button.o              136
-    -------------------------------------------
-    Total:                136
+    button.o                 184
+    ----------------------------------------------
+    Total:                   184
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\LI-FI: [5]
-    -------------------------------------------
-    Total:
+    li-fi.o                  288
+    ----------------------------------------------
+    Total:                   288
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\MAGNETIC_SENSOR: [6]
-    -------------------------------------------
-    Total:
+    magnetic_sensor.o        108
+    ----------------------------------------------
+    Total:                   108
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\SMOKE_SENSOR: [7]
-    -------------------------------------------
-    Total:
+    smoke_sensor.o           106
+    ----------------------------------------------
+    Total:                   106
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\HAL\ULTRASONIC_SENSOR: [8]
-    -------------------------------------------
-    Total:
+    ultrasonic_sensor.o      320
+    ----------------------------------------------
+    Total:                   320
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\INC: [9]
-    startup_ewarm.o        14      620    1'024
-    -------------------------------------------
-    Total:                 14      620    1'024
+    startup_ewarm.o           14      620    1'024
+    ----------------------------------------------
+    Total:                    14      620    1'024
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\GPIO: [10]
-    gpio.o              1'000                24
-    -------------------------------------------
-    Total:              1'000                24
+    gpio.o                 1'200                24
+    ----------------------------------------------
+    Total:                 1'200                24
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\SYSTICK: [11]
-    sysTick.o              16                 4
-    -------------------------------------------
-    Total:                 16                 4
+    sysTick.o                128                 4
+    ----------------------------------------------
+    Total:                   128                 4
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\TIMER: [12]
-    timer.o               392                 4
-    -------------------------------------------
-    Total:                392                 4
+    timer.o                  564                 4
+    ----------------------------------------------
+    Total:                   564                 4
 
 D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj\MCAL\UART: [13]
-    -------------------------------------------
-    Total:
+    uart.o                   202
+    ----------------------------------------------
+    Total:                   202
 
 dl7M_tln.a: [14]
-    exit.o                  4
-    low_level_init.o        4
-    -------------------------------------------
-    Total:                  8
+    exit.o                     4
+    low_level_init.o           4
+    ----------------------------------------------
+    Total:                     8
 
 driverlib.a: [15]
-    cpu.o                   8
-    gpio.o                 90
-    interrupt.o           176               620
-    -------------------------------------------
-    Total:                274               620
+    cpu.o                      8
+    gpio.o                   772
+    interrupt.o              176               620
+    sysctl.o                  68
+    ----------------------------------------------
+    Total:                 1'024               620
 
 m7M_tls.a: [16]
-    fpinit_M.o             34
-    -------------------------------------------
-    Total:                 34
+    fpinit_M.o                34
+    ----------------------------------------------
+    Total:                    34
 
 rt7M_tl.a: [17]
-    cexit.o                10
-    cmain.o                30
-    cstartup_M.o           28
-    data_init.o            40
-    zero_init3.o           56
-    -------------------------------------------
-    Total:                164
+    cexit.o                   10
+    cmain.o                   30
+    copy_init3.o              42
+    cstartup_M.o              28
+    data_init.o               40
+    zero_init3.o              56
+    ----------------------------------------------
+    Total:                   206
 
 shb_l.a: [18]
-    exit.o                 20
-    -------------------------------------------
-    Total:                 20
+    exit.o                    20
+    ----------------------------------------------
+    Total:                    20
 
-    Gaps                    6        2
-    Linker created                  16
------------------------------------------------
-    Grand Total:        2'280      638    1'676
+    Gaps                       8        2    1'020
+    Linker created                     41
+--------------------------------------------------
+    Grand Total:           4'720      828    2'698
 
 
 *******************************************************************************
@@ -265,59 +303,114 @@ shb_l.a: [18]
 
 Entry                       Address   Size  Type      Object
 -----                       -------   ----  ----      ------
-.iar.init_table$$Base         0xad4          --   Gb  - Linker created -
-.iar.init_table$$Limit        0xae4          --   Gb  - Linker created -
-?main                         0xae5         Code  Gb  cmain.o [17]
-CPUcpsie                      0x761    0x8  Code  Gb  cpu.o [15]
-FaultISR                      0xb63    0x2  Code  Lc  startup_ewarm.o [9]
-GPIOA_IntHandler              0x5f5    0xa  Code  Gb  gpio.o [10]
-GPIOB_IntHandler              0x601    0xa  Code  Gb  gpio.o [10]
-GPIOC_IntHandler              0x60d    0xa  Code  Gb  gpio.o [10]
-GPIOD_IntHandler              0x619    0xa  Code  Gb  gpio.o [10]
-GPIOE_IntHandler              0x625    0xa  Code  Gb  gpio.o [10]
-GPIOF_IntHandler              0x631    0xa  Code  Gb  gpio.o [10]
-GPIOIntEnable                 0x6a1    0x6  Code  Gb  gpio.o [15]
-GPIOIntTypeSet                0x655   0x4c  Code  Gb  gpio.o [15]
-HAL_Button_Init               0x9c9   0x48  Code  Gb  button.o [4]
-HAL_Button_Read               0xa11   0x3a  Code  Gb  button.o [4]
-IntDefaultHandler             0xb65    0x2  Code  Lc  startup_ewarm.o [9]
-IntEnable                     0x6e7   0x56  Code  Gb  interrupt.o [15]
-IntMasterEnable               0x6b1    0x8  Code  Gb  interrupt.o [15]
-IntRegister                   0x6c1   0x26  Code  Gb  interrupt.o [15]
+.iar.init_table$$Base        0x14c8          --   Gb  - Linker created -
+.iar.init_table$$Limit       0x14ec          --   Gb  - Linker created -
+?main                        0x14ed         Code  Gb  cmain.o [17]
+Application_Init              0xfed   0x28  Code  Gb  application.o [2]
+Application_Main_Logic       0x1015   0x5e  Code  Gb  application.o [2]
+CPUcpsie                      0xad1    0x8  Code  Gb  cpu.o [15]
+Door_Alarm                   0x10b9   0x16  Code  Gb  application.o [2]
+FaultISR                     0x15a3    0x2  Code  Lc  startup_ewarm.o [9]
+GPIOA_IntHandler              0x5f9    0xa  Code  Gb  gpio.o [10]
+GPIOB_IntHandler              0x605    0xa  Code  Gb  gpio.o [10]
+GPIOC_IntHandler              0x611    0xa  Code  Gb  gpio.o [10]
+GPIOD_IntHandler              0x61d    0xa  Code  Gb  gpio.o [10]
+GPIODirModeSet                0x71d   0x28  Code  Gb  gpio.o [15]
+GPIOE_IntHandler              0x629    0xa  Code  Gb  gpio.o [10]
+GPIOF_IntHandler              0x635    0xa  Code  Gb  gpio.o [10]
+GPIOIntClear                  0x911    0x6  Code  Gb  gpio.o [15]
+GPIOIntDisable                0x90b    0x6  Code  Gb  gpio.o [15]
+GPIOIntEnable                 0x905    0x6  Code  Gb  gpio.o [15]
+GPIOIntTypeSet                0x745   0x4c  Code  Gb  gpio.o [15]
+GPIOPadConfigSet              0x791  0x174  Code  Gb  gpio.o [15]
+GPIOPinConfigure              0x937   0x38  Code  Gb  gpio.o [15]
+GPIOPinTypeUART               0x923   0x14  Code  Gb  gpio.o [15]
+HAL_BLUETOOTH_Init           0x116b    0x8  Code  Gb  bluetooth.o [3]
+HAL_BLUETOOTH_Send_Message
+                             0x1173    0x8  Code  Gb  bluetooth.o [3]
+HAL_Button_Init              0x1211   0x7a  Code  Gb  button.o [4]
+HAL_Button_Read              0x128b   0x3a  Code  Gb  button.o [4]
+HAL_LI_FI_Door_Message        0xeaf   0x2e  Code  Gb  li-fi.o [5]
+HAL_LI_FI_Init                0xe4d   0x34  Code  Gb  li-fi.o [5]
+HAL_LI_FI_Smoke_Message
+                              0xe81   0x2e  Code  Gb  li-fi.o [5]
+HAL_LI_FI_System_Off_Message
+                              0xf39   0x2e  Code  Gb  li-fi.o [5]
+HAL_LI_FI_System_On_Message
+                              0xf0b   0x2e  Code  Gb  li-fi.o [5]
+HAL_LI_FI_Ultrasonic_Message
+                              0xedd   0x2e  Code  Gb  li-fi.o [5]
+HAL_MAGNETIC_SENSOR_Init
+                             0x11a5   0x4e  Code  Gb  magnetic_sensor.o [6]
+HAL_MAGNETIC_SENSOR_Off
+                             0x11f9    0xc  Code  Gb  magnetic_sensor.o [6]
+HAL_MAGNETIC_SENSOR_On       0x1205    0xc  Code  Gb  magnetic_sensor.o [6]
+HAL_SMOKE_SENSOR_Init        0x1101   0x52  Code  Gb  smoke_sensor.o [7]
+HAL_SMOKE_SENSOR_Off         0x1153    0xc  Code  Gb  smoke_sensor.o [7]
+HAL_SMOKE_SENSOR_On          0x115f    0xc  Code  Gb  smoke_sensor.o [7]
+HAL_ULTRASONIC_Measure_Distance
+                              0xe17   0x24  Code  Gb  ultrasonic_sensor.o [8]
+HAL_ULTRASONIC_SENSOR_Init
+                              0xd0d  0x10a  Code  Gb  ultrasonic_sensor.o [8]
+IntDefaultHandler            0x15a5    0x2  Code  Lc  startup_ewarm.o [9]
+IntEnable                     0xa57   0x56  Code  Gb  interrupt.o [15]
+IntMasterEnable               0xa21    0x8  Code  Gb  interrupt.o [15]
+IntRegister                   0xa31   0x26  Code  Gb  interrupt.o [15]
+MCAL_GPIO_Disable_Interrupt
+                              0x63f   0x5c  Code  Gb  gpio.o [10]
+MCAL_GPIO_Enale_Interrupt
+                              0x69b   0x5c  Code  Gb  gpio.o [10]
 MCAL_GPIO_Init                0x26d   0x22  Code  Gb  gpio.o [10]
-MCAL_GPIO_Pin_Init            0x28f  0x320  Code  Gb  gpio.o [10]
-MCAL_GPIO_ReadPin             0x5e1   0x14  Code  Gb  gpio.o [10]
-MCAL_GPIO_TogglePin           0x5d3    0xe  Code  Gb  gpio.o [10]
-MCAL_GPIO_WritePin            0x5af   0x24  Code  Gb  gpio.o [10]
-MCAL_TIMER_Disable            0x769   0x22  Code  Gb  timer.o [12]
-MCAL_TIMER_Enable             0x78b   0x22  Code  Gb  timer.o [12]
-MCAL_TIMER_Init               0x7ad  0x114  Code  Gb  timer.o [12]
-NmiSR                         0xb61    0x2  Code  Lc  startup_ewarm.o [9]
-Region$$Table$$Base           0xad4          --   Gb  - Linker created -
-Region$$Table$$Limit          0xae4          --   Gb  - Linker created -
-ResetISR                      0xb59    0x8  Code  Gb  startup_ewarm.o [9]
-SysTick_Handler               0xb49    0xa  Code  Gb  sysTick.o [11]
-TIMER0A_Handler               0x8c1   0x16  Code  Gb  timer.o [12]
-__cmain                       0xae5         Code  Gb  cmain.o [17]
-__exit                        0xb19   0x14  Code  Gb  exit.o [18]
-__iar_data_init3              0xa89   0x28  Code  Gb  data_init.o [17]
-__iar_init_vfp                0xab1         Code  Gb  fpinit_M.o [16]
-__iar_program_start           0xb2d         Code  Gb  cstartup_M.o [17]
-__iar_zero_init3              0xa51   0x38  Code  Gb  zero_init3.o [17]
-__low_level_init              0xb03    0x4  Code  Gb  low_level_init.o [14]
+MCAL_GPIO_Pin_Init            0x28f  0x330  Code  Gb  gpio.o [10]
+MCAL_GPIO_ReadPin             0x5e3   0x14  Code  Gb  gpio.o [10]
+MCAL_GPIO_WritePin            0x5bf   0x24  Code  Gb  gpio.o [10]
+MCAL_SYSTICK_Disable          0xf6d    0xe  Code  Gb  sysTick.o [11]
+MCAL_SYSTICK_Enable           0xf7b   0x1a  Code  Gb  sysTick.o [11]
+MCAL_SYSTICK_PeriodSet        0xf95    0xa  Code  Gb  sysTick.o [11]
+MCAL_SYSTICK_delayMs_P        0xf9f   0x30  Code  Gb  sysTick.o [11]
+MCAL_TIMERA_Delay_MicroSecond_P
+                              0xc31   0x36  Code  Gb  timer.o [12]
+MCAL_TIMER_Disable            0xad9   0x22  Code  Gb  timer.o [12]
+MCAL_TIMER_Enable             0xafb   0x22  Code  Gb  timer.o [12]
+MCAL_TIMER_Init               0xb1d  0x114  Code  Gb  timer.o [12]
+MCAL_TIMER_Measure_Capture_Time
+                              0xc67   0x78  Code  Gb  timer.o [12]
+MCAL_UART1_Init              0x12c9   0x70  Code  Gb  uart.o [13]
+MCAL_UART1_PrintChar         0x1339   0x14  Code  Gb  uart.o [13]
+MCAL_UART1_PrintString       0x137d   0x16  Code  Gb  uart.o [13]
+NmiSR                        0x15a1    0x2  Code  Lc  startup_ewarm.o [9]
+Proximity_Alarm              0x10cf    0xe  Code  Gb  application.o [2]
+Region$$Table$$Base          0x14c8          --   Gb  - Linker created -
+Region$$Table$$Limit         0x14ec          --   Gb  - Linker created -
+ResetISR                     0x1599    0x8  Code  Gb  startup_ewarm.o [9]
+Smoke_Alarm                  0x10a1   0x18  Code  Gb  application.o [2]
+Start_Button                 0x1075   0x2a  Code  Gb  application.o [2]
+SysCtlPeripheralEnable       0x13b5    0x8  Code  Gb  sysctl.o [15]
+SysCtlPeripheralReady        0x1395    0x8  Code  Gb  sysctl.o [15]
+SysTick_Handler               0xfcf    0xa  Code  Gb  sysTick.o [11]
+TIMER0A_Handler               0xcdf   0x16  Code  Gb  timer.o [12]
+__cmain                      0x14ed         Code  Gb  cmain.o [17]
+__exit                       0x1531   0x14  Code  Gb  exit.o [18]
+__iar_copy_init3             0x117b   0x2a  Code  Gb  copy_init3.o [17]
+__iar_data_init3             0x1411   0x28  Code  Gb  data_init.o [17]
+__iar_init_vfp               0x14a5         Code  Gb  fpinit_M.o [16]
+__iar_program_start          0x157d         Code  Gb  cstartup_M.o [17]
+__iar_zero_init3             0x13d9   0x38  Code  Gb  zero_init3.o [17]
+__low_level_init             0x150b    0x4  Code  Gb  low_level_init.o [14]
 __vector_table                  0x0  0x26c  Data  Gb  startup_ewarm.o [9]
-_call_main                    0xaf1         Code  Gb  cmain.o [17]
-_exit                         0xb0d         Code  Gb  cexit.o [17]
-calbackFunction         0x2000'0284    0x4  Data  Gb  sysTick.o [11]
-callBackFuncs           0x2000'026c   0x18  Data  Gb  gpio.o [10]
-callbackFunc            0x2000'0288    0x4  Data  Gb  timer.o [12]
-exit                          0xb07    0x4  Code  Gb  exit.o [14]
-g_pfnRAMVectors         0x2000'0000  0x26c  Data  Lc  interrupt.o [15]
-g_pui32EnRegs                 0x74c   0x14  Data  Lc  interrupt.o [15]
-init                          0x94d   0x50  Code  Gb  main.o [1]
-main                          0x8f1   0x5c  Code  Gb  main.o [1]
-pui32Stack              0x2000'028c  0x400  Data  Lc  startup_ewarm.o [9]
-turnOffAll                    0x99d   0x22  Code  Gb  main.o [1]
+_call_main                   0x14f9         Code  Gb  cmain.o [17]
+_exit                        0x1525         Code  Gb  cexit.o [17]
+calbackFunction         0x2000'0684    0x4  Data  Gb  sysTick.o [11]
+callBackFuncs           0x2000'066c   0x18  Data  Gb  gpio.o [10]
+callbackFunc            0x2000'0688    0x4  Data  Gb  timer.o [12]
+exit                         0x151f    0x4  Code  Gb  exit.o [14]
+g_pfnRAMVectors         0x2000'0400  0x26c  Data  Lc  interrupt.o [15]
+g_pui32EnRegs                 0xabc   0x14  Data  Lc  interrupt.o [15]
+g_pui32GPIOBaseAddrs          0x990   0x90  Data  Lc  gpio.o [15]
+main                         0x1511    0xe  Code  Gb  main.o [1]
+pui32Stack              0x2000'0690  0x400  Data  Lc  startup_ewarm.o [9]
+start                   0x2000'068c    0x1  Data  Gb  application.o [2]
+stop                    0x2000'0000    0x1  Data  Gb  application.o [2]
 
 
 [1] = D:\ASU\4-Senior1\Fall 23\CSE211 Introduction to Embedded Systems\Project\Code\Debug\Obj
@@ -339,9 +432,9 @@ turnOffAll                    0x99d   0x22  Code  Gb  main.o [1]
 [17] = rt7M_tl.a
 [18] = shb_l.a
 
-  2'280 bytes of readonly  code memory
-    638 bytes of readonly  data memory
-  1'676 bytes of readwrite data memory
+  4'720 bytes of readonly  code memory
+    828 bytes of readonly  data memory
+  2'698 bytes of readwrite data memory
 
 Errors: none
 Warnings: 1

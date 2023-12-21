@@ -9,7 +9,6 @@
 #include "../../MCAL/GPIO/gpio.h"
 #include "../../MCAL/SYSTICK/sysTick.h"
 
-
 //--------------------------------
 //Macros Configuration References
 //--------------------------------
@@ -43,6 +42,8 @@ void HAL_LI_FI_Smoke_Message(void);
 void HAL_LI_FI_Door_Message(void);
 void HAL_LI_FI_Ultrasonic_Message(void);
 
+void HAL_LI_FI_System_On_Message(void);
+void HAL_LI_FI_System_Off_Message(void);
 
 
 

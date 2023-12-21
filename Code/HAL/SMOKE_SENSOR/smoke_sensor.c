@@ -1,8 +1,6 @@
 #include "smoke_sensor.h"
 
 
-void smoke_sensor_handler(void);
-
 
 void HAL_SMOKE_SENSOR_Init(void (* callBack)(void)){
   pin_config_t config;
@@ -15,7 +13,7 @@ void HAL_SMOKE_SENSOR_Init(void (* callBack)(void)){
   config.alterFunc = MCAL_GPIO_ALTERFUNC_NONE;
   config.outputMode = MCAL_GPIO_OUTPUT_MODE_PULL_UP;
   //For enabling external interrupt
-  config.portNumber = PORTA;
+  config.portNumber = SMOKE_SENSOR_PORT_NUMBER;
   config.enableEXTI = MCAL_GPIO_ENABLEEXTI_ENABLE;
   config.EXTIPinNumber = SMOKE_SENSOR_PIN_INT;
   config.edgeTrigger = GPIO_RISING_EDGE;
@@ -35,9 +33,10 @@ uint8 HAL_SMOKE_SENSOR_Read(void){
   }
 }
 
-void smoke_sensor_handler(void){
-  GPIOIntClear(GPIO_PORTA_BASE, SMOKE_SENSOR_PIN);
-  MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-  MCAL_SYSTICK_delayMs_P(1000);
-  MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
+void HAL_SMOKE_SENSOR_Off(void){
+  MCAL_GPIO_Disable_Interrupt(SMOKE_SENSOR_PORT_NUMBER, SMOKE_SENSOR_PIN_INT);  
+}
+
+void HAL_SMOKE_SENSOR_On(void){
+  MCAL_GPIO_Enale_Interrupt(SMOKE_SENSOR_PORT_NUMBER, SMOKE_SENSOR_PIN_INT);
 }

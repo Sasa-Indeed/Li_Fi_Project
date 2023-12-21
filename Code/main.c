@@ -1,5 +1,5 @@
 #define DELAY_VALUE 4000000
-
+/*
 #include <stdint.h>
 #include <stdio.h>
 #include "MCAL/GPIO/gpio.h"
@@ -12,6 +12,13 @@
 #include "HAL/LI-FI/li-fi.h"
 #include "HAL/BLUETOOTH/bluetooth.h"
 #include "HAL/BUTTON/button.h"
+*/
+
+#include "HAL/ULTRASONIC_SENSOR/ultrasonic_sensor.h"
+#include "MCAL/UART/uart.h"
+#include <stdio.h>
+#include "APPLICATION/application.h"
+#include "MCAL/SYSTICK/sysTick.h"
 
 void turnOnWhite(void);
 void turnOnRed(void);
@@ -29,143 +36,19 @@ void toggle(void){
 }
 
 int main(){
-  
-  init(); 
-  turnOffAll();
-  timer_config config;
-  HAL_Button_Init();
-  uint8 data;
-
-  // HAL_SMOKE_SENSOR_Init();
- // HAL_BLUETOOTH_Init();
- // uint8 i = 0;
- //HAL_MAGNETIC_SENSOR_Init();
-  //MCAL_UART1_Init();
- //HAL_ULTRASONIC_Init();
- //uint32 ds;
- /* timer_config config;
-  config.timerWidth = TIMER_WIDTH_16_32;
-  config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
-  config.mode = TIMER_MODE_PERIODIC;
-  config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
-  config.timerAlpha = TIMER_ALPHA_A;
-  config.enableInterrupt = TIMER_INTERRUPT_ENABLE_A;
-  config.callBackFunc = toggle;
-  MCAL_TIMER_Init(TIMER0, &config);
-  MCAL_TIMER_DelayMs(TIMER0, 1000);
-  uint8 ch;
-  uint32 time_ds;
+ Application_Init();
+ Application_Main_Logic();
+  /*HAL_ULTRASONIC_SENSOR_Init();
+  MCAL_UART0_Init();
   uint8 msg[20];
-
-   timer_config config;
-  //MCAL_SYSTICK_delayMs(1000);
-  //MCAL_SYSTICK_EnableInterrupt(toggle);*/
-  
-  config.timerWidth = TIMER_WIDTH_16_32;
-  config.timeNumber = TIMER_NUMBER_2;
-  config.counterSize = TIMER_SIZE_16_32_32CONFIGURATION;
-  config.mode = TIMER_MODE_PERIODIC;
-  config.countDirection = TIMER_COUNT_DIRECTION_DOWN;
-  config.timerAlpha = TIMER_ALPHA_A;
-  config.enableInterrupt = TIMER_INTERRUPT_ENABLE_NONE;
-  
-  MCAL_TIMER_Init(TIMER2, &config);
-    
-   
-   /* MCAL_GPIO_TogglePin(GPIOF, PIN_3);*/
-      /*
-    if(counter >= 5){
-      MCAL_GPIO_TogglePin(GPIOF, PIN_1);
-      counter = 0;
-    }
-  
-    MCAL_UART_PrintString("Enter \"r\", \"g\", or \"b\":\n\r");
-    ch = MCAL_UART_ReadChar();
-    MCAL_UART_PrintChar(ch);
-    MCAL_UART_PrintString("\n\r");
-    switch(ch){
-    case 'r':
-      turnOnRed();
-      break;
-      
-    case 'b':
-      turnOnBule();
-      break;
-      
-    case 'g':
-      turnOnGreen();
-      break;
-      
-    default:
-      turnOffAll();
-      break;
-    }
-
-if(HAL_SMOKE_SENSOR_Read() == HIGH){
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-    }else{
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
-    }
-    MCAL_GPIO_TogglePin(GPIOF, PIN_1);
-    MCAL_TIMERA_DelayMs_P(TIMER1, 1000);
-    */
-  
-  // SysTickIntRegister(toggle);
-   //SysTickPeriodSet(7999999);
-   //SysTickEnable();
-   
-  //HAL_LCD_Init();
+  uint32 time_ds;
   while(1){
-    /*time_ds = HAL_ULTRASONIC_Measure_Distance();
+    time_ds = HAL_ULTRASONIC_Measure_Distance();
     sprintf(msg, "\r\nDistance = %d cm", time_ds);
-    MCAL_UART_PrintString1(msg);
-    MCAL_TIMERA_DelayMs_P(TIMER2, 2000);*/
-   // MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-   // MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
-    //Door();
-    //CAL_TIMERA_DelayMs_P(TIMER2, 2000);
-    //fire();
-    //MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
-    //Ultra();
-    //MCAL_TIMERA_DelayMs_P(TIMER2, 2000);
-    //Door();
-    //HAL_LCD_On();
-   // HAL_LCD_Off();
-    /*if(HAL_MAGNETIC_SENSOR_Read() == HIGH){
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, HIGH);
-    }else{
-      MCAL_GPIO_WritePin(GPIOF, PIN_2, LOW);
-    }
-    MCAL_TIMERA_DelayMs_P(TIMER2, 1000);
-    */
-    
-     /* if(i == 0){
-        HAL_BLUETOOTH_Send_Message("Smoke Detected!!!\n");
-        i++;
-      }else if(i == 1){
-        HAL_BLUETOOTH_Send_Message("Door was Opened!!!\n");
-        i++;
-      }else if(i == 2){
-        HAL_BLUETOOTH_Send_Message("Proximity Warning!!!\n");
-        i++;
-      }else{
-        i = 0;
-      }
-      
-      MCAL_TIMERA_DelayMs_P(TIMER2, 1000);*/
-      HAL_Button_Read(STOP_BUTTON, &data);
-      
-      if(data == HIGH){
-        MCAL_GPIO_TogglePin(GPIOF, PIN_3);
-      }
-    
+    MCAL_UART0_PrintString(msg);
+     MCAL_SYSTICK_delayMs_P(1000);
 
-
-  }
-  
-
-  
-
+  }*/
 }
 
 

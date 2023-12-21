@@ -18,6 +18,10 @@
 #define START_BUTTON                              PIN_4
 #define STOP_BUTTON                               PIN_0
 
+//For interrupt
+#define BUTTON_START_PIN_INT                      GPIO_INT_PIN_4
+#define BUTTON_START_GPIO_INT                     GPIO_PORTF_BASE  // For Clearing interrupt
+
 
 
 
@@ -35,8 +39,10 @@
 *
 * Note!!!     : None
 ******************************************************************************/
-void HAL_Button_Init(void);
+void HAL_Button_Init(void (* startButtoncallBack)(void));
 
+
+//Returns High if button pressed
 void HAL_Button_Read(uint8 pinNumber,uint8_ptr out1);
 
 

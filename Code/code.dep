@@ -5,83 +5,83 @@
     <configuration>
         <name>Debug</name>
         <outputs>
-            <file>$PROJ_DIR$\MCAL\GPIO\gpio.h</file>
-            <file>$PROJ_DIR$\APPLICATION\application.c</file>
+            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</file>
             <file>$PROJ_DIR$\MCAL\GPIO\gpio.c</file>
+            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</file>
+            <file>$PROJ_DIR$\MCAL\GPIO\gpio.h</file>
             <file>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.h</file>
-            <file>$PROJ_DIR$\HAL\LI-FI\li-fi.h</file>
-            <file>$PROJ_DIR$\INC\types.h</file>
-            <file>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.c</file>
             <file>$PROJ_DIR$\HAL\BUTTON\button.h</file>
+            <file>$PROJ_DIR$\INC\bitwiseOperations.h</file>
+            <file>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.c</file>
+            <file>$PROJ_DIR$\APPLICATION\application.h</file>
+            <file>$PROJ_DIR$\HAL\LI-FI\li-fi.c</file>
+            <file>$PROJ_DIR$\HAL\LI-FI\li-fi.h</file>
             <file>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.h</file>
             <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</file>
             <file>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.h</file>
-            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</file>
-            <file>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.c</file>
-            <file>$PROJ_DIR$\APPLICATION\application.h</file>
-            <file>$PROJ_DIR$\HAL\BUTTON\button.c</file>
-            <file>$PROJ_DIR$\INC\bitwiseOperations.h</file>
             <file>$PROJ_DIR$\INC\cortexM4.h</file>
-            <file>$PROJ_DIR$\HAL\LI-FI\li-fi.c</file>
-            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.h</file>
+            <file>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.c</file>
+            <file>$PROJ_DIR$\INC\tm4c123gh6pm.h</file>
             <file>$PROJ_DIR$\INC\startup_ewarm.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\GPIO\gpio.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_memmap.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\gpio.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\LI-FI\li-fi.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\APPLICATION\application.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_ints.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\pin_map.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\BUTTON\button.o</file>
-            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</file>
-            <file>$PROJ_DIR$\MCAL\TIMER\timer.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
-            <file>$PROJ_DIR$\Debug\Exe\code.out</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\sysctl.h</file>
-            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\HAL\BUTTON\button.c</file>
+            <file>$PROJ_DIR$\APPLICATION\application.c</file>
+            <file>$PROJ_DIR$\INC\types.h</file>
+            <file>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.h</file>
             <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
-            <file>$PROJ_DIR$\MCAL\UART\uart.h</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
-            <file>$PROJ_DIR$\MCAL\TIMER\timer.c</file>
-            <file>$PROJ_DIR$\MCAL\UART\uart.c</file>
-            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\INC\startup_ewarm.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\TIMER\timer.o</file>
-            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\BLUETOOTH\bluetooth.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\SYSTICK\sysTick.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\MAGNETIC_SENSOR\magnetic_sensor.o</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\SMOKE_SENSOR\smoke_sensor.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\systick.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\MCAL\UART\uart.o</file>
-            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.h</file>
-            <file>$PROJ_DIR$\Debug\Obj\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.o</file>
-            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\interrupt.h</file>
-            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
-            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
-            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
-            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
-            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\GPIO\gpio.o</file>
             <file>$PROJ_DIR$\..\..\Tivaware\driverlib\ewarm\Exe\driverlib.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\TIMER\timer.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\MAGNETIC_SENSOR\magnetic_sensor.o</file>
+            <file>$TOOLKIT_DIR$\config\linker\TexasInstruments\TM4C123GH6.icf</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_ints.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\INC\startup_ewarm.o</file>
+            <file>$TOOLKIT_DIR$\lib\shb_l.a</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\LI-FI\li-fi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\gpio.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\SYSTICK\sysTick.o</file>
+            <file>$PROJ_DIR$\MCAL\UART\uart.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\Debug\Exe\code.out</file>
+            <file>$PROJ_DIR$\MCAL\UART\uart.c</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\pin_map.h</file>
+            <file>$PROJ_DIR$\main.c</file>
+            <file>$PROJ_DIR$\Debug\Obj\MCAL\UART\uart.o</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tln.a</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\inc\hw_memmap.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\sysctl.h</file>
+            <file>$PROJ_DIR$\MCAL\SYSTICK\sysTick.h</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tls.a</file>
             <file>$PROJ_DIR$\Debug\List\code.map</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.o</file>
+            <file>$PROJ_DIR$\MCAL\TIMER\timer.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\BLUETOOTH\bluetooth.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\BUTTON\button.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$PROJ_DIR$\..\..\Tivaware\driverlib\interrupt.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\HAL\SMOKE_SENSOR\smoke_sensor.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Normal.h</file>
+            <file>$PROJ_DIR$\Debug\Obj\APPLICATION\application.o</file>
+            <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\MCAL\TIMER\timer.c</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
         </outputs>
         <file>
-            <name>$PROJ_DIR$\APPLICATION\application.c</name>
+            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 26</file>
+                    <file> 35</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 13 3 7 4 8 10 18 15 16 5 0 54 33 40 23 56 22</file>
+                    <file> 6 14 20 48</file>
                 </tool>
             </inputs>
         </file>
@@ -90,33 +90,18 @@
             <outputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 21</file>
+                    <file> 23</file>
                 </tool>
             </outputs>
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 15 16 5 0 23 56 22</file>
+                    <file> 58 25 33 61 44 37 46 6 14 20 3 34 56 45</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 48</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 3 15 16 5 0 40 23 56 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</name>
+            <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -126,156 +111,12 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 10 15 16 5 0 54 23 56 22</file>
+                    <file> 58 25 33 61 44 37 46 21 6 14 20 3 52 34 56 45</file>
                 </tool>
             </inputs>
         </file>
         <file>
-            <name>$PROJ_DIR$\HAL\ULTRASONIC_SENSOR\ultrasonic_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 55</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 18 15 16 5 0 33 23 56 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 50</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 8 15 16 5 0 54 23 56 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL\BUTTON\button.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 31</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 7 15 16 5 0 54 23 56 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\HAL\LI-FI\li-fi.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 25</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 4 15 16 5 0 54 23 56 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\INC\startup_ewarm.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 45</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 36 29 47</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>[ROOT_NODE]</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 35 63</file>
-                </tool>
-            </outputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MCAL\SYSTICK\sysTick.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 49</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 15 16 5 54</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\Debug\Exe\code.out</name>
-            <outputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 63</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ILINK</name>
-                    <file> 59 60 61 57 58 26 48 31 25 50 51 55 45 21 49 46 53 34 62</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\main.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 34</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 41 29 39 47 3 7 4 8 18 15 16 5 0 54 33 40 23 56 52 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
-            <outputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 46</file>
-                </tool>
-            </outputs>
-            <inputs>
-                <tool>
-                    <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 15 16 5 0 33 23 56 27 22</file>
-                </tool>
-            </inputs>
-        </file>
-        <file>
-            <name>$PROJ_DIR$\MCAL\UART\uart.c</name>
+            <name>$PROJ_DIR$\HAL\BLUETOOTH\bluetooth.c</name>
             <outputs>
                 <tool>
                     <name>ICCARM</name>
@@ -285,7 +126,166 @@
             <inputs>
                 <tool>
                     <name>ICCARM</name>
-                    <file> 24 20 28 44 36 29 47 15 16 5 0 40 23 56 30 37 22</file>
+                    <file> 58 25 33 61 44 37 46 4 6 14 20 3 36 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL\LI-FI\li-fi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 10 6 14 20 3 48 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL\SMOKE_SENSOR\smoke_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 57</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 13 6 14 20 3 48 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL\MAGNETIC_SENSOR\magnetic_sensor.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 11 6 14 20 3 48 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\INC\startup_ewarm.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 30</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 44 37 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\HAL\BUTTON\button.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 54</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 5 6 14 20 3 48 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\APPLICATION\application.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 8 4 5 10 11 13 21 6 14 20 3 48 52 36 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 38 50</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\Debug\Exe\code.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 28 43 49 63 31 59 53 54 32 27 57 51 30 23 35 26 42 60 24</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MCAL\UART\uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 6 14 20 3 36 34 56 40 47 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 55 37 22 46 8 4 5 10 11 13 21 6 14 20 3 48 52 36 34 56 45</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\MCAL\TIMER\timer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 26</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58 25 33 61 44 37 46 6 14 20 3 52 34 56 29 45</file>
                 </tool>
             </inputs>
         </file>

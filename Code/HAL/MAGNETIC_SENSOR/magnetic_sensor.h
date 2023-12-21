@@ -14,8 +14,10 @@
 #define MAGNETIC_SENSOR_PORT                               GPIOB
 #define MAGNETIC_SENSOR_PORT_NUMBER                        PORTB
 #define MAGNETIC_SENSOR_PIN                                PIN_5
-#define MAGNETIC_SENSOR_PIN_INT                            GPIO_INT_PIN_5
 
+//For interrupt
+#define MAGNETIC_SENSOR_PIN_INT                            GPIO_INT_PIN_5
+#define MAGNETIC_SENSOR_GPIO_INT                           GPIO_PORTB_BASE  // For Clearing interrupt
 
 
 
@@ -23,7 +25,13 @@
 //			APIs supported by "HAL MAGNETIC SENSOR Driver"
 //------------------------------------------------------------------------------------------
 void HAL_MAGNETIC_SENSOR_Init(void (* callBack)(void));
+
 uint8 HAL_MAGNETIC_SENSOR_Read(void);
+
+void HAL_MAGNETIC_SENSOR_Off(void);
+
+void HAL_MAGNETIC_SENSOR_On(void);
+
 
 
 

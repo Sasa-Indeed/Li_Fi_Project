@@ -1,21 +1,19 @@
 D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\Debug\BrowseInfo\MCAL\UART\uart.pbi: \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\uart.c \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/uart.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../../INC/cortexM4.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../../INC/types.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../../INC/bitwiseOperations.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../GPIO/gpio.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../GPIO/../../INC/cortexM4.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART/../GPIO/../../INC/bitwiseOperations.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\stdint.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\ycheck.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\yvals.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Defaults.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Config_Normal.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Product.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib\sysctl.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib\pin_map.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib\interrupt.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib\gpio.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\inc\hw_memmap.h \
   D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\stdbool.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\inc/hw_memmap.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib/gpio.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib/interrupt.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib/pin_map.h \
-  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Tivaware\driverlib/sysctl.h
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Product.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Config_Normal.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\DLib_Defaults.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\yvals.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\ycheck.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\IAR_Systems\arm\inc\c\stdint.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\..\GPIO\gpio.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\..\GPIO\..\..\INC\bitwiseOperations.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\..\..\INC\types.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\..\GPIO\..\..\INC\cortexM4.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\uart.h \
+  D:\ASU\4-Senior1\Fall\ 23\CSE211\ Introduction\ to\ Embedded\ Systems\Project\Code\MCAL\UART\uart.c

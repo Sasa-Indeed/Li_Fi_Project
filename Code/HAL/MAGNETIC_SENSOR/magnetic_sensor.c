@@ -1,9 +1,6 @@
 #include "magnetic_sensor.h"
 #include "../../MCAL/SYSTICK/sysTick.h"
 
-void magnetic_sensor_handler(void);
-
-
 
 void HAL_MAGNETIC_SENSOR_Init(void (* callBack)(void)){
   pin_config_t config;
@@ -16,7 +13,7 @@ void HAL_MAGNETIC_SENSOR_Init(void (* callBack)(void)){
   config.alterFunc = MCAL_GPIO_ALTERFUNC_NONE;
   config.outputMode = MCAL_GPIO_OUTPUT_MODE_PULL_UP;
   //For enabling external interrupt
-  config.portNumber = PORTB;
+  config.portNumber = MAGNETIC_SENSOR_PORT_NUMBER;
   config.enableEXTI = MCAL_GPIO_ENABLEEXTI_ENABLE;
   config.EXTIPinNumber = MAGNETIC_SENSOR_PIN_INT;
   config.edgeTrigger = GPIO_RISING_EDGE;
@@ -34,9 +31,12 @@ uint8 HAL_MAGNETIC_SENSOR_Read(void){
   return data;
 }
 
-void magnetic_sensor_handler(void){
-  GPIOIntClear(GPIO_PORTB_BASE, MAGNETIC_SENSOR_PIN_INT);
-  MCAL_GPIO_WritePin(GPIOF, PIN_1, HIGH);
-  MCAL_SYSTICK_delayMs_P(1000);
-  MCAL_GPIO_WritePin(GPIOF, PIN_1, LOW);
+
+
+void HAL_MAGNETIC_SENSOR_Off(void){
+  MCAL_GPIO_Disable_Interrupt(MAGNETIC_SENSOR_PORT_NUMBER, MAGNETIC_SENSOR_PIN_INT);
+}
+
+void HAL_MAGNETIC_SENSOR_On(void){
+  MCAL_GPIO_Enale_Interrupt(MAGNETIC_SENSOR_PORT_NUMBER, MAGNETIC_SENSOR_PIN_INT);
 }

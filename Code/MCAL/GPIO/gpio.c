@@ -109,24 +109,24 @@ void MCAL_GPIO_Pin_Init(vuint32_ptr PORTx, pin_config_t * config){
         break;
       
       case PORTD:// GPIO D
-        GPIOIntEnable(GPIO_PORTB_BASE, config->EXTIPinNumber);
-        GPIOIntTypeSet(GPIO_PORTB_BASE, config->EXTIPinNumber, config->edgeTrigger);
+        GPIOIntEnable(GPIO_PORTD_BASE, config->EXTIPinNumber);
+        GPIOIntTypeSet(GPIO_PORTD_BASE, config->EXTIPinNumber, config->edgeTrigger);
         callBackFuncs[3] = config->callBackFunc;
         IntRegister(INT_GPIOD, GPIOD_IntHandler);
         IntEnable(INT_GPIOD);
         break;
       
       case PORTE:// GPIO E
-        GPIOIntEnable(GPIO_PORTB_BASE, config->EXTIPinNumber);
-        GPIOIntTypeSet(GPIO_PORTB_BASE, config->EXTIPinNumber, config->edgeTrigger);
+        GPIOIntEnable(GPIO_PORTE_BASE, config->EXTIPinNumber);
+        GPIOIntTypeSet(GPIO_PORTE_BASE, config->EXTIPinNumber, config->edgeTrigger);
         callBackFuncs[4] = config->callBackFunc;
         IntRegister(INT_GPIOE, GPIOE_IntHandler);
         IntEnable(INT_GPIOE);
         break;
       
       case PORTF:// GPIO F
-        GPIOIntEnable(GPIO_PORTB_BASE, config->EXTIPinNumber);
-        GPIOIntTypeSet(GPIO_PORTB_BASE, config->EXTIPinNumber, config->edgeTrigger);
+        GPIOIntEnable(GPIO_PORTF_BASE, config->EXTIPinNumber);
+        GPIOIntTypeSet(GPIO_PORTF_BASE, config->EXTIPinNumber, config->edgeTrigger);
         callBackFuncs[5] = config->callBackFunc;
         IntRegister(INT_GPIOF, GPIOF_IntHandler);
         IntEnable(INT_GPIOF);
@@ -235,21 +235,76 @@ void GPIOB_IntHandler(void){
 }
 
 void GPIOC_IntHandler(void){
-  callBackFuncs[0]();
+  callBackFuncs[2]();
 }
 
 void GPIOD_IntHandler(void){
-  callBackFuncs[1]();
+  callBackFuncs[3]();
 }
 
 void GPIOE_IntHandler(void){
-  callBackFuncs[0]();
+  callBackFuncs[4]();
 }
 
 void GPIOF_IntHandler(void){
-  callBackFuncs[1]();
+  callBackFuncs[5]();
+}
+
+void MCAL_GPIO_Disable_Interrupt(uint8 portNumber, uint8 EXTIPinNumber){
+  switch(portNumber){
+  case PORTA: // GPIO A
+    GPIOIntDisable(GPIO_PORTA_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTB: // GPIO B
+    GPIOIntDisable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+    
+  case PORTC: // GPIO C
+    GPIOIntDisable(GPIO_PORTC_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTD:// GPIO D
+    GPIOIntDisable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTE:// GPIO E
+    GPIOIntDisable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTF:// GPIO F
+    GPIOIntDisable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  }
 }
 
 
+void MCAL_GPIO_Enale_Interrupt(uint8 portNumber, uint8 EXTIPinNumber){
+  switch(portNumber){
+  case PORTA: // GPIO A
+    GPIOIntEnable(GPIO_PORTA_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTB: // GPIO B
+    GPIOIntEnable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+    
+  case PORTC: // GPIO C
+    GPIOIntEnable(GPIO_PORTC_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTD:// GPIO D
+    GPIOIntEnable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTE:// GPIO E
+    GPIOIntEnable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  
+  case PORTF:// GPIO F
+    GPIOIntEnable(GPIO_PORTB_BASE, EXTIPinNumber);
+    break;
+  }
+}
 
 

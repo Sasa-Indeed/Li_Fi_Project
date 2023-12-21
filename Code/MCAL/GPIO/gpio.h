@@ -253,4 +253,9 @@ void MCAL_GPIO_ReadPin(vuint32_ptr PORTx, uint8 PINx, uint8 *value);
 ******************************************************************************/
 void MCAL_GPIO_ReadPort(vuint32_ptr PORTx, uint8 *value);
 
+
+void MCAL_GPIO_Enale_Interrupt(uint8 portNumber, uint8 EXTIPinNumber);
+
+void MCAL_GPIO_Disable_Interrupt(uint8 portNumber, uint8 EXTIPinNumber);
+
 #endif /* _GPIO_H_ */
