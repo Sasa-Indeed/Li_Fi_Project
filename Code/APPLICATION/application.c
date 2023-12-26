@@ -58,17 +58,38 @@ void Start_Button(void){
 }
 
 void Smoke_Alarm(void){
+  uint8 i = 3;
+
   GPIOIntClear(SMOKE_SENSOR_GPIO_INT, SMOKE_SENSOR_PIN_INT);
   HAL_LI_FI_Smoke_Message();
   HAL_BLUETOOTH_Send_Message("\n  System Alarm \nSMOKE DETECTED! ");
+  
+  while(i){
+    MCAL_SYSTICK_delayMs_P(1000);
+    i--;
+  }
 }
 void Door_Alarm(void){
+   uint8 i = 3;
+
   GPIOIntClear(MAGNETIC_SENSOR_GPIO_INT, MAGNETIC_SENSOR_PIN_INT);
   HAL_LI_FI_Door_Message();
   HAL_BLUETOOTH_Send_Message("\n  System Alarm\nDOOR WAS OPENED! ");
+  
+  while(i){
+    MCAL_SYSTICK_delayMs_P(1000);
+    i--;
+  }
 }
 
 void Proximity_Alarm(void){
+   uint8 i = 3;
+
   HAL_LI_FI_Ultrasonic_Message();
-  HAL_BLUETOOTH_Send_Message("\n  System Alarm\nPROXIMITY ALERT! "); // Each is 32 characters
+  HAL_BLUETOOTH_Send_Message("\n  System Alarm\nPROXIMITY ALERT! ");
+  
+  while(i){
+    MCAL_SYSTICK_delayMs_P(1000);
+    i--;
+  }
 }

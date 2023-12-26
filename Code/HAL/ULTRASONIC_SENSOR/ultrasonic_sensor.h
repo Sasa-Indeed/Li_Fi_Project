@@ -27,8 +27,31 @@
 //------------------------------------------------------------------------------------------
 //			APIs supported by "HAL ULTRASONIC SENSOR Driver"
 //------------------------------------------------------------------------------------------
+/****************************************************************************
+* Function Name: HAL_ULTRASONIC_SENSOR_Init
+*
+* Description  : This function initializes the ultrasonic sensor
+*
+* PARAMETERS   : None
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
 void HAL_ULTRASONIC_SENSOR_Init(void);
 
+
+/****************************************************************************
+* Function Name: HAL_ULTRASONIC_Measure_Distance
+*
+* Description  : This function measures the distance of the objects in front of the sensor
+*
+* PARAMETERS   : None
+* 
+* Return Value : Returns the distance in (cm)
+*
+* Note!!!     : None
+******************************************************************************/
 uint32 HAL_ULTRASONIC_Measure_Distance(void);
 
 

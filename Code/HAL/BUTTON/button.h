@@ -7,14 +7,15 @@
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
 #include "../../MCAL/GPIO/gpio.h"
-#include "../../MCAL/SYSTICK/sysTick.h"
-
+//Removed systick
 
 //--------------------------------
 //Macros Configuration References
 //--------------------------------
 #define BUTTON_PORT                               GPIOF
 #define BUTTON_PORT_NUMBER                        PORTF
+
+//@ref Buttons
 #define START_BUTTON                              PIN_4
 #define STOP_BUTTON                               PIN_0
 
@@ -29,11 +30,11 @@
 //			APIs supported by "HAL BUTTON Driver"
 //------------------------------------------------------------------------------------------
 /****************************************************************************
-* Function Name: MCAL_UART_Init
+* Function Name: HAL_Button_Init
 *
-* Description  : This function disables the timer
+* Description  : This function initializes the button
 *
-* PARAMETERS : None
+* PARAMETER1   : The call back for the start button
 * 
 * Return Value : None
 *
@@ -42,7 +43,20 @@
 void HAL_Button_Init(void (* startButtoncallBack)(void));
 
 
-//Returns High if button pressed
+/****************************************************************************
+* Function Name: HAL_Button_Read
+*
+* Description  : This function reads the input from the button
+*
+* PARAMETER1   : The pin in which the button is located
+*
+* PARAMETER2   : The data will be stored in this value
+* 
+* Return Value : None
+*
+* Note!!!     : In parameter 1 must be from @ref Buttons, 
+ Returns High if button pressed
+******************************************************************************/
 void HAL_Button_Read(uint8 pinNumber,uint8_ptr out1);
 
 

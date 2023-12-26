@@ -78,6 +78,23 @@ typedef struct{
 #define TIMER_CAPTURE_EDGE_NEGATIVE                     0x4
 #define TIMER_CAPTURE_EDGE_BOTH                         0xC
 
+
+/* @ref Timer Peripheral Instants 
+ * TIMER0 
+ * TIMER1                      
+ * TIMER2         
+ * TIMER3  
+ * TIMER4 
+ * TIMER5   
+ * WTIMER0          
+ * WTIMER1 
+ * WTIMER2 
+ * WTIMER3
+ * WTIMER4
+ * WTIMER5
+ */
+
+
 //------------------------------------------------------------------------------------------
 //			APIs supported by "MCAL sysTick Driver"
 //------------------------------------------------------------------------------------------
@@ -125,16 +142,105 @@ void MCAL_TIMER_Enable(timer_typedef * TIMERx, uint8 timerAlpha);
 void MCAL_TIMER_Init(timer_typedef * TIMERx, timer_config* config);
 
 
+
+/****************************************************************************
+* Function Name: MCAL_TIMERA_DelayMs_P
+*
+* Description  : This function makes a polling delay for subtimer A
+*
+* PARAMETER1 : The timer you want to use for delay
+*
+* PARAMETER2 : The delay you want in  ms (miliseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 must be from Timer Peripheral Instants, for
+this function to work proprely you must configure the timer to be periodic or one shot 
+******************************************************************************/
 void MCAL_TIMERA_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
+
+
+
+/****************************************************************************
+* Function Name: MCAL_TIMERB_DelayMs_P
+*
+* Description  : This function makes a polling delay for subtimer B
+*
+* PARAMETER1 : The timer you want to use for delay
+*
+* PARAMETER2 : The delay you want in  ms (miliseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 must be from Timer Peripheral Instants, for
+this function to work proprely you must configure the timer to be periodic or one shot 
+******************************************************************************/
 void MCAL_TIMERB_DelayMs_P(timer_typedef * TIMERx, uint32 delay);
 
+
+
+/****************************************************************************
+* Function Name: MCAL_TIMER_DelayMs
+*
+* Description  : This function sets up a delay for the timer for using interrupt
+*
+* PARAMETER1 : The timer you want to use for delay
+*
+* PARAMETER2 : The delay you want in  ms (miliseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 must be from Timer Peripheral Instants, for
+this function to work proprely you must configure the timer to be periodic or one shot,
+it it important to add the callback function in initialization otherwise it will lead to busfault 
+******************************************************************************/
 void MCAL_TIMER_DelayMs(timer_typedef * TIMERx, uint32 delay);
 
+
+
+/****************************************************************************
+* Function Name: MCAL_TIMERA_Delay_MicroSecond_P
+*
+* Description  : This function makes a polling delay for subtimer A
+*
+* PARAMETER1 : The timer you want to use for delay
+*
+* PARAMETER2 : The delay you want in  us (microseconds)
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 must be from Timer Peripheral Instants, for
+this function to work proprely you must configure the timer to be periodic or one shot 
+******************************************************************************/
 void MCAL_TIMERA_Delay_MicroSecond_P(timer_typedef * TIMERx,uint32 delay);
 
+
+
+/****************************************************************************
+* Function Name: MCAL_TIMER_Measure_Capture_Time
+*
+* Description  : This function mostly used with a ultrasonic sensors for measuring
+* the time taken of the echo pulse 
+*
+* PARAMETER1 : The Port to use for the tirgger pin
+*
+* PARAMETER2 : The Pin of the trigger pin
+*
+* PARAMETER3 : The Port to use for the echo pin
+*
+* PARAMETER4 : The Pin of the echo pin
+*
+* PARAMETER5 : The timer used for the delay
+*
+* PARAMETER6 : The timer used for capture mode
+* 
+* Return Value : None
+*
+* Note!!!     : Parameter 1 & 3 must be from @ref GPIO, parameter 2 & 4 must be 
+from @ref pinNumber, and parameter 5 & 6 must be from @ref Timer Peripheral Instants
+******************************************************************************/
 uint32 MCAL_TIMER_Measure_Capture_Time(vuint32_ptr writePort, uint8 writePIN, vuint32_ptr readPort, uint8 readPIN,
                                        timer_typedef * delay, timer_typedef * capture);
-
 
 
 #endif /* _TIMER_H_ */

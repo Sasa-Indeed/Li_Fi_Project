@@ -7,8 +7,7 @@
 #include "../../INC/cortexM4.h"
 #include "../../INC/bitwiseOperations.h"
 #include "../../MCAL/GPIO/gpio.h"
-#include "../../MCAL/SYSTICK/sysTick.h"
-
+//Deleted systick
 
 //--------------------------------
 //Macros Configuration References
@@ -26,13 +25,59 @@
 //------------------------------------------------------------------------------------------
 //			APIs supported by "HAL SMOKE SENSOR Driver"
 //------------------------------------------------------------------------------------------
+/****************************************************************************
+* Function Name: HAL_SMOKE_SENSOR_Init
+*
+* Description  : This function initializes the smoke sensor
+*
+* PARAMETER1   : The call back for when the sensors detects smoke
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
 void HAL_SMOKE_SENSOR_Init(void (* callBack)(void));
 
+
+/****************************************************************************
+* Function Name: HAL_SMOKE_SENSOR_Read
+*
+* Description  : This function reads the value of the Smoke sensor
+*
+* PARAMETERS   : None
+* 
+* Return Value : Returns HIGH if there is no smoke detected otherwise LOW
+*
+* Note!!!     : None
+******************************************************************************/
 uint8 HAL_SMOKE_SENSOR_Read(void);
 
+
+/****************************************************************************
+* Function Name: HAL_SMOKE_SENSOR_Off
+*
+* Description  : This function turns off the sensor
+*
+* PARAMETERS   : None
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
 void HAL_SMOKE_SENSOR_Off(void);
 
-void HAL_SMOKE_SENSOR_On(void);
 
+/****************************************************************************
+* Function Name: HAL_SMOKE_SENSOR_On
+*
+* Description  : This function turns on the sensor
+*
+* PARAMETERS   : None
+* 
+* Return Value : None
+*
+* Note!!!     : None
+******************************************************************************/
+void HAL_SMOKE_SENSOR_On(void);
 
 #endif /* _SMOKE_SENSOR_H_ */

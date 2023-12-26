@@ -12,6 +12,8 @@ int time ;
 bool systemOnFlag = false;
 bool offlineCall = true;
 bool onlineCall = false;
+#define MUTETIMENUMBER 500
+int muteTime = MUTETIMENUMBER;
 
 
 
@@ -75,7 +77,6 @@ void loop() {
    
   if(!systemOnFlag){
     if(offlineCall){
-      Buzzer_Turn_Off_All2();
       LCD_Message_Offline();
       offlineCall = false;
     }
@@ -187,10 +188,18 @@ void Buzzer_Proximity_Alarm_Off(void){
 
 
 void Buzzer_Turn_Off_All(void){
-  delay(5000);
+  while(muteTime){
+    delayMicroseconds(10000);
+    muteTime--;
+  }
+  muteTime = MUTETIMENUMBER;
   Buzzer_Skmoke_Alarm_Off();
   Buzzer_Door_Alarm_Off();
   Buzzer_Proximity_Alarm_Off();
   LCD_Message_Normal();  
 }
+
+
+
+
 

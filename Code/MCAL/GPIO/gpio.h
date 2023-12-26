@@ -254,8 +254,39 @@ void MCAL_GPIO_ReadPin(vuint32_ptr PORTx, uint8 PINx, uint8 *value);
 void MCAL_GPIO_ReadPort(vuint32_ptr PORTx, uint8 *value);
 
 
+
+/****************************************************************************
+* Function Name: MCAL_GPIO_Enale_Interrupt
+*
+* Description  : This function enables an interrupt for a specific
+*
+* PARAMETER1   : The port in which the interrupt is located
+*
+* PARAMETER2   : The pin related with the interrupt
+* 
+* Return Value : None
+*
+* Note!!!     : In parameter 1,2 must be from @ref portNumber, @ref External Interrupt 
+Pin Number Respectively 
+******************************************************************************/
 void MCAL_GPIO_Enale_Interrupt(uint8 portNumber, uint8 EXTIPinNumber);
 
+
+
+/****************************************************************************
+* Function Name: MCAL_GPIO_Disable_Interrupt
+*
+* Description  : This function disables an interrupt for a specific
+*
+* PARAMETER1   : The port in which the interrupt is located
+*
+* PARAMETER2   : The pin related with the interrupt
+* 
+* Return Value : None
+*
+* Note!!!     : In parameter 1,2 must be from @ref portNumber, @ref External Interrupt 
+Pin Number Respectively 
+******************************************************************************/
 void MCAL_GPIO_Disable_Interrupt(uint8 portNumber, uint8 EXTIPinNumber);
 
 #endif /* _GPIO_H_ */

@@ -1,6 +1,5 @@
 #include "magnetic_sensor.h"
-#include "../../MCAL/SYSTICK/sysTick.h"
-
+//Deleted systick
 
 void HAL_MAGNETIC_SENSOR_Init(void (* callBack)(void)){
   pin_config_t config;
